@@ -1,0 +1,37 @@
+/* Amrita Maz Stylesheet! */
+
+*{ margin:0; padding:0; outline: 0; -webkit-font-smoothing: smooth;}
+
+header, section, footer,
+aside, nav, article, figure {
+	display: block;
+}
+
+
+h1 {
+	font-family: "Helvetica Neue", "HelveticaNeue", Arial, Helvetica, sans-serif;
+	color: #66cc99;
+	font-size: 150px;
+	text-shadow: 3px 3px 1px #666666;
+	font-weight: 900;
+	text-transform: lowercase;
+	line-height: 100px;
+	margin-bottom: 20px;
+	}
+	
+body {
+	font-family: 'Inconsolata', monospace;
+	background: #eaeaea;
+	margin-top: 100px;
+	margin-left: 50px;
+	font-size: 14px;
+	text-shadow: 1px 1px 1px #fff;
+	}
+	
+a {
+	color: #cc3366;
+	text-decoration: none;
+	border-bottom: none;
+	font-weight: normal;
+	}
+a:hover { color: #b5cc49; }

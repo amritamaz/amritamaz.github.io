@@ -9,41 +9,41 @@ aside, nav, article, figure {
 	display: block;
 }
 
-header {
-}
-
 
 h1 {
-	font-family: Helvetica, Arial, sans-serif;
-	color: #000;
+	font-family: 'Helvetica Neue', HelveticaNeue, 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+	color: #fff;
 	font-size: 150px;
-	text-shadow: none;
+	text-shadow: 3px 3px 1px #555;
 	font-weight: 900;
+	line-height: 80px;
 	letter-spacing: -.02em;
 	text-transform: lowercase;
-	line-height: .2em;
-	margin-bottom: 20px;
 	}
 	
 h1 span {
-	color : #cc3366;
+	color : #66cc99;
 }
 
 h1 span span {
-	color: #eee;
+	color: #555;
 	font-weight: 900;
+	text-shadow: 3px 3px 0px #fff;
 }
 	
 body {
 	font-family: 'Inconsolata', monospace;
-	background: #eaeaea;
-	background-image:url('gridtile.png');
+	background: #ccc;
 	margin-left: 50px;
 	margin-top: 50px;
 	font-size: 14px;
 	text-shadow: 1px 1px 1px #fff;
 	text-align: center;
 	}
+	
+section {
+	margin-top: 10px;
+}
 	
 a {
 	color: #cc3366;

@@ -1,0 +1,36 @@
+/* Amrita Maz Stylesheet! */
+
+*{ margin:0; padding:0; outline: 0; -webkit-font-smoothing: smooth;}
+
+header, section, footer,
+aside, nav, article, figure {
+	display: block;
+	text-align: center;
+	margin: auto;
+}
+	
+body {
+	font-family: 'Inconsolata', monospace;
+	background: #212121;
+	color: #eee;
+	font-size: 14px;
+	text-align: center;	
+	}
+		
+a {
+	color: #fff;
+	border-bottom: 1px #fff dotted;
+	font-weight: normal;
+	}
+a:hover { color: #b5cc49; }
+
+h1 {
+	margin-top: 50px;
+	font-size: 6em;
+	font-weight: normal;
+}
+
+img {
+	max-width:100%; 
+	max-height:100%;}
+

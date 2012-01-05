@@ -21,6 +21,7 @@ p {
 	padding-bottom:5px;
 	line-height: 130%;
 }
+
 .posts blockquote {
 	margin: 15px 0px 15px 0px;
 	padding-left:15px;
@@ -332,6 +333,11 @@ em{
 #right_pages{
 	overflow:hidden;
 }
+
+#right_pages ul{
+	list-style-type: none;
+}
+
 #right_pages li{
 	float:left;
 	clear: both;

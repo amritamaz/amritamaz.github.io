@@ -1,0 +1,397 @@
+  
+body {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	color:#000;
+	font-size:14px;
+}
+img, iframe, embed {
+	overflow: hidden;
+}
+
+strong, b {
+	font-weight: bolder;
+}
+
+p {
+	margin:14px 0 14px 0;
+	display:block;
+	padding-top:5px;
+	padding-bottom:5px;
+	line-height: 130%;
+}
+.posts blockquote {
+	margin: 15px 0px 15px 0px;
+	padding-left:15px;
+	border-left: 5px #66cc99 solid;
+}
+.posts ul,ol {
+	font-size: .75em;
+	padding-left:50px;
+	line-height: 130%;
+	margin: 15px 0px 15px 0px;
+}
+
+.posts p{
+	font-size: 16px;
+	line-height: 1.2em;
+	margin-left: 3px;
+}
+	a {
+	text-decoration: none;
+	color:#66cc99;		
+}
+
+a.headername{
+	color: #000; 
+	font-size: 3.5em;
+	line-height: 1em;
+	letter-spacing: 5px;
+	margin-left:300px;
+	text-transform:uppercase;
+	
+}
+h3{
+	text-transform: uppercase;
+	font-size:24px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+h2{
+	text-transform: uppercase;
+	font-size:30px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+a:hover {
+	text-decoration: underline;
+	color:{color:Link};		
+}
+
+#blogwrapper{
+	font-size: 1.5em;
+	font-weight: 300;
+	color: #333;
+	width: 880px; margin-left: 60px; margin-top: 20px;
+}
+#container_div{
+	padding:0px 30px 40px 15px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	max-width: 690px;
+	border: 0px solid #000;
+	text-align: left;
+	float:left;
+	clear:left;
+}
+#right_div{
+	padding:15px 30px 15px 30px;
+	width:150px;
+	max-width:120px;
+	font-size:14px;
+	border-left:dotted 1px #000;
+	position: fixed;
+	display: block;
+	margin: 0px 0px 0px 675px;
+}
+#highlight{
+	float:left;
+	text-align:left;
+	width:350px;
+	clear:both;	
+	padding:10px 0px 10px 30px;	
+	line-height: 20px;
+}
+#notes{
+	width: 100%;
+	font: .6em 'futura-pt';	
+	color:{color:Navigation Text Color};	
+	text-transform:uppercase;
+	padding-top: 5px;
+	clear: both;
+}
+#notes ul{
+	list-style-type: none;
+	text-align:left;
+	margin-top: 5px;
+	padding-left:0px;
+}
+#notes li{
+	display: inline-block;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-left:2px;
+	margin-right:2px;	
+	display:-moz-inline-stack; 
+	display:inline-block; 
+	zoom:1; 
+	*display:inline;
+}
+#notes a {
+	color:{color:Notes Color};
+}
+#notes li:first-child {
+	padding-left:0px;
+}
+.shadow {
+  -moz-box-shadow: 0px 0px 10px black;
+  -webkit-box-shadow: 0px 0px 10px black;
+  box-shadow: 0px 0px 10px black;
+}	
+.photo{
+	width:100%;
+	text-align:center;
+}
+
+#loading {
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	display: none;
+}
+#title, #title a{
+	text-decoration: none;	
+	text-transform:uppercase;
+	font-size:84px;
+	color: #000;
+}	
+
+#subtitle{
+	font-size: 28px;
+	margin-bottom:10px;
+	color:{color:Date Box Background};	
+}
+
+.posts {
+	width: 520px;
+	max-width:520px;
+	float: left;
+	padding-left:115px;
+	border-style: solid;
+	margin:-50px 0px 40px 0px;	
+}		
+#chat ul, #chat ol {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+#permalinknotes{
+	list-style: none;
+	padding: 70px;
+	margin: 0px;
+}
+#chat li, #permalinknotes li {
+	padding: 5px 0px 5px 0px;
+	margin: 0px 0 0px 20px;
+	border-bottom-width: 1px;
+	border-bottom-color: {color:Seperator Color};
+	border-bottom-style: solid;	
+	clear:both;		
+}
+#permalinknotes li img{
+	border:none;
+}	
+.chat_lable{
+	color:{color: Navigation Header Color};
+	font-style:italic;
+	float:left;
+	padding-left:5px;
+	padding-right:5px;
+}	
+#help{
+	background-color:yellow;
+	width:100%;
+	border:1px solid #d6d3d0;		
+	text-align: left;
+	font-size:10px;
+	padding:30px;
+}
+#help p{
+	margin:0px;
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#help ul{
+	margin:5px 0 5px 0;
+}		
+.pagination{
+	background-color: {color:Seperator Color};
+	clear: both;
+	overflow: hidden;
+	padding-bottom: 50px;
+	padding-right: 250px;
+	height: 25px;
+	margin-bottom: 0px;
+	color:{color:Body Text};
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.pagination a {
+	font-size:12px;
+	text-decoration: none;
+	color: #000;
+}
+
+.tagList {
+}
+
+.leftNotes{
+	float:left;
+}
+.border,
+.borderInPosts{
+	margin-top: 18px;
+	clear: both;
+	border-top: 1px dotted {color:Seperator Color};
+	margin-bottom:30px;
+}
+
+.split{
+	clear:both;
+}
+
+.split_border{
+	margin-top: 19px;
+	border-top: 1px dotted {color:Seperator Color};
+	margin-bottom:30px;
+	float:right;
+	width:640px;
+}
+
+.borderInPosts{
+	margin-bottom:20px;
+	margin-top:-13px;
+}
+em{
+	font-style:italic;
+}
+.postDate{
+	width:60px;
+	height:50px;
+	float:left;
+	font-size:12px;
+	font-weight:bold;	
+	text-transform: uppercase;	
+}
+
+.postDateMonthDay{
+	text-align: right;
+	clear:both;
+	margin:auto;
+	font: 10px 'futura-pt', sans-serif;
+	padding-top:3px;
+	margin-left:3px;
+	margin-right:3px;
+	color:#000;
+}
+
+.postDateMonthDay a{
+	color:#000;
+	letter-spacing: 1px;
+}
+
+.posts img,
+.posts iframe, 
+.posts embed {
+/*	margin-top:-13px;*/
+}
+.audio_player{
+	overflow:hidden;
+}
+.audio_player embed {
+	margin-top:0px;
+	padding:0px;
+	border:0px;
+}
+#welcome-message ol{
+	margin-left:30px;
+}
+.postMeta{
+	position:absolute;
+	margin-left:-35px;
+	margin-top:-7px;
+	{block:IfNotShowPostTypeImages}
+		display:none;
+	{/block:IfNotShowPostTypeImages}
+
+}
+.postMeta img{
+	width:30px;
+}
+.quoteText {
+	text-transform: uppercase;
+}
+.quoteSource {
+	font-size: .65em;
+}		
+#right_pages{
+	overflow:hidden;
+}
+#right_pages li{
+	float:left;
+	clear: both;
+	padding-bottom: 15px;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-align: left;
+}
+#right_pages li a {
+	text-decoration: none;
+	color: #000;
+	
+}
+#notes img{
+	width:20px;
+	float:left;
+	margin-top:-3px;
+}
+
+
+.prev_img{
+	float:left;
+	padding-left:5px;
+}
+.next_img{
+	float:right;
+	padding-right:5px;
+}
+.prev_text{
+  		margin: -2px 0 0 5px;
+	float: left;
+}
+.next_text{
+  		margin: -2px 5px 0 0px;
+	float: right;
+}
+#search input[type="text"]{
+	border: 1px solid #E6E6E6;
+	float: left;
+          width:110px;
+}
+      #search input[type="submit"]{
+      	border: none;
+      	float: left;
+          background-color: {color:Body Background};
+          text-transform: uppercase;     
+	background:url(http://static.tumblr.com/tlf9lc4/0aNlu5pic/search.png) no-repeat 0 6px;
+          padding-left:15px;
+          margin-left:10px;
+          margin-top:0px;
+          font-size:14px;
+      }
+
+.audio_caption{
+	clear: both;
+	padding-top: 5px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.postDateYear{
+		padding-top:2px;
+	}
+}

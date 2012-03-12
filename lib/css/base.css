@@ -94,8 +94,8 @@ footer,header,hgroup,menu,nav,section,summary, mark {
 * 
 {
   line-height: 18px;
-  font-size: 12px;
-  font-family: Monaco;
+  font-size: 11px;
+  font-family: 'Ubuntu Mono', 'Monaco', 'Consolas', fixed-width;
   font-weight: normal;
   font-style: normal;
 
@@ -104,7 +104,7 @@ footer,header,hgroup,menu,nav,section,summary, mark {
   p
   {
     margin: 0 0 20px 0;
-    font-family: Monaco;
+	font-family: "ubuntu-mono", "Monaco", "Consolas", fixed-width;
     color: #4d4d4d;
     font-size: 12px;
     line-height: 18px;
@@ -132,6 +132,7 @@ footer,header,hgroup,menu,nav,section,summary, mark {
   
   h1{
     font-weight: bold;
+    font-family: "futura-pt", "Futura LT", Helvetica, Arial, sans-serif;
   }
   
   h1 em, h2 em {

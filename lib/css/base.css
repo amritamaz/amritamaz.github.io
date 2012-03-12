@@ -95,7 +95,7 @@ footer,header,hgroup,menu,nav,section,summary, mark {
 {
   line-height: 18px;
   font-size: 11px;
-  font-family: 'Ubuntu Mono', 'Monaco', 'Consolas', fixed-width;
+  font-family: "ubuntu-mono", "Monaco", "Consolas", fixed-width;
   font-weight: normal;
   font-style: normal;
 
@@ -106,13 +106,13 @@ footer,header,hgroup,menu,nav,section,summary, mark {
     margin: 0 0 20px 0;
 	font-family: "ubuntu-mono", "Monaco", "Consolas", fixed-width;
     color: #4d4d4d;
-    font-size: 12px;
+    font-size: 11px;
     line-height: 18px;
     min-height: 75px;
     
   }
     p * {
-      font-size: 12px;
+      font-size: 11px;
       line-height: 18px;
         
     }
@@ -121,7 +121,7 @@ footer,header,hgroup,menu,nav,section,summary, mark {
   {
     color: #999;
     text-decoration: none;
-      font-size: 12px;
+      font-size: 11px;
       line-height: 18px;
   }
  
@@ -132,7 +132,17 @@ footer,header,hgroup,menu,nav,section,summary, mark {
   
   h1{
     font-weight: bold;
-    font-family: "futura-pt", "Futura LT", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: "futura-pt", 'Futura LT', Helvetica, Arial, sans-serif;
+  }
+  
+  h2{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "futura-pt", 'Futura LT', Helvetica, Arial, sans-serif;
+    padding-bottom: 5px;
   }
   
   h1 em, h2 em {
@@ -223,7 +233,7 @@ body {
   
     .g3 p {
       width: 150px;
-      font-size: 12px;
+      font-size: 11px;
     }
     
     .g6 p {

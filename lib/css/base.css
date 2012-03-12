@@ -94,7 +94,7 @@ footer,header,hgroup,menu,nav,section,summary, mark {
 * 
 {
   line-height: 18px;
-  font-size: 11px;
+  font-size: 12px;
   font-family: "ubuntu-mono", "Monaco", "Consolas", fixed-width;
   font-weight: normal;
   font-style: normal;
@@ -106,13 +106,13 @@ footer,header,hgroup,menu,nav,section,summary, mark {
     margin: 0 0 20px 0;
 	font-family: "ubuntu-mono", "Monaco", "Consolas", fixed-width;
     color: #4d4d4d;
-    font-size: 11px;
+    font-size: 12px;
     line-height: 18px;
     min-height: 75px;
     
   }
     p * {
-      font-size: 11px;
+      font-size: 12px;
       line-height: 18px;
         
     }
@@ -121,7 +121,7 @@ footer,header,hgroup,menu,nav,section,summary, mark {
   {
     color: #999;
     text-decoration: none;
-      font-size: 11px;
+      font-size: 12px;
       line-height: 18px;
   }
  
@@ -233,7 +233,7 @@ body {
   
     .g3 p {
       width: 150px;
-      font-size: 11px;
+      font-size: 12px;
     }
     
     .g6 p {

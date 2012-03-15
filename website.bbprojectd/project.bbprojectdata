@@ -142,8 +142,6 @@
 			<string>projects.html</string>
 			<key>ItemType</key>
 			<string>FileReference</string>
-			<key>UserOverrideItemName</key>
-			<true/>
 		</dict>
 		<key>4A919975-1787-481F-A776-B2C92ADC6694</key>
 		<dict>
@@ -276,8 +274,6 @@
 			<string>index.html</string>
 			<key>ItemType</key>
 			<string>FileReference</string>
-			<key>UserOverrideItemName</key>
-			<true/>
 		</dict>
 	</dict>
 	<key>com.barebones.DocumentFormatVersion</key>

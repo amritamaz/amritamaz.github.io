@@ -28,7 +28,7 @@ h6 {font-size:1em;}
 * {
 	line-height: 14px;
 	font-size: 14px;
-	font-family: "ubuntu-mono", "Monaco", "Consolas", fixed-width;
+	font-family: "ubuntu-mono", "Menlo", "Consolas", fixed-width;
 	font-weight: normal;
 }
 
@@ -120,11 +120,24 @@ article {
 	#outside {
 		float: left;
 	}
+	
+	#content {
+		margin-left: 15%;
+	}
+	
+	#inside, outside {
+		width: 90%;
+	}
+
 }
 
 @media screen and (max-width:480px) {
-	p, a{	
+	p, a, nav a{	
 	font-size: 12px;
 	}
-	
+
+	#content {
+		margin-left: 15%;
+	}
+
 }

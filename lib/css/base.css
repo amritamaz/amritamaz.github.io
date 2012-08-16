@@ -13,15 +13,8 @@ a img {border:none;}
 
 /* typog reset css */
 html {font-size:100%;}
-body {background:#fff; 	font-size: 100%;
-}
-h1, h2, h3, h4, h5, h6 {font-weight:bold; line-height: normal;}
-h1 {font-size:128px;}
-h2 {font-size:2em;}
-h3 {font-size:1.5em;}
-h4 {font-size:1.2em;}
-h5 {font-size:1em;}
-h6 {font-size:1em;}
+body {background:#fff;font-size:100%;}
+h1, h2, h3, h4, h5, h6 {font-weight:bold;line-height:normal;}
 
 /* text styling */
 
@@ -106,13 +99,17 @@ article {
 	margin-bottom: 10%;
 }
 
+p {
+	margin-bottom: 2%;
+}
+
 #outside {
 	background: #ddd;
 	min-width: 150px;
 	width: 20%;
 	float: right;
 	margin-right: 15%;
-	padding: 5%;
+	padding: 4%;
 	border-radius: 10%;
 }
 

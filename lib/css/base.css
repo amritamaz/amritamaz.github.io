@@ -19,21 +19,21 @@ h1, h2, h3, h4, h5, h6 {font-weight:bold;line-height:normal;}
 /* text styling */
 
 * {
-	line-height: 14px;
-	font-size: 14px;
-	font-family: "ubuntu-mono", "Menlo", "Consolas", fixed-width;
+	line-height: 12px;
+	font-size: 11px;
+	font-family: "Menlo", "Consolas", fixed-width;
 	font-weight: normal;
 }
 
 p {
-	font-size: 14px;
+	font-size: 11px;
 }
 
 a {
 	color: #666;
 	border-bottom: 1px dotted #666;
 	text-decoration: none;
-	font-size: 14px;
+	font-size: 11px;
 }
 
 nav a {
@@ -41,8 +41,8 @@ nav a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "futura-pt", 'Futura LT', Helvetica, Arial, sans-serif;
-}
+/*	font-family: 'Futura LT', Helvetica, Arial, sans-serif;
+*/}
 
 h1 {
 	text-transform: uppercase;

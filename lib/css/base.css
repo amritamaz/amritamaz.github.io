@@ -18,42 +18,46 @@ h1, h2, h3, h4, h5, h6 {font-weight:bold;line-height:normal;}
 
 /* text styling */
 
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic,700italic);
+
+
 * {
-	line-height: 12px;
-	font-size: 11px;
-	font-family: "Menlo", "Consolas", fixed-width;
-	font-weight: normal;
+
+font-family: 'Ubuntu', sans-serif;
+font-size: 12px;
+line-height: 14px;
 }
 
 p {
-	font-size: 11px;
+
 }
 
 a {
-	color: #666;
-	border-bottom: 1px dotted #666;
-	text-decoration: none;
-	font-size: 11px;
+color: #000;
+text-decoration: none;
+}
+
+a:hover {
+color: #66cc99;
+}
+
+a.active{
+color: #66cc99;
+font-weight: 700;
+font-style: normal;
 }
 
 nav a {
-	border-bottom: none;
+font-size: 12px;
+font-style: italic;
 }
 
-h1, h2, h3, h4, h5, h6 {
-/*	font-family: 'Futura LT', Helvetica, Arial, sans-serif;
-*/}
-
 h1 {
-	text-transform: uppercase;
-	width: 100%;
-	font-size: 128px;
-	display: block;
+font-size: 48px;
+font-weight: normal;
 }
 
 h2 {
-	font-size: 20px;
-	letter-spacing: 1px;
 }
 
 ul {
@@ -62,79 +66,48 @@ ul {
 	margin-left: 0;
 }
 
+#elsew li{
+font-size: 12px;
+font-style: italic;
+
+}
+
 /* layout */
 
 body {
-	margin: 0 10% 0 10%;
+	margin: 75px 75px 50px 75px;
+	min-width: 480px;
+	padding-top: 200px;
 }
 
 header {
-	text-align: center;
+	text-align: right;
 }
 
 nav {
-text-align: right;
-margin-right: 7%;
-margin-top: -15px;
 }
 
 nav a{
-margin: 0 10% 0 0 ;
+margin-left: 50px;
 }
 
 #content {
-	margin-top: 5%;
-	margin-left: 15%;
+width: 75%;
+max-width: 550px;
+margin: auto;
 }
 
-#inside {
-	min-width: 225px;
-	width: 35%;
-	float: left;
-	overflow: none;
-	margin-right: 5%;
+#info {
+max-width: 350px;
+width: 65%;
+margin-top: 75px;
 }
 
-article {
-	margin-bottom: 10%;
+#elsew {
+margin-top: 25px;
 }
 
-p {
-	margin-bottom: 2%;
-}
-
-#outside {
-	background: #ddd;
-	min-width: 150px;
-	width: 20%;
-	float: right;
-	margin-right: 15%;
-	padding: 4%;
-	border-radius: 10%;
-}
-
-@media screen and (max-width:800px) {
-	#outside {
-		float: left;
-	}
-	
-	#content {
-		margin-left: 15%;
-	}
-	
-	#inside, outside {
-		width: 90%;
-	}
-
-}
-
-@media screen and (max-width:480px) {
-	p, a, nav a{	
-	font-size: 12px;
-	}
-
-	#content {
-		margin-left: 15%;
-	}
-
+#elsew li{
+display: inline;
+margin-right: 15px;
 }

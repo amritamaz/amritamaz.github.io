@@ -9,7 +9,13 @@
 	<link rel="stylesheet" media="all" href="lib/css/base.css" />
 	<script src="lib/js/jquery/jquery-1.7.2.min.js"></script> 
 	<script type="text/javascript" src="lib/js/paper.js"></script>
-	<script type="text/paperscript" src="lib/js/sin.js" canvas="myCanvas"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#cnvs").width(100%);
+            $("#cnvs").height(400);
+            #("cnvs").margin(auto);
+    </script>
+	<script type="text/paperscript" src="lib/js/sin.js" canvas="cnvs"></script>
 	
 	<script type="text/javascript">
 
@@ -29,8 +35,11 @@
 	
 </head>
 <body>
-<div id="content">
-<canvas id="myCanvas" resize="true"></canvas>
+  <div id="content">
+  <div id ="canvcss">
+<canvas id="cnvs" width="500" height="150"></canvas>
+</div>
+
 <header>
 	<h1>amrita mazumdar</h1> <!-- big text! -->
 	<nav>

@@ -1,0 +1,52 @@
+#projects {
+float:left;
+margin-top: 50px;
+margin-left: auto;
+margin-right: auto;}
+
+ul#portfolio-filter{ 
+	padding: 0; 
+	padding-left: 25px; 
+}
+
+ul#portfolio-filter li{ display: inline; }
+
+ul#portfolio-filter a{ 
+	margin-right: 0.5em; 
+	padding: 0.5em 1em; 
+	color: #AAA; 
+	font-size: 10px;
+	text-decoration: none; }
+	
+ul#portfolio-filter a:hover, ul#portfolio-filter a.current{ color: #888; }
+
+ul#portfolio-filter a.current{ background-color: #DDD; }
+
+ul#portfolio-list{ 
+	display:block;
+	margin-top: 1em; 
+	margin-bottom: 1em; 
+	margin-right: auto;
+	margin-left: auto;
+}
+
+ul#portfolio-list li{ 
+	display: block; 
+	float: left; 
+	margin-right: 1em; 
+	padding: 0px 10px 20px 0px;
+}
+
+ul#portfolio-list li img{
+	width: 160px;
+}
+
+ul#portfolio-list li a{ 
+	display: block; 
+}
+
+ul#portfolio-list li p{ 
+	font-size: 11px; 
+	line-height: 15px; 
+	text-align: center;
+}

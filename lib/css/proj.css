@@ -1,3 +1,5 @@
+/** projects nav styling **/
+
 #projects {
 float:left;
 margin-top: 50px;
@@ -49,4 +51,38 @@ ul#portfolio-list li p{
 	font-size: 11px; 
 	line-height: 15px; 
 	text-align: center;
+}
+
+
+/** project article styles **/
+
+article#content {
+	margin-top: 30px;
+}
+
+article#content p {
+	font-size: 12px;
+	width: 90%;
+	margin: 10px 50% 10px 10px;
+}
+
+article#content a {
+	border-bottom: 1px #000 dotted;
+}
+
+article#content #desc{
+float: left;
+width: 50%;
+/* 
+margin-right: 50%;
+ */
+}
+
+article#content #pix{
+float:right;
+width: 45%;
+}
+
+article#content #pix img{
+width: 100%;
 }

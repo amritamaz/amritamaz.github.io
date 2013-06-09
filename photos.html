@@ -15,15 +15,14 @@
 	<script type="text/javascript" src="lib/js/paper.js"></script>
 	<script type="text/paperscript" src="lib/js/sin.js" canvas="cnvs"></script>
 	<script>
-  $(function(){
- 
-var $container = $('#gallery');
-
-$container.imagesLoaded( function(){
-  $container.masonry({
-    itemSelector : '.img-cont'
-  });
-});
+	$(function(){
+ 		var $container = $('#gallery');
+		$container.imagesLoaded( function(){
+			$container.masonry({
+    			itemSelector : '.img-cont'
+  			});
+		});
+	});
 </script>
 	<script type="text/javascript">
 

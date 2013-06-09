@@ -1,3 +1,4 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
    "http://www.w3.org/TR/html4/strict.dtd">
 
@@ -7,7 +8,11 @@
 	<title>Amrita Maz</title>
 
 	<link rel="stylesheet" media="all" href="lib/css/base.css" />
+	<link rel="stylesheet" media="all" href="lib/css/photos.css" />
 	<script src="lib/js/jquery/jquery-1.7.2.min.js"></script> 
+	<script src="lib/js/jquery/masonry.js"></script> 
+	<script src="lib/js/load_imgs.js" type="text/javascript"></script> 
+
 	<script type="text/javascript" src="lib/js/paper.js"></script>
     <script type="text/javascript">
         $(document).ready(function() {
@@ -16,7 +21,17 @@
             #("cnvs").margin(auto);
     </script>
 	<script type="text/paperscript" src="lib/js/sin.js" canvas="cnvs"></script>
-	
+	<script>
+  $(function(){
+ 
+var $container = $('#gallery');
+
+$container.imagesLoaded( function(){
+  $container.masonry({
+    itemSelector : '.img-cont'
+  });
+});
+</script>
 	<script type="text/javascript">
 
 	  var _gaq = _gaq || [];
@@ -43,19 +58,13 @@
 <header>
 	<h1><a href="http://www.amritamaz.me">amrita mazumdar</a></h1> <!-- big text! -->
 	<nav>
-		<a href="projects.html">projects</a>
-		<a href="http://www.amritamaz.me/photos.html">photos</a>
+		<a href="http://www.amritamaz.me/projects.html">projects</a>
+		<a href="http://photos.amritamaz.me" class="active">photos</a>
 		<a href="http://blog.amritamaz.me">blog</a>
 	</nav>
 </header>
 
-	<section id="info">
-		<p>
-		I'm a junior in computer engineering at Columbia University. 
-                I’m interested in finding new ways to see the world, specifically through 
-                3D graphics and image processing hardware design. 
-		</p>
-	</section>
+		<div id="gallery"> </div> 
 	
 	<section id="elsew">
 		<ul>

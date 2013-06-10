@@ -1,6 +1,5 @@
-#gallery{ width: 100%;
+#gallery{ width: 100%; padding-top: 10px;
 }
-.img-cont {
-	float: left; 
-	padding: 5px 5px 0px 5px;
+#gallery img {
+	padding: 0px 5px 0px 5px;
 	}

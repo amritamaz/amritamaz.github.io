@@ -92,6 +92,7 @@ margin: auto;
 max-width: 350px;
 width: 65%;
 margin-top: 75px;
+float: left;
 }
 
 #elsew {
@@ -118,8 +119,15 @@ margin-right: 15px;
 #cnvs {
         width: 100%;
         height: 150px;
-/* 
-        border: 3px solid black;
- */
+}
 
+#announce {
+	border-radius: 10px;
+	background-color: #aaa;
+	float: right;
+	width: 35%;
+	display: block;
+	margin-top: 35px;
+	padding: 20px;
+	color: #fff;
 }

@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<title>Kanto: FPGA Audio Player & Visualizer | Amrita Maz</title>
+
+	<link rel="stylesheet" media="all" href="../lib/css/base.css" />
+	<link rel="stylesheet" media="all" href="../lib/css/proj.css" />
+	<script src="../lib/js/jquery/jquery-1.7.2.min.js"></script> 
+	<script type="text/javascript" src="../lib/js/paper.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#cnvs").width(100%);
+            $("#cnvs").height(400);
+            #("cnvs").margin(auto);
+    </script>
+	<script type="text/paperscript" src="../lib/js/sin.js" canvas="cnvs"></script>
+	
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-29924178-1']);
+	  _gaq.push(['_setDomainName', 'amritamaz.me']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') 
+		+ '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script> 
+	
+</head>
+<body>
+  <div id="content">
+  <div id ="canvcss">
+<canvas id="cnvs" width="500" height="150"></canvas>
+</div>
+
+<header>
+	<h1><a href="http://www.amritamaz.me">amrita mazumdar</a></h1> <!-- big text! -->
+	<nav>
+		<a href="../projects.html" class="active">projects</a>
+		<a href="http://photos.amritamaz.me">photos</a>
+		<a href="http://blog.amritamaz.me">blog</a>
+	</nav>
+</header>
+
+	<article id="content">
+		<h2>Kanto: FPGA Audio Player & Visualizer</h2>
+		<section id="desc">
+			<p>Kanto is an audio player with frequency visualization, implemented 
+			on an Altera DE2 Cyclone FPGA. The music player reads a playlist of 
+			raw waveform files from an SD or SDHC card, plays songs with CD 
+			quality through the DE2's audio output, performs a real-time FFT, 
+			and displays the results on the monitor. The implementation uses 
+			hardware to handle audio output and frequency visualization, and 
+			software to handle user interaction and system initialization. The 
+			user can interact with the system using switches for color
+			mixing and keyboard for fast forward, rewind, and track selection.</p>
+			<p>In collaboration with Kavita Jain-Cocks, Howard Mao, Darien Nurse,
+			and Jonathan Yu for the 
+			<a href="http://www.cs.columbia.edu/~sedwards/classes/2013/4840/">
+				CSEE 4840 Embedded System Design</a>
+			 course.</p>
+			<div id="meta_desc">
+				<p>Documentation: Paper <a href="kanto_report.pdf">[pdf]</a>, 
+						Code <a href="https://github.com/kanto-player/">[github]</a></p>
+				<p>2013. FPGA design in VHDL and C.
+				<p>Topics: Embedded system design, music signal processing, 
+					Quartus, .
+			</div>
+						&#8592; back to <a href="../projects.html">projects</a>
+
+		</section>
+		<section id="pix">
+<iframe src="http://player.vimeo.com/video/68397395?byline=0&amp;portrait=0&amp;color=ffffff" width="350" height="197" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+		</section>
+
+	</article>
+	
+	<section id="elsew">
+		<ul>
+			<li><a href="mailto:i@amritamaz.me">e-mail</a></li>
+			<li>~</li>
+			<li><a href="http://www.twitter.com/amritamaz">twitter</a></li>
+			<li>~</li>
+			<li><a href="http://www.github.com/amritamaz">github</a></li>
+			<li>~</li>
+			<li><a href="http://www.flickr.com/photos/amritamaz">flickr</a></li>
+		</ul>
+	</section>
+
+</div>
+
+</body>
+</html>

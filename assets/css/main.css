@@ -1,0 +1,272 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,700,300italic,700italic);
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font: 16px/26px;
+    font-family: 'Lato', Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    width: 100%;
+	max-width: 50rem;
+	margin: auto;
+}
+
+a {
+	color: #66cc99;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #666;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.wrapper, wrapper-main {
+	padding: 0 50px;
+}
+
+h2, h3 {
+	font-weight: 300;
+}
+
+
+/* -----------------
+		Header
+------------------- */
+
+#logo{
+	margin-top: 10px;
+}
+
+header[role='banner']{
+	text-align: center;
+}
+
+header[role='banner'] h1 {
+	font-size: 18px;
+	font-weight: 300;
+	margin: 1rem 0 0.5rem 0;
+	letter-spacing: 0;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+nav {
+	max-width: 600px;
+	margin: 0 auto 2rem auto;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 1.25rem;
+}
+
+nav ul li:last-child {
+	margin-right: 0;
+}
+
+nav ul li a {
+	color: #999;
+	text-decoration: none;
+}
+
+
+nav a.active {
+	color: #00b893;
+	}
+
+/* ===============
+	    Footer
+   =============== */
+
+footer {
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+	max-width: 700px;
+	margin: 0 auto 2rem auto;
+}
+
+footer ul {
+	list-style: none;
+	padding: 0;
+	text-align: center;
+	margin: 0;
+}
+
+footer ul li {
+	display: inline-block;
+	margin-right: 1.25rem;
+}
+
+footer ul li:last-child {
+	margin-right: 0;
+}
+
+footer a{
+	color: #999;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #66cc99;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (max-width: 480px) {
+
+/* ====================
+    Mobile
+   ==================== */
+
+
+}
+
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE
+   ==================== */
+
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE
+   ==================== */
+   
+   	article{
+		width: 40%;
+		float: left;
+		margin: auto;
+	}
+	
+	aside {
+		width: 35%;
+		float: right;
+		margin: auto;
+	}
+
+	footer {
+		width: 100%;
+		float: left;
+	}
+
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+   
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+

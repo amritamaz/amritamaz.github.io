@@ -1,0 +1,44 @@
+--- 
+layout: default 
+title: Welcome 
+--- 
+<article>
+	<header>
+		<p>
+			I'm studying computer engineering and English at Columbia University. I’m 
+			interested in finding new ways to see the world, specializing 
+			in hardware design for 3D graphics and image processing.
+		</p>
+	</header>
+	<section>
+		<h3>
+			Recent Work:
+		</h3>
+		<ul class="posts">
+			{% for post in site.categories.projects limit: 3 %} 
+			<li data-section="{{ post.title }}">
+				<a href="{{ site.baseurl }}{{ post.url }}">
+					{{ post.title }}
+				</a>
+			</li>
+			{% endfor %} 
+		</ul>
+	</section>
+</article>
+<aside>
+	<h3>
+		Currently:
+	</h3>
+	<p>
+		I am currently a participant in the Distributed Research Experience for 
+		Undergraduates 
+		<a href="">
+			(DREU)
+		</a>
+		program. For more information on my experience, please visit my 
+		<a href="">
+			research blog
+		</a>
+		. 
+	</p>
+</aside>

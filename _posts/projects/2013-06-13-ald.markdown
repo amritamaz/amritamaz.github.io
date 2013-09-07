@@ -15,8 +15,8 @@ and IEEE 754 single-precision ﬂoating-point number compliance.
 
 In collaboration with Kavita Jain-Cocks for the CSEE 4823 Advanced Logic Design course.
 
-Documentation (no microarchitecture) <a href="ald_report.pdf">(pdf)</a>
+Documentation (sans microarchitecture) <a href="ald_report.pdf">(pdf)</a>
 
 Fall 2012. RTL algorithm and microarchitecture design for a custom function unit.
 
-<img src="../images/work/ald.png" />
+<img src="{{ site.baseurl }}/projects/images/ald.png" />

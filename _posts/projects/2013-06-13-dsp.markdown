@@ -18,5 +18,5 @@ Code <a href="https://github.com/amritamaz/country-rap">[github]</a>
 
 Fall 2012. MATLAB program to differentiate rap and country music.
 
-<img src="../images/work/dsp.png" />
-<img src="../images/work/dsp3.png" />
+<img src="{{ site.baseurl }}/projects/images/dsp.png" />
+<img src="{{ site.baseurl }}/projects/images/dsp3.png" />

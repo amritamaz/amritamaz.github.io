@@ -22,4 +22,4 @@ Documentation: Code <a href="https://github.com/amritamaz/raytramaz">[github]</a
 
 
 
-<img src="../images/work/raytra.gif" />
+<img src="{{ site.baseurl }}/projects/images/raytra.gif" />

@@ -157,6 +157,34 @@ font-size: 14px;
 }
 
 /* ===============
+	    Project Lists
+   =============== */
+   
+ul.posts{
+	list-style:none;
+}
+
+ul.posts a {
+	font-size: 1.4em;
+	text-decoration: none;
+}
+
+ul.recent_posts a{
+	text-decoration: none;
+}
+
+ul.posts li{
+	margin-bottom: 1.5em;
+/* 
+	line-height: 1.5em;
+ */
+}
+
+span.desc {
+	margin-left: 5px;
+}
+
+/* ===============
     ALL: IE Fixes
    =============== */
 

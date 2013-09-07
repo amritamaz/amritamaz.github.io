@@ -3,23 +3,19 @@ layout: default
 title:  "The Eye Magazine"
 categories: Projects
 subtitle: "the official website for The Eye Magazine"
-
+tags: web design, UI design, web development
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+Design and implementation of the official website for  
+<a href="http://eye.columbiaspectator.com">The Eye Magazine</a>, 
+the weekly arts and culture publication of the 
+<a href="http://www.columbiaspectator.com">Columbia Daily Spectator</a>. 
 
-Jekyll also offers powerful support for code snippets:
+Served as lead designer and web developer for the project. 
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+In collaboration with Doug Bienstock and Jonathan Balsano for the 
+<a href="">Columbia Daily Spectator</a>.
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
+Link: The Eye Magazine <a href="http://eye.columbiaspectator.com">[site]</a>
 
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+Fall 2011. HTML5/CSS, Javascript, PHP/MySQL, Drupal.

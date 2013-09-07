@@ -3,23 +3,24 @@ layout: default
 title:  "Schlieren Optics"
 categories: Projects
 subtitle: "techniques in state-of-the-art schlieren imaging and shadowgraphy systems"
-
+tags: computer vision, image processing
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+Investigated techniques in state-of-the-art schlieren imaging systems, and
+constructed a schlieren optics system at the Columbia Automated Vision Environment.
+Project culminated in presentation of current techniques and future interests
+in the area, as well as an investigation of noise-related issues in the 
+constructed system. 
 
-Jekyll also offers powerful support for code snippets:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+In collaboration with the Columbia Automated Vision Environment with guidance from
+Dr. Shree Nayar and Changyin Zhou.
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
 
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+Documentation: Technical Report (CUCS-016-13) <a href="schlr_report.pdf">[pdf]</a>, 
+Presentation <a href="schlr_ppt.pdf">[pdf]</a>
+
+
+Summer 2012. Schlieren optics system.
+
+Topics: Computer vision, computational photography, image processing.

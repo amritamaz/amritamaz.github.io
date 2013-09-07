@@ -3,23 +3,26 @@ layout: default
 title:  "Kanto"
 categories: Projects
 subtitle: "an FPGA audio player with frequency visualization"
-
+tags: embedded system design, music signal processing, VHDL
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+Kanto is an audio player with frequency visualization, implemented 
+on an Altera DE2 Cyclone FPGA. The music player reads a playlist of 
+raw waveform files from an SD or SDHC card, plays songs with CD 
+quality through the DE2's audio output, performs a real-time FFT, 
+and displays the results on the monitor. The implementation uses 
+hardware to handle audio output and frequency visualization, and 
+software to handle user interaction and system initialization. The 
+user can interact with the system using switches for color
+mixing and keyboard for fast forward, rewind, and track selection.
 
-Jekyll also offers powerful support for code snippets:
+In collaboration with Kavita Jain-Cocks, Howard Mao, Darien Nurse,
+and Jonathan Yu for the 
+<a href="http://www.cs.columbia.edu/~sedwards/classes/2013/4840/">
+CSEE 4840 Embedded System Design</a>
+course.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Documentation: Paper <a href="kanto_report.pdf">[pdf]</a>, 
+Code <a href="https://github.com/kanto-player/">[github]</a>
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
-
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+Spring 2013. FPGA design in VHDL and C.

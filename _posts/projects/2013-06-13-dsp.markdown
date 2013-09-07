@@ -3,23 +3,20 @@ layout: default
 title:  "Automatic Music Genre Classification"
 categories: Projects
 subtitle: "a MATLAB tool to differentiate rap and country music "
-
+tags: dsp, signal processing, music signal processing, machine learning, matlab
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+A signal processing project to differentiate between rap and country music.
+Tests designed include zero crossings detection, beat histogram analysis, and mean RMS.
 
-Jekyll also offers powerful support for code snippets:
+The classification system has a success rate of 100%.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+In collaboration with Linda Sun for the ELEN 4810 Digital Signal Processing course.
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
+Documentation: Paper <a href="dsp_report.pdf">[pdf],
+Code <a href="https://github.com/amritamaz/country-rap">[github]</a>
 
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+Fall 2012. MATLAB program to differentiate rap and country music.
+
+<img src="../images/work/dsp.png" />
+<img src="../images/work/dsp3.png" />

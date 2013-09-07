@@ -2,4 +2,3 @@ markdown: rdiscount
 pygments: true
 permalink: /:categories/:title
 timezone: America/New_York
-baseurl: /new-site-testing

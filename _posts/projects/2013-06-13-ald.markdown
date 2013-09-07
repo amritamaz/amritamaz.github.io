@@ -1,25 +1,22 @@
 ---
-layout: default
+layout: project
 title:  "Custom Trigonometric Floating-Point Function Unit"
 categories: Projects
 subtitle: "a digital hardware subsystem to calculate floating point trigonometric valuess "
-tags: 
+tags: hardware design, rtl design, microarchitecture
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+A digital hardware subsystem to calculate floating point trigonometric values.
+Project involved design and optimization of an entire subsystem using an RTL design ﬂow. 
+The final product was a custom trigonometric function hardware accelerator,
+which computes both sine and cosine functions, with user-speciﬁed precision
+and IEEE 754 single-precision ﬂoating-point number compliance.
 
-Jekyll also offers powerful support for code snippets:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+In collaboration with Kavita Jain-Cocks for the CSEE 4823 Advanced Logic Design course.
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
+Documentation (no microarchitecture) <a href="ald_report.pdf">(pdf)</a>
 
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+Fall 2012. RTL algorithm and microarchitecture design for a custom function unit.
+
+<img src="../images/work/ald.png" />

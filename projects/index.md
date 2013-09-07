@@ -2,8 +2,8 @@
 layout: default
 title: Projects
 ---
-
-<small>*Not in any sane or particular order*</small>
+<h2> Projects </h2>
+<small>*(In no particular order at all)*</small>
 <ul class="posts">
 	{% for post in site.categories.projects %} 
 	<li data-section="{{ post.title }}">

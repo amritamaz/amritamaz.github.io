@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project
 title:  "Schlieren Optics"
 categories: Projects
 subtitle: "techniques in state-of-the-art schlieren imaging and shadowgraphy systems"

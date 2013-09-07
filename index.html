@@ -1,9 +1,43 @@
 --- 
-layout: home 
+layout: default 
 title: Welcome 
 --- 
-<div id="main-logo">
-    <span class="helper"></span>
+<article>
+	<header>
+		<p>
+			I'm studying computer engineering and English at Columbia University. I’m 
+			interested in finding new ways to see the world, specializing 
+			in computer architectures for 3D graphics and image processing.
+		</p>
+	</header>
+	<section>
+		<h3>
+			Recent Work:
+		</h3>
+		<ul class="posts">
+			{% for post in site.categories.projects limit: 3 %} 
+			<li data-section="{{ post.title }}">
+				<a href="{{ site.baseurl }}{{ post.url }}">
+					{{ post.title }}
+				</a>
+			</li>
+			{% endfor %} 
+		</ul>
+	</section>
+</article>
+<aside id="newsblurb">
+	<h3>
+		News:
+	</h3>
+	<section>
+		<p><span class="date">Summer 2013</span> 
+			DREU Fellow at Brown University, working with Dr. Iris Bahar in
+			Computer Engineering.
+		</p>
+		<p><span class="date">June 2013</span> 
+			Technical report "Principles and Techniques of Schlieren Imaging Systems"
+			released through Columbia University Computer Science Department.
+		</p>
+	</section>
+</aside>
 
-<img src="logo_trans.png">
-</div>

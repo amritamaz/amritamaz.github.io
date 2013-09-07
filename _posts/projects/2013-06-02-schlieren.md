@@ -17,7 +17,7 @@ In collaboration with the Columbia Automated Vision Environment with guidance fr
 Dr. Shree Nayar and Changyin Zhou.
 
 
-Documentation: Technical Report (CUCS-016-13) <a href="{{ site.baseurl }}/projects/files/schlr_report.pdf">[pdf]</a>, 
+Links: Technical Report (CUCS-016-13) <a href="{{ site.baseurl }}/projects/files/schlr_report.pdf">[pdf]</a>, 
 Presentation <a href="{{ site.baseurl }}/projects/files/schlr_ppt.pdf">[pdf]</a>
 
 

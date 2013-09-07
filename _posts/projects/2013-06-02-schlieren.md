@@ -17,8 +17,8 @@ In collaboration with the Columbia Automated Vision Environment with guidance fr
 Dr. Shree Nayar and Changyin Zhou.
 
 
-Documentation: Technical Report (CUCS-016-13) <a href="schlr_report.pdf">[pdf]</a>, 
-Presentation <a href="schlr_ppt.pdf">[pdf]</a>
+Documentation: Technical Report (CUCS-016-13) <a href="{{ site.baseurl }}/projects/files/schlr_report.pdf">[pdf]</a>, 
+Presentation <a href="{{ site.baseurl }}/projects/files/schlr_ppt.pdf">[pdf]</a>
 
 
 Summer 2012. Schlieren optics system.

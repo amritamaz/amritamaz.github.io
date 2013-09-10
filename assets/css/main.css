@@ -192,6 +192,22 @@ span.desc {
     padding-top: 20px;
 }
 
+/* ===============
+    Projects
+   =============== */
+
+.post img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 350px;
+}
+
+.post iframe {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 /* ==========================================================================
    Media Queries

@@ -6,6 +6,8 @@ subtitle: "techniques in state-of-the-art schlieren imaging and shadowgraphy sys
 tags: computer vision, image processing
 ---
 
+<img src="{{ site.baseurl }}/projects/images/schlr.png" style="margin:auto;"/>
+
 Investigated techniques in state-of-the-art schlieren imaging systems, and
 constructed a schlieren optics system at the Columbia Automated Vision Environment.
 Project culminated in presentation of current techniques and future interests

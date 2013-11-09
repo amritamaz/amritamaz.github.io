@@ -6,7 +6,7 @@
                 //assign your api key equal to a variable
                 var apiKey = '8a2b38f19de14d51336798a39b0173e3';
                 var userID = '51978329%40N00';
-                var portfolioID = '72157634029598807';
+                var portfolioID = '72157637490284653';
                 
                 //the initial json request to flickr
                 //to get your latest public photos, use this request: http://api.flickr.com/services/rest/?&method=flickr.people.getPublicPhotos&api_key=' + apiKey + '&user_id=51978329@N00&per_page=15&page=2&format=json&jsoncallback=?

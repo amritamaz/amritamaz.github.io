@@ -31,7 +31,7 @@
                                 
                                 
                             //create an imgCont string variable which will hold all the link location, title, author link, and author name into a text string
-                            var imgCont = '<img height="425px" src="' + photoURL + '" />';
+                            var imgCont = '<a href="http://www.flickr.com/photos/amritamaz/'+photoID+'"><img height="425px" src="' + photoURL + '" /></a>';
                             
                             
                             //append the 'imgCont' variable to the document

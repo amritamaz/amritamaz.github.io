@@ -1,5 +1,10 @@
-#gallery{ width: 100%; padding-top: 10px;
+#gallery{ width: 100%; padding: 10px 0 10px 0;
 }
 #gallery img {
 	padding: 0px 5px 0px 5px;
 	}
+
+#category_desc {
+      text-align: center;
+      
+}

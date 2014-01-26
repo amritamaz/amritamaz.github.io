@@ -54,7 +54,22 @@ h2, h3 {
 }
 
 /* for the index page */
+/* ===============
+	    About
+   =============== */
+span.date {
+	color: #999;
+	margin-right: 15px;
+	font-size: 14px;
+}
+#newsblurb{
+  float: right;
+}
+#newsblurb section {
+/*font-size: 14px; */
+}
 #myface {
+  float: left;
   max-width: 100%;
   text-align: center;
 }
@@ -151,18 +166,6 @@ footer a:hover {
 	color: #66cc99;
 }
 
-/* ===============
-	    About
-   =============== */
-span.date {
-	color: #999;
-	margin-right: 15px;
-	font-size: 14px;
-}
-
-#newsblurb section {
-font-size: 14px;
-}
 
 /* ===============
 	    Project Lists

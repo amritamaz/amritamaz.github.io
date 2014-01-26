@@ -70,7 +70,9 @@ span.date {
   width: 60%;
 }
 */
-
+#about p{
+  margin:none;
+}
 #first{
   float:left;
 }

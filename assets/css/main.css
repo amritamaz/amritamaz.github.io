@@ -64,6 +64,7 @@ span.date {
 }
 #about{
   float: right;
+  wid
 }
 #newsblurb{
   width: 60%;
@@ -77,11 +78,12 @@ span.date {
 }
 #second{
   text-align: center;
+  margin-top: 100px;
 }
 #myface {
 float:left;
 text-align: right;
-width:50%;
+width:40%;
 }
 .face {
   width: 250px;

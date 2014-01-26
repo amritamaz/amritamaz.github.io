@@ -65,16 +65,18 @@ span.date {
 #about{
   float: right;
 }
-/*#newsblurb{
-  text-align: center;
+#newsblurb{
   width: 60%;
 }
-*/
+
 #about p{
   margin:0em;
 }
 #first{
   float:left;
+}
+#second{
+  text-align: center;
 }
 #myface {
 float:left;

@@ -62,15 +62,12 @@ span.date {
 	margin-right: 15px;
 	font-size: 14px;
 }
-#about{
+/*#about{
   float: right;
 }
 #newsblurb{
   text-align: center;
   width: 60%;
-}
-#newsblurb section {
-/*font-size: 14px; */
 }
 #myface {
   float: left;

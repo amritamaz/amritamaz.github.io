@@ -71,7 +71,7 @@ span.date {
 }
 */
 #about p{
-  margin:none;
+  margin:0em;
 }
 #first{
   float:left;
@@ -79,6 +79,7 @@ span.date {
 #myface {
 float:left;
 text-align: right;
+width:50%;
 }
 .face {
   width: 250px;

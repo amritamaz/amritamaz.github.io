@@ -69,7 +69,12 @@ span.date {
   text-align: center;
   width: 60%;
 }
-*/#myface {
+*/
+
+#first{
+  float:left;
+}
+#myface {
 float:left;
 text-align: right;
 }

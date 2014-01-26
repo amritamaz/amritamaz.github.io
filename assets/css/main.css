@@ -70,8 +70,8 @@ span.date {
   width: 60%;
 }
 */#myface {
-  max-width: 100%;
-  text-align: right;
+float:left;
+text-align: right;
 }
 .face {
   width: 250px;

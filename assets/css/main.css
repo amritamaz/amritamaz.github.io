@@ -74,9 +74,8 @@ span.date {
   max-width: 100%;
   text-align: center;
 }
-.face {
+*/.face {
   width: 250px;
-  text-align: center;
 }
 /* -----------------
 		Header

@@ -3,6 +3,7 @@ layout: default
 title: Welcome 
 --- 
 <article>
+	<div id="myface"><img class="face" src="assets/img/DSC_6254.jpg"></div>
 	<header>
         <p>
           I'm in my final year at Columbia University, studying computer engineering and English.
@@ -16,23 +17,8 @@ title: Welcome
 		</p>
 
 	</header>
-	<section>
-		<h3>
-			Recent Work:
-		</h3>
-		<ul class="recent_posts">
-			{% for post in site.categories.projects limit: 3 %} 
-			<li data-section="{{ post.title }}">
-				<a href="{{ site.baseurl }}{{ post.url }}">
-					{{ post.title }}
-				</a>
-			</li>
-			{% endfor %} 
-		</ul>
-	</section>
 </article>
 <aside id="newsblurb">
-	<div id="myface"><img class="face" src="assets/img/DSC_6254.jpg"></div>
 	<h3>
 		News:
 	</h3>
@@ -49,12 +35,26 @@ title: Welcome
 			DREU Fellow at Brown University, working with Dr. Iris Bahar in
 			Computer Engineering.
 		</p>
-		<p><span class="date">June 2013</span> 
+<!--		<p><span class="date">June 2013</span> 
 			Technical report "Principles and Techniques of Schlieren Imaging Systems"
 			released through Columbia University Computer Science Department.
-		</p>
+		</p> -->
                 </section>
 
 
 </aside>
 
+	<section>
+		<h3>
+			Recent Work:
+		</h3>
+		<ul class="recent_posts">
+			{% for post in site.categories.projects limit: 3 %} 
+			<li data-section="{{ post.title }}">
+				<a href="{{ site.baseurl }}{{ post.url }}">
+					{{ post.title }}
+				</a>
+			</li>
+			{% endfor %} 
+		</ul>
+	</section>

@@ -62,19 +62,18 @@ span.date {
 	margin-right: 15px;
 	font-size: 14px;
 }
-/*#about{
+#about{
   float: right;
 }
-#newsblurb{
+/*#newsblurb{
   text-align: center;
   width: 60%;
 }
-#myface {
-  float: left;
+*/#myface {
   max-width: 100%;
-  text-align: center;
+  text-align: right;
 }
-*/.face {
+.face {
   width: 250px;
 }
 /* -----------------
@@ -250,16 +249,9 @@ span.desc {
    
    	article{
 		width: 40%;
-		float: left;
 		margin: auto;
 	}
 	
-	aside {
-		width: 35%;
-		float: right;
-		margin: auto;
-	}
-
 	footer {
 		width: 100%;
 		float: left;

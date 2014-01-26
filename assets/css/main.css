@@ -75,6 +75,7 @@ span.date {
 }
 #first{
   float:left;
+  margin-bottom: 30px;
 }
 #second{
   text-align: center;

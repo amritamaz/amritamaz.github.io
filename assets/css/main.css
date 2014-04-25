@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
 
 html,
 button,
@@ -10,7 +10,7 @@ textarea {
 
 body {
     font: 16px/26px;
-    font-family: 'Open Sans', Georgia, 'Times New Roman', serif;
+    font-family: 'Lato', Georgia, 'Times New Roman', serif;
     font-weight: 300;
     line-height: 1.4;
     width: 100%;
@@ -20,6 +20,11 @@ body {
 
 a {
 	color: #66cc99;
+}
+
+h1 a {
+    text-decoration: none;
+    color: #000;
 }
 
 hr {
@@ -75,14 +80,17 @@ span.date {
 }
 #first{
   float:left;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 #second{
   text-align: center;
+    float: left;
 }
 #myface {
 float:left;
 text-align: right;
+margin-top: 10px;
+margin-left: 30px;
 width:40%;
 }
 .face {
@@ -97,11 +105,12 @@ width:40%;
 }
 
 header[role='banner']{
-	text-align: center;
+/*	text-align: center */;
 }
 
 header[role='banner'] h1 {
-	font-size: 18px;
+	font-size: 48px;
+        float: left;
 	font-weight: 300;
 	margin: 1rem 0 0.5rem 0;
 	letter-spacing: 0;
@@ -110,7 +119,8 @@ header[role='banner'] h1 {
 
 nav {
 	max-width: 600px;
-	margin: 0 auto 2rem auto;
+	margin: 50px 0 auto 50px;
+        float: left;
 }
 
 nav ul {
@@ -250,6 +260,10 @@ span.desc {
     INTERMEDIATE
    ==================== */
 
+* {
+float: left;
+}
+
 article {
 width: 100%;
 text-align: center;
@@ -262,6 +276,8 @@ width: 100%;
 #myface{ 
 width: 100%;
 text-align: center;
+margin-top: 10px;
+margin-left: 30px;
 }
 
 }

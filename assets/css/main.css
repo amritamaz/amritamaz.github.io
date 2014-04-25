@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,400,700);
 
 html,
 button,
@@ -11,7 +11,7 @@ textarea {
 body {
     font: 16px/26px;
     font-family: 'Open Sans', Georgia, 'Times New Roman', serif;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 1.4;
     width: 100%;
 	max-width: 50rem;
@@ -50,7 +50,7 @@ textarea {
 }
 
 h2, h3 {
-	font-weight: 400;
+	font-weight: 300;
 }
 
 /* for the index page */
@@ -102,7 +102,7 @@ header[role='banner']{
 
 header[role='banner'] h1 {
 	font-size: 18px;
-	font-weight: 400;
+	font-weight: 300;
 	margin: 1rem 0 0.5rem 0;
 	letter-spacing: 0;
 	-webkit-font-smoothing: subpixel-antialiased;

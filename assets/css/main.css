@@ -50,6 +50,10 @@ textarea {
     resize: vertical;
 }
 
+.main-container {
+	margin-top: 50px;
+}
+
 .wrapper, wrapper-main {
 	padding: 0 50px;
 }

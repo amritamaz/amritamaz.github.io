@@ -2,8 +2,11 @@
 layout: default
 title: Projects
 ---
-<h2> Projects </h2>
-<small>*(In a somewhat chronological order)*</small>
+<div id="pagetitle"><h2> Projects </h2>
+<small>
+<i>(In a somewhat chronological order)</i>
+</small>
+</div>
 <ul class="posts">
 	{% for post in site.categories.projects %} 
 	<li class="postitem" data-section="{{ post.title }}">

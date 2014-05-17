@@ -50,8 +50,13 @@ textarea {
     resize: vertical;
 }
 
+.main-container{
+	float:left;
+}
 #pagetitle {
-	margin-top: 50px;
+	width: 100%;
+	float: left;
+	margin-bottom: 10px;
 }
 
 .wrapper, wrapper-main {

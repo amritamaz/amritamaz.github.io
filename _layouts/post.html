@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-<div id="pagetitle"><h2>{{ page.title }}</h2></div>
-<p class="meta">{{ page.date | date_to_string }}</p>
-
-<div class="post">
-{{ content }}
-</div>
+  <div id="post">
+    <div id="title"><h1><a href="{{ page.url }}">{{ page.title }}</a></h1></div>
+    <div id="date">Published {{ page.date | date_to_string }}</div>
+    {{content}}
+  </div>
+          

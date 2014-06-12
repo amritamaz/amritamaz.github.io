@@ -20,8 +20,9 @@
 		<link href="{{site.url}}/assets/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
 
 
-        <link rel="stylesheet" href="{{site.url}}/assets/css/normalize.min.css">
-        <link rel="stylesheet" href="{{site.url}}/assets/css/main.css">
+    <link href="{{ site.baseurl }}/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/assets/css/style.css" rel="stylesheet">
 		<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.0/css/font-awesome.css" rel="stylesheet">
 
         <script src="{{site.url}}/assets/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
@@ -29,11 +30,18 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
     </head>
     <body>
-<div class="wrapper">
-{% include header.html %}
-{% include main-cont.html %}
-{% include footer.html %}
-</div>
+    <div class="container">
+      {% include header.html %}
+      <div id="bottom">
+        {%include sidebar.html %}
+        <div class="span6">
+{{content}}
+        </div>
+        <div class="span2">
+        </div>
+
+      </div>
+    </div>
 
         <script src="assets/js/main.js"></script>
 <script>

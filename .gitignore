@@ -1,4 +1,4 @@
-_site/
-hidden/
-old/
-hex_clck/
+_site/*
+hidden/*
+old/*
+hex_clck/*

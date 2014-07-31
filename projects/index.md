@@ -19,3 +19,4 @@ title: Projects
 	</li>
 	{% endfor %} 
 </ul>
+<script src="../assets/js/main.js"></script>

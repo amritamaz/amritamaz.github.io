@@ -1,5 +1,5 @@
 markdown: rdiscount
-pygments: true
+highlighter: true
 permalink: /:categories/:title
 timezone: America/New_York
-baseurl: "http://www.amritamaz.me"
+baseurl: "http://amritamaz.me"

@@ -2,7 +2,7 @@
 layout: default
 title: Projects
 ---
-<div id="pagetitle"><h2> Projects </h2>
+<div id="pagetitle"><h2> /research </h2>
 <small>
 <i>(In a somewhat chronological order)</i>
 </small>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Window Resizer – An Alfred Powerpack Extension
+title: Window Resizer - An Alfred Powerpack Extension
 date: '2012-06-13T15:46:00-04:00'
 categories: blog
 tumblr_url: http://blog.amritamaz.me/post/25038664567/window-resizer-an-alfred-powerpack-extension

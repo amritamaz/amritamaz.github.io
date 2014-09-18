@@ -1,9 +1,14 @@
 ---
 layout: default
-title: Projects
+title: amrita mazumdar
+subtitle: blog
 ---
-<div id="pagetitle"><h2> /blog </h2>
-<ul class="posts">
+<header>
+	<div id="titlediv">
+<span class="title"><a href="{{ site.baseurl }}">~</a></span><span class="subtitle">/{{page.subtitle}}</span>
+</div>
+</header>
+<ul class="posts nobullet">
 {% for post in site.categories.blog %} 
 <li class="postitem" data-section="{{ post.title }}">
 	<a class="alist" href="{{ site.url }}{{ post.url }}">
@@ -17,4 +22,3 @@ title: Projects
 </li>
 {% endfor %} 
 </ul>
-<script src="../assets/js/main.js"></script>

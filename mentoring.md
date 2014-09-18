@@ -1,10 +1,13 @@
 ---
 layout: default
-title: Personal
+title: amrita mazumdar
+subtitle: mentoring
 ---
-
-
-<div id="pagetitle"><h2> /mentoring </h2></div>
+<header>
+	<div id="titlediv">
+<span class="title"><a href="{{ site.baseurl }}">~</a></span><span class="subtitle">/{{page.subtitle}}</span>
+</div>
+</header>
 
 **tl;dr** mentors are great! want to work and learn together through mentorship? send me an email!
 

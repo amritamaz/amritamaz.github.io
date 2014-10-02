@@ -2,3 +2,5 @@ _site/*
 hidden/*
 old/*
 hex_clck/*
+.DS_Store
+*/.DS_Store

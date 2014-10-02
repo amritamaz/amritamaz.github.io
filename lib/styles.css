@@ -6,7 +6,8 @@
   padding: 0;
 }
 
-@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:300,600|Bitter);
+@import url(http://fonts.googleapis.com/css?family=Bitter|Source+Code+Pro:300,600);
+
 
 body {
   max-width: 35em;

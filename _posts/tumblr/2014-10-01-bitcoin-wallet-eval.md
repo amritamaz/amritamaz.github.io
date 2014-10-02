@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Window Resizer for Alfred - Update for Multiple Displays
+title: Bitcoin Wallets Visualized
 categories: blog
 ---
 

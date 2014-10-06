@@ -21,7 +21,7 @@ Essentially, this is a specially-configured download/build/install of gcc. So [g
 
  (See also: [gcc install prereqs](https://gcc.gnu.org/install/prerequisites.html), which I dutifully ignored, but will save you time)
 
-2 You'll need gcc-4.9 to compile the source because the production msp430-gcc is built on gcc-4.9, while my Ubuntu machine came only with gcc-4.8. Installing and switching my version of gcc took another set of steps:
+2. You'll need gcc-4.9 to compile the source because the production msp430-gcc is built on gcc-4.9, while my Ubuntu machine came only with gcc-4.8. Installing and switching my version of gcc took another set of steps:
 	- Get Ubuntu to include test toolchains in apt-get so we can install 4.9:
 
 			sudo add-apt-repository ppa:ubuntu-toolchain-r/test

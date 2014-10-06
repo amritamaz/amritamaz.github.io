@@ -21,7 +21,7 @@ Essentially, this is a specially-configured download/build/install of gcc. So [g
 
  (See also: [gcc install prereqs](https://gcc.gnu.org/install/prerequisites.html), which I dutifully ignored, but will save you time)
 
- 1 .5 You'll need gcc-4.9 to compile the source because the production msp430-gcc is built on gcc-4.9, while my Ubuntu machine came only with gcc-4.8. Installing and switching my version of gcc took another set of steps:
+2 You'll need gcc-4.9 to compile the source because the production msp430-gcc is built on gcc-4.9, while my Ubuntu machine came only with gcc-4.8. Installing and switching my version of gcc took another set of steps:
 	- Get Ubuntu to include test toolchains in apt-get so we can install 4.9:
 
 			sudo add-apt-repository ppa:ubuntu-toolchain-r/test
@@ -50,9 +50,9 @@ Essentially, this is a specially-configured download/build/install of gcc. So [g
 
 	- Now check `gcc --version` to confirm you're running the right version of gcc
 
-2. Download and un-tar msp430-gcc-source from [TI](http://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/MSPGCC/latest/index_FDS.html) . The tar command you'll need for .tar.bz2 is `tar xvjf`. This should extract into a `source` folder, with a `tools` folder nested inside. For clarity, I re-named this source folder to `msp430-gcc-source`. 
+3. Download and un-tar msp430-gcc-source from [TI](http://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/MSPGCC/latest/index_FDS.html) . The tar command you'll need for .tar.bz2 is `tar xvjf`. This should extract into a `source` folder, with a `tools` folder nested inside. For clarity, I re-named this source folder to `msp430-gcc-source`. 
 
-3. Make a new folder inside `msp430-gcc-source`, called something sufficiently confusing like `msp430-gcc-obj` because this is where the object files will be configured/built. This is the folder you are going to compile your msp430-gcc toolchain in. Because of gcc reasons, you cannot configure/compile gcc within the source folder; they say it can work but is not well tested ("we **highly** recommend that GCC be built into a separate directory from the sources which does not reside within the source tree"), and I had no success with it. 
+4. Make a new folder inside `msp430-gcc-source`, called something sufficiently confusing like `msp430-gcc-obj` because this is where the object files will be configured/built. This is the folder you are going to compile your msp430-gcc toolchain in. Because of gcc reasons, you cannot configure/compile gcc within the source folder; they say it can work but is not well tested ("we **highly** recommend that GCC be built into a separate directory from the sources which does not reside within the source tree"), and I had no success with it. 
 
  To recap, your folder structure is
 
@@ -71,14 +71,14 @@ Essentially, this is a specially-configured download/build/install of gcc. So [g
  (I got the configure instructions from [gcc's instructions](https://gcc.gnu.org/install/configure.html) and the configure parameters from [this forum post](http://e2e.ti.com/support/development_tools/compiler/f/343/p/365014/1284624.aspx))
 
 
-4. Now you can make and install from the msp430-gcc-obj directory
+5. Now you can make and install from the msp430-gcc-obj directory
 
 		$ sudo make
 		$ sudo make install
 
  Go make yourself a cup of tea. If all goes well, you should have a working msp430-elf-gcc install in /usr/local/ when you are done. 
 
-5. Add the install path (`export PATH=/usr/local/msp430-elf-gcc/bin:$PATH` if you followed these instructions precisely) to your `.bashrc` file. 
+6. Add the install path (`export PATH=/usr/local/msp430-elf-gcc/bin:$PATH` if you followed these instructions precisely) to your `.bashrc` file. 
 
 
 It's over!! 

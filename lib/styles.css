@@ -21,7 +21,6 @@ pre {
 body {
   max-width: 525px;
   margin: 75px;
-
   font-family: 'Bitter', sans-serif;
   line-height: 24px;
   font-size: 15px;
@@ -42,14 +41,6 @@ body {
 .title a:visited{
     color: #0000EE;
 }
-
-pre{
-}
-
-.post p{
-  float: none;
-}
-
 
 .subtitle{
   font-family: 'Source Code Pro', sans-serif;
@@ -74,12 +65,8 @@ header{
 p, p.offset {
   text-align: left;
   margin-bottom: 1.666em;
-  float: left;
 }
 
-.desc p{
-
-}
 
 a{
    font-family: 'Source Code Pro', sans-serif;

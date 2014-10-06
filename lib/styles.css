@@ -20,7 +20,7 @@ pre {
 body {
   max-width: 625px;
   margin: 75px;
-font-family: 'Bitter', sans-serif;
+font-family: sans-serif;
   line-height: 24px;
   font-size: 15px;
   color: #333;
@@ -68,9 +68,7 @@ p, p.offset {
 
 
 a{
-   font-family: 'Source Code Pro', sans-serif;
   text-decoration: none;
-  letter-spacing: -.25px;
 }
 
 ul.nobullet {

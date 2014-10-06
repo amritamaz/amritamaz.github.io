@@ -22,33 +22,33 @@ Essentially, this is a specially-configured download/build/install of gcc. So [g
 (See also: [gcc install prereqs](https://gcc.gnu.org/install/prerequisites.html), which I dutifully ignored, but will save you time)
 
 1 .5 You'll need gcc-4.9 to compile the source because the production msp430-gcc is built on gcc-4.9, while my Ubuntu machine came only with gcc-4.8. Installing and switching my version of gcc took another set of steps:
- - Get Ubuntu to include test toolchains in apt-get so we can install 4.9:
+	 - Get Ubuntu to include test toolchains in apt-get so we can install 4.9:
 
-		sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+			sudo add-apt-repository ppa:ubuntu-toolchain-r/test
 
- - Install the new version (gcc-4.9 in our case). I am ommitting g++, but, should you need it, just follow all mentions of gcc-x with g++-x.
+	 - Install the new version (gcc-4.9 in our case). I am ommitting g++, but, should you need it, just follow all mentions of gcc-x with g++-x.
 
-		$ sudo apt-get update
-		$ sudo apt-get install gcc-4.9
+			$ sudo apt-get update
+			$ sudo apt-get install gcc-4.9
 
- - Use `update-alternatives` to switch between the different versions. Here I'm installing 4.9 as an alternative with a priority of 60, and re-listing 4.8 with a priority of 40. The link with higher priority becomes the default.
+	 - Use `update-alternatives` to switch between the different versions. Here I'm installing 4.9 as an alternative with a priority of 60, and re-listing 4.8 with a priority of 40. The link with higher priority becomes the default.
 
-		$ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.9 60
-		$ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 40
+			$ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.9 60
+			$ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 40
 
- - To confirm our steps worked, and switch between versions if needed, we can check update-alternatives.
-		sudo update-alternatives --config gcc
-		There are 2 choices for the alternative gcc (providing /usr/bin/gcc).
+	 - To confirm our steps worked, and switch between versions if needed, we can check update-alternatives.
+			sudo update-alternatives --config gcc
+			There are 2 choices for the alternative gcc (providing /usr/bin/gcc).
 
-		  Selection    Path              Priority   Status
-		------------------------------------------------------------
-		* 0            /usr/bin/gcc-4.9   60        auto mode
-		  1            /usr/bin/gcc-4.8   40        manual mode
-		  2            /usr/bin/gcc-4.9   60        manual mode
+			  Selection    Path              Priority   Status
+			------------------------------------------------------------
+			* 0            /usr/bin/gcc-4.9   60        auto mode
+			  1            /usr/bin/gcc-4.8   40        manual mode
+			  2            /usr/bin/gcc-4.9   60        manual mode
 
-		Press enter to keep the current choice[*], or type selection number: 
+			Press enter to keep the current choice[*], or type selection number: 
 
- - Now check `gcc --version` to confirm you're running the right version of gcc
+	 - Now check `gcc --version` to confirm you're running the right version of gcc
 
 2. Download and un-tar msp430-gcc-source from [TI](http://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/MSPGCC/latest/index_FDS.html) . The tar command you'll need for .tar.bz2 is `tar xvjf`. This should extract into a `source` folder, with a `tools` folder nested inside. For clarity, I re-named this source folder to `msp430-gcc-source`. 
 

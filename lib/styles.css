@@ -15,13 +15,13 @@ pre {
 }
 
 
-@import url(fonts.googleapis.com/css?family=Bitter|Source+Code+Pro:300,600);
+@import url(//fonts.googleapis.com/css?family=Bitter|Source+Code+Pro:300,600);
 
 
 body {
   max-width: 625px;
   margin: 75px;
-  font-family: 'Bitter', sans-serif;
+  font-family: 'Bitter', serif;
   line-height: 24px;
   font-size: 15px;
   color: #333;

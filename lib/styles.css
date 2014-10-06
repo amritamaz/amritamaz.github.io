@@ -10,8 +10,8 @@
 
 
 body {
-  max-width: 35em;
-  margin: 5em;
+  max-width: 525px;
+  margin: 75px;
 
   font-family: 'Bitter', sans-serif;
   line-height: 24px;
@@ -35,7 +35,6 @@ body {
 }
 
 pre{
-    float: left;
 }
 
 .post p{

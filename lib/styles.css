@@ -21,12 +21,12 @@ pre {
 body {
   max-width: 625px;
   margin: 75px;
-  font-family: 'Bitter', serif;
+font-family: 'Bitter', sans-serif;
   line-height: 24px;
   font-size: 15px;
   color: #333;
   text-rendering: optimizeLegibility;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .title{

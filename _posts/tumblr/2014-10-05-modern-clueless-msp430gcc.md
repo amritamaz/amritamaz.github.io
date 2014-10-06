@@ -19,9 +19,9 @@ Essentially, this is a specially-configured download/build/install of gcc. So [g
 	- libncurses5-dev 
 	- gcc-4.9 (see step 1.5)
 
-(See also: [gcc install prereqs](https://gcc.gnu.org/install/prerequisites.html), which I dutifully ignored, but will save you time)
+ (See also: [gcc install prereqs](https://gcc.gnu.org/install/prerequisites.html), which I dutifully ignored, but will save you time)
 
-1 .5 You'll need gcc-4.9 to compile the source because the production msp430-gcc is built on gcc-4.9, while my Ubuntu machine came only with gcc-4.8. Installing and switching my version of gcc took another set of steps:
+ 1 .5 You'll need gcc-4.9 to compile the source because the production msp430-gcc is built on gcc-4.9, while my Ubuntu machine came only with gcc-4.8. Installing and switching my version of gcc took another set of steps:
 	 - Get Ubuntu to include test toolchains in apt-get so we can install 4.9:
 
 			sudo add-apt-repository ppa:ubuntu-toolchain-r/test
@@ -70,6 +70,7 @@ Essentially, this is a specially-configured download/build/install of gcc. So [g
 
  (I got the configure instructions from [gcc's instructions](https://gcc.gnu.org/install/configure.html) and the configure parameters from [this forum post](http://e2e.ti.com/support/development_tools/compiler/f/343/p/365014/1284624.aspx))
 
+
 4. Now you can make and install from the msp430-gcc-obj directory
 
 		$ sudo make
@@ -78,5 +79,6 @@ Essentially, this is a specially-configured download/build/install of gcc. So [g
  Go make yourself a cup of tea. If all goes well, you should have a working msp430-elf-gcc install in /usr/local/ when you are done. 
 
 5. Add the install path (`export PATH=/usr/local/msp430-elf-gcc/bin:$PATH` if you followed these instructions precisely) to your `.bashrc` file. 
+
 
 It's over!! 

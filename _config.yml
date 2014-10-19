@@ -1,5 +1,11 @@
 markdown: rdiscount
 highlighter: true
 permalink: /:categories/:title
-timezone: America/New_York
+timezone: America/Seattle
 baseurl: "http://amritamaz.me"
+
+name: Amrita Mazumdar
+author: Amrita Mazumdar
+twitter: '@amritamaz'
+
+permalink: /blog/:title.html

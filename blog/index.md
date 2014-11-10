@@ -22,3 +22,4 @@ subtitle: blog
 </li>
 {% endfor %} 
 </ul>
+<span class="footer"><a href="{{ site.baseurl }}">> go home</a></span>

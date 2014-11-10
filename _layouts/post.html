@@ -1,9 +1,15 @@
 ---
 layout: default
 ---
+<header>
+	<div id="titlediv">
+<span class="title"><a href="{{ site.baseurl }}">~</a></span><span class="subtitle">/<a href="{{ site.baseurl }}/blog/">blog</span></a>
+</div>
+</header>
+
   <div id="post">
     <div id="title"><h1><a href="{{ page.url }}">{{ page.title }}</a></h1></div>
     <div id="date">Published {{ page.date | date_to_string }}</div>
     {{content}}
   </div>
-          
+<span class="footer"><a href="{{ site.baseurl }}">> go home</a></span>

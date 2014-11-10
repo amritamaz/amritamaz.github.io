@@ -6,19 +6,26 @@
   padding: 0;
 }
 
+pre {
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+
 @import url(http://fonts.googleapis.com/css?family=Bitter|Source+Code+Pro:300,600);
 
-
 body {
-  max-width: 35em;
-  margin: 5em;
-
-  font-family: 'Bitter', sans-serif;
+  max-width: 625px;
+  margin: 75px;
+font-family: sans-serif;
   line-height: 24px;
   font-size: 15px;
   color: #333;
   text-rendering: optimizeLegibility;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .title{
@@ -34,14 +41,24 @@ body {
     color: #0000EE;
 }
 
-pre{
-    float: left;
+.footer{
+  font-family: 'Source Code Pro', sans-serif;
+  font-weight: 300;
+    display: inline;
+
 }
 
-.post p{
-  float: none;
+ol{
+  margin: 1em;
 }
 
+ul{
+  margin: 1em;
+}
+
+#date{
+  margin: 5px 0 20px 0;
+}
 
 .subtitle{
   font-family: 'Source Code Pro', sans-serif;
@@ -66,17 +83,11 @@ header{
 p, p.offset {
   text-align: left;
   margin-bottom: 1.666em;
-  float: left;
 }
 
-.desc p{
-
-}
 
 a{
-   font-family: 'Source Code Pro', sans-serif;
   text-decoration: none;
-  letter-spacing: -.25px;
 }
 
 ul.nobullet {

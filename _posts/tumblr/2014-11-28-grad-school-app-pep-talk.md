@@ -6,6 +6,8 @@ categories: blog
 
 ## (or, Zen and the Art of Condensing Your Self Worth into a Two-Page Statement and CV) <br><br>
 
+(pep talk tl;dr: grad school apps are hard, and can be stressful. but you're great, your application is great, and it's totally normal to feel second-rate. don't worry! you'll do great!)
+
 It’s grad school application season! After giving advice to a few young intrepid grad school hopefuls, the waves of nostalgia about my own experience have been hitting hard. This time last year, I was applying to graduate schools in computer science, with no knowledge of where the following year’s journey would take me (spoiler: they took me to graduate school in computer science). 
 
 Applying to grad school can feel scary and hard. You are asked to condense what are supposed to be[^1] the best 3.25 years of your life [^2] into a compelling case for why you will be an amazing graduate student and why an institution should take you on for n years to produce great academic research. For someone who already has a tough time bragging about their intellectual accomplishments, that is _terrifying_. 

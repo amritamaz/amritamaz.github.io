@@ -28,12 +28,12 @@ Here is some advice I would like to direct to past grad-school-hopeful Amrita (a
 
 Zen-like self-awareness aside, you might want some more coherent advice on improving your understanding of the CS graduate school admissions process. All these links helped me when I was applying to grad school, and I usually include some permutation of this list out when younger students ask my advice on writing applications:
 
- + Jean Yang wrote [a great set of advice posts](http://jxyzabc.blogspot.com/2008/08/cs-grad-school-part-1-deciding-to-apply.html) on applying to CS grad school, with many practical observations. 
- + Philip Guo wrote [an unbelievably comprehensive article](http://pgbovine.net/grad-school-app-tips.htm) on applying to graduate school, highly recommended.
- + Matt Welsh explained [his screening process for Ph.D applications](http://matt-welsh.blogspot.com/2009/12/how-to-get-into-grad-school.html) from when he was a professor at Harvard
- + Luis von Ahn has a [list of do’s and don’t’s](http://vonahn.blogspot.com/2009/12/advice-on-grad-school-applications.html) on the application process
- + This [PDF by Mor Harchol-Balter at CMU](http://www.cs.cmu.edu/~harchol/gradschooltalk.pdf) is a superb comprehensive overview on the CS graduate application process. I found this my sophomore year of college and it really influenced how I approached my undergrad research and application.
- + Matt Might has a [how-to article on getting into grad school](http://matt.might.net/articles/how-to-apply-and-get-in-to-graduate-school-in-science-mathematics-engineering-or-computer-science/), with some paragraphs on how he looks at PhD statement-of-purposes. 
++ Jean Yang wrote [a great set of advice posts](http://jxyzabc.blogspot.com/2008/08/cs-grad-school-part-1-deciding-to-apply.html) on applying to CS grad school, with many practical observations. 
++ Philip Guo wrote [an unbelievably comprehensive article](http://pgbovine.net/grad-school-app-tips.htm) on applying to graduate school, highly recommended.
++ Matt Welsh explained [his screening process for Ph.D applications](http://matt-welsh.blogspot.com/2009/12/how-to-get-into-grad-school.html) from when he was a professor at Harvard
++ Luis von Ahn has a [list of do’s and don’t’s](http://vonahn.blogspot.com/2009/12/advice-on-grad-school-applications.html) on the application process
++ This [PDF by Mor Harchol-Balter at CMU](http://www.cs.cmu.edu/~harchol/gradschooltalk.pdf) is a superb comprehensive overview on the CS graduate application process. I found this my sophomore year of college and it really influenced how I approached my undergrad research and application.
++ Matt Might has a [how-to article on getting into grad school](http://matt.might.net/articles/how-to-apply-and-get-in-to-graduate-school-in-science-mathematics-engineering-or-computer-science/), with some paragraphs on how he looks at PhD statement-of-purposes. 
 
 [^1]: ‘they say’ college is supposed to be the best years of your life. but ‘they’ say that about a lot of kinds of years, so I’m unsure.
 

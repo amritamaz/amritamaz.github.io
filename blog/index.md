@@ -11,7 +11,7 @@ subtitle: blog
 <ul class="posts nobullet">
 {% for post in site.categories.blog %} 
 <li class="postitem" data-section="{{ post.title }}">
-	<a class="alist" href="{{ site.url }}{{ post.url }}">
+	<a class="alist" href="{{ site.baseurl }}{{ post.url }}">
 		{{ post.title }}
 	</a> 
 		{{post.date | date: "%m-%d-%y"}}

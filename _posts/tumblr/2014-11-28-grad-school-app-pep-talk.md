@@ -1,14 +1,8 @@
----
-layout: post
-title: Grad School App Pep Talk
-categories: blog
----
-
-## or, Zen and the Art of Condensing Your Self Worth into a Two-Page Statement and CV
+## or, Zen and the Art of Condensing Your Self Worth into a Two-Page Statement and CV<br><br>
 
 It’s grad school application season! After giving some advice to a few young intrepid grad school hopefuls, the waves of nostalgia about my own experience have been hitting hard. This time last year, I was applying to graduate schools in computer science, with no knowledge of where the following year’s journey would take me (spoiler: they took me to graduate school in computer science). 
 
-Applying to grad school can feel scary and hard. You are asked to condense what are supposed to be the best 3.25 years of your life[^1][^2] into a compelling case for why you will be an amazing graduate student and why an institution should take you on for n years to produce great academic research. For someone who already has a tough time bragging about their intellectual accomplishments, that is _terrifying_. 
+Applying to grad school can feel scary and hard. You are asked to condense what are supposed to be[^1] the best 3.25 years of your life [^2] into a compelling case for why you will be an amazing graduate student and why an institution should take you on for n years to produce great academic research. For someone who already has a tough time bragging about their intellectual accomplishments, that is _terrifying_. 
 
 I found a sad journal entry from when I was tasked with this challenge, where I wax poetic about how my academic career must just be a series of lucky events and coincidences with no bearing on my intellect or potential for success. The post ends as follows (pls ignore the melodrama):
 
@@ -34,5 +28,7 @@ Zen-like self-awareness aside, you might want some more coherent advice on impro
  + Matt Might has a [how-to article on getting into grad school](http://matt.might.net/articles/how-to-apply-and-get-in-to-graduate-school-in-science-mathematics-engineering-or-computer-science/), with some paragraphs on how he looks at PhD statement-of-purposes. 
 
 [^1]: ‘they say’ college is supposed to be the best years of your life. but ‘they’ say that about a lot of kinds of years, so I’m unsure.
+
 [^2]: and if you apply to grad school during the end of your senior year of undergrad (which some people do but it is totally acceptable to have spent time in industry or gotten a masters or done anything else before applying to grad school) you only really have three years and your most recent internship experience to speak of, unless your high school years were incredibly intellectually formative.
+
 [^3]: At the time of this writing, I am 22, so ‘very far’ is figurative.

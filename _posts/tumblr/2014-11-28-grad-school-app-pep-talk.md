@@ -35,6 +35,8 @@ Zen-like self-awareness aside, you might want some more coherent advice on impro
 + This [PDF by Mor Harchol-Balter at CMU](http://www.cs.cmu.edu/~harchol/gradschooltalk.pdf) is a superb comprehensive overview on the CS graduate application process. I found this my sophomore year of college and it really influenced how I approached my undergrad research and application.
 + Matt Might has a [how-to article on getting into grad school](http://matt.might.net/articles/how-to-apply-and-get-in-to-graduate-school-in-science-mathematics-engineering-or-computer-science/), with some paragraphs on how he looks at PhD statement-of-purposes. 
 
+<hr>
+
 [^1]: ‘they say’ college is supposed to be the best years of your life. but ‘they’ say that about a lot of kinds of years, so I’m unsure.
 
 [^2]: and if you apply to grad school during the end of your senior year of undergrad (which some people do but it is totally acceptable to have spent time in industry or gotten a masters or done anything else before applying to grad school) you only really have three years and your most recent internship experience to speak of, unless your high school years were incredibly intellectually formative.

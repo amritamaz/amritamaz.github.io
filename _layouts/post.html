@@ -1,6 +1,11 @@
----
-layout: default
----
+<html>
+  <head>
+    <title>amrita mazumdar - {{post.title}} </title>
+    <link href='{{site.url}}/lib/styles.css' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:300,600' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+
 <header>
 	<div id="titlediv">
 <span class="title"><a href="{{ site.baseurl }}">~</a></span><span class="subtitle">/<a href="{{ site.baseurl }}/blog/">blog</span></a>
@@ -13,3 +18,19 @@ layout: default
     {{content}}
   </div>
 <span class="footer"><a href="{{ site.baseurl }}">> go home</a></span>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-29924178-1', 'amritamaz.me');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>
+

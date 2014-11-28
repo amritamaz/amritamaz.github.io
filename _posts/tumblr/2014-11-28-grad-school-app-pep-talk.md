@@ -37,7 +37,7 @@ Zen-like self-awareness aside, you might want some more coherent advice on impro
 
 <hr>
 
-[^1]: ‘they say’ college is supposed to be the best years of your life. but ‘they’ say that about a lot of kinds of years, so I’m unsure.
+[^1]: ‘they say’ college is supposed to be the best years of your life. but ‘they’ say that about a lot of kinds of years, so I’m skeptical.
 
 [^2]: and if you apply to grad school during the end of your senior year of undergrad (which some people do but it is totally acceptable to have spent time in industry or gotten a masters or done anything else before applying to grad school) you only really have three years and your most recent internship experience to speak of, unless your high school years were incredibly intellectually formative.
 

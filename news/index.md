@@ -1,6 +1,6 @@
 ---
 layout: default
-title: amrita mazumdar
+title: amrita mazumdar - news
 subtitle: news
 ---
 <header>

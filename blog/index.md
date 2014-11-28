@@ -1,6 +1,6 @@
 ---
 layout: default
-title: amrita mazumdar
+title: amrita mazumdar - blog
 subtitle: blog
 ---
 <header>

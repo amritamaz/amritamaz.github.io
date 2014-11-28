@@ -93,3 +93,8 @@ a{
 ul.nobullet {
   list-style-type: none;
 }
+
+.footnotes p{
+  font-size: .85em;
+  margin-bottom: none;
+}

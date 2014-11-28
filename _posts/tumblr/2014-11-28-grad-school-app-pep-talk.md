@@ -14,7 +14,7 @@ I found a sad journal entry from when I was tasked with this challenge, where I 
 
 	“I’ve been lucky in that I chose just the right sophomore research project to lead to just the right junior research project to lead to just the right college to lead to just the right research opportunity to lead to just the right major to lead to just the right set of friends to lead to just the right experiences to lead to just the right epiphanies. I just hope my luck doesn’t run out.”
 
-<br><br>
+<br>
 Navel-gazing writing style aside, hindsight screams this is classic impostor-syndrome-ing. It’s not surprising I felt crippling doubt: I was (a) writing applications to grad school (b) proof-reading my friends’ applications to similarly competitive schools (c) taking a full course load while sharing classes with PhD students (d) celebrating other friends’s glamorous new employments. I would compare myself to my well-qualified friends (whose CVs were better formatted than mine), to graduate students on the internet I didn’t know, to graduate students I did know, even to professors I wanted to work with, and just feel consumed with fear that all my work and stress would be for naught and grad school was just a dream for people more brilliant than I.
 
 It turns out I was fine, my application was great, I got into grad school, and everything was ok. But it sucks to walk around every day for a few weeks feeling like you aren’t good enough, and applying for something important and competitive is a great way for some dormant impostor syndrome to flare up and wreak some emotional havoc on your mental state. 

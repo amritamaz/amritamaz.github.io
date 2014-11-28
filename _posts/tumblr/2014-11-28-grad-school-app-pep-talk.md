@@ -1,3 +1,9 @@
+---
+layout: post
+title: Grad School App Pep Talk
+categories: blog
+---
+
 ## or, Zen and the Art of Condensing Your Self Worth into a Two-Page Statement and CV<br><br>
 
 It’s grad school application season! After giving some advice to a few young intrepid grad school hopefuls, the waves of nostalgia about my own experience have been hitting hard. This time last year, I was applying to graduate schools in computer science, with no knowledge of where the following year’s journey would take me (spoiler: they took me to graduate school in computer science). 

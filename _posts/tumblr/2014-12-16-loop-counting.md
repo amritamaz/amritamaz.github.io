@@ -18,9 +18,9 @@ I usually ignore it, because who can be bothered with compiler advice? Turns out
 
 Usually, when one is a novice programmer, they are taught `for` loops as a way to iterate over strings or arrays with this type of syntax:
 
-		        for (i = 0; i < 100; i++){
-		                /* something cool here */ 
-		        }   
+	for (i = 0; i < 100; i++){
+	 	/* something cool here */ 
+	}   
 	
 
 Teaching students to count loops up, not done, is easier because we tend to count up, not down. I think. I personally count down a lot, too, like on New Years, or when using mouthwash, but for whatever reason we teach students to count loops up!
@@ -31,12 +31,12 @@ So why is my compiler telling me to count my loops down?
 
 The reason has to do with the instruction set my embedded microcontroller is using. In MSP430 assembly, and many other MIPS-based instruction sets, executing the kind of conditional branch used in a for loop looks like:
 
-		0000489e <.L2>: 
-		    489e:       3c 40 63 00     mov     #99,    r12     ;#0x0063
-		    **48a2:       1c 91 04 00     cmp     4(r1),  r12**     ;
-		    **48a6:       f1 2f           jc      $-28            ;abs 0x488a** 
-		    48a8:       31 50 06 00     add     #6,     r1      ;      
-		    48ac:       30 41           ret       
+	0000489e <.L2>: 
+	    489e:       3c 40 63 00     mov     #99,    r12     ;#0x0063
+	    **48a2:       1c 91 04 00     cmp     4(r1),  r12**     ;
+	    **48a6:       f1 2f           jc      $-28            ;abs 0x488a** 
+	    48a8:       31 50 06 00     add     #6,     r1      ;      
+	    48ac:       30 41           ret       
 
 As the ‘extremely clear’ assembly shows, to check if we need to stay in the for loop or bounce outside of it, we need to execute a `cmp` instruction and a `jc` instruction. If you rewrite your loops to count down, instead of up, the `cmp`-`jc` pair turns into a single `jnz` (jump not zero) or `jane` (jump not equal) instruction. 
 

@@ -33,8 +33,8 @@ The reason has to do with the instruction set my embedded microcontroller is usi
 
 	0000489e <.L2>: 
 	    489e:       3c 40 63 00     mov     #99,    r12     ;#0x0063
-	    **48a2:       1c 91 04 00     cmp     4(r1),  r12**     ;
-	    **48a6:       f1 2f           jc      $-28            ;abs 0x488a** 
+	    48a2:       1c 91 04 00     cmp     4(r1),  r12     ;
+	    48a6:       f1 2f           jc      $-28            ;abs 0x488a
 	    48a8:       31 50 06 00     add     #6,     r1      ;      
 	    48ac:       30 41           ret       
 

@@ -7,6 +7,7 @@ subtitle: blog
 	<div id="titlediv">
 <span class="title"><a href="{{ site.baseurl }}">~</a></span><span class="subtitle">/{{page.subtitle}}</span>
 </div>
+<a href="http://amritamaz.me/blog/feed.xml">(rss)</a>
 </header>
 <ul class="posts nobullet">
 {% for post in site.categories.blog %} 

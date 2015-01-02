@@ -86,6 +86,10 @@ p, p.offset {
   margin-bottom: 1.666em;
 }
 
+img{
+  width:350px;
+}
+
 
 a{
   text-decoration: none;

@@ -1,5 +1,5 @@
 markdown: kramdown
-highlighter: true
+highlighter: pygments
 permalink: /:categories/:title
 timezone: America/Seattle
 baseurl: "http://amritamaz.me"

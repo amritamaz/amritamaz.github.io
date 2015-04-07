@@ -8,7 +8,7 @@ tumblr_url: http://blog.amritamaz.me/post/42203030076/understanding-box-blur
 
 ![boxblurring](http://media.tumblr.com/dc5d89b5f9066f3c16f6b08d092006c5/tumblr_inline_mhnpyxtIDn1qz4rgp.png)
 
-Image convolution for blurring should have been a simple concept to implement, but It’s been hard for me to wrap my head around how to perform convolution on a 2D (and 3-tuple) set of pixels, and how that works algorithmically, so this is a bit of a brain dump to help me sort out how it actually works.
+Image convolution for blurring should have been a simple concept to implement, but it's been hard for me to wrap my head around how to perform convolution on a 2D (and 3-tuple) set of pixels, and how that works algorithmically, so this is a bit of a brain dump to help me sort out how it actually works.
 
 # Naïve Box Blur
 

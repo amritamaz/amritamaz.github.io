@@ -6,7 +6,7 @@ categories: blog
 
 I'm getting more acquainted with the Bitcoin ecosystem, and found the [Bitcoin.org wallet info page](https://bitcoin.org/en/choose-your-wallet) to be utterly inpenetrable (hover to read? click on tooltips within hovers for more info? so weird). If you feel the same, no fear! I comprised much of the information into a handy table that deciphers a bit of this information at-a-glance (current as of 10/1/2014):
 
-![bitcoin-wallet-tabular]({{ site.baseurl }}/blog/img/bitcoin-wallet.png)
+<img src="{{ site.baseurl }}/blog/img/bitcoin-wallet.png" style="width:1000px">
 
 ## Platform support
 

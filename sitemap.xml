@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://amritamaz.me/</loc>
+  <lastmod>2014-11-28T21:38:05+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://amritamaz.me/news/</loc>
+  <lastmod>2014-11-28T21:38:05+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://amritamaz.me/blog/</loc>
+  <lastmod>2014-11-28T21:38:05+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://amritamaz.me/mentoring.html</loc>
+  <lastmod>2014-11-28T21:38:05+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://amritamaz.me/blog/grad-school-app-pep-talk/</loc>
+  <lastmod>2014-11-28T21:38:05+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://amritamaz.me/blog/bitcoin-wallet-eval/</loc>
+  <lastmod>2014-11-28T21:38:05+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://amritamaz.me/blog/modern-clueless-msp430gcc/</loc>
+  <lastmod>2014-11-28T21:38:05+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://amritamaz.me/blog/gitlog2latex-pretty-git-commit-logs-in-latex/</loc>
+  <lastmod>2014-11-28T21:38:05+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://amritamaz.me/blog/gray-code-generating/</loc>
+  <lastmod>2014-11-28T21:38:05+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://amritamaz.me/blog/understanding-box-blur/</loc>
+  <lastmod>2014-11-28T21:38:05+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://amritamaz.me/blog/processing-mac-chrome/</loc>
+  <lastmod>2014-11-28T21:38:05+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://amritamaz.me/blog/quickfix-for-phpmyadmin-in-mamp-2-1-1/</loc>
+  <lastmod>2014-11-28T21:38:05+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://amritamaz.me/blog/window-resizer-an-alfred-powerpack-extension/</loc>
+  <lastmod>2014-11-28T21:38:05+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+</urlset>

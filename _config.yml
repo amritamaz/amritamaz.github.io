@@ -1,5 +1,5 @@
-markdown: rdiscount
-highlighter: true
+markdown: kramdown
+highlighter: pygments
 permalink: /:categories/:title
 timezone: America/Seattle
 baseurl: "http://amritamaz.me"
@@ -7,3 +7,5 @@ baseurl: "http://amritamaz.me"
 name: Amrita Mazumdar
 author: Amrita Mazumdar
 twitter: '@amritamaz'
+description: Thoughts and musings by amrita mazumdar
+url: http://www.amritamaz.me/blog

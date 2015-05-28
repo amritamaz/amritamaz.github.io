@@ -1,6 +1,11 @@
+---
+layout: post
+title: Why Did I start Reading Feminism?
+categories: blog
+---
 # reading more feminism made me more productive
 
-When I started grad school, I realized everyone around me was reading books. As a voracious-reader-child, I was familiar with the concept of books, but this notion of using my few grad-school-free hours to read books was a bit foreign. I evaluated the pros and cons of using my free time for leisure reading as follows:
+When I started grad school, I realized everyone around me was reading books. As a voracious-reader-child, I was familiar with the radical concept of books, but this notion of using my few grad-school-free hours to read books was a bit foreign. I evaluated the pros and cons of using my free time for leisure reading as follows:
 
 pros: 
 - get to tell people I read books

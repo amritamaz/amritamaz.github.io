@@ -1,3 +1,11 @@
+---
+layout: post
+title: Monoculture and The Future of Hardware
+categories: blog
+---
+*NB: This article originally appeared in Model View Culture on January 20, 2015. I am 
+reproducing it on my personal blog for posterity *
+
 **What does it mean to design computers for everybody?**
 
 _Hardware is too often ignored when it comes to improving inclusivity. _

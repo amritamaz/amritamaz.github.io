@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why Did I start Reading Feminism?
+title: Why Did I Start Reading Feminism?
 categories: blog
 ---
 # reading more feminism made me more productive

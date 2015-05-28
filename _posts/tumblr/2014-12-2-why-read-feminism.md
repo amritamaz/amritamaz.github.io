@@ -8,16 +8,16 @@ categories: blog
 When I started grad school, I realized everyone around me was reading books. As a voracious-reader-child, I was familiar with the radical concept of books, but this notion of using my few grad-school-free hours to read books was a bit foreign. I evaluated the pros and cons of using my free time for leisure reading as follows:
 
 pros: 
-- get to tell people I read books
-- show my advisors and friends I am #thoughtful
-- add more books to my goodreads profile
-- have something to do when my phone dies
+	- get to tell people I read books
+	- show my advisors and friends I am #thoughtful
+	- add more books to my goodreads profile
+	- have something to do when my phone dies
 
 cons:
-- less time for binge-watching TV
-- less time for longform think-pieces on the startup/journalism controversy *du jour*
-- increased risk of paper cuts
-- slightly heavier backpack
+	- less time for binge-watching TV
+	- less time for longform think-pieces on the startup/journalism controversy *du jour*
+	- increased risk of paper cuts
+	- slightly heavier backpack
 
 A brief cost-benefit analysis later, I requested 48 books from inter-library loan.[^2] I tried not to overthink the order in which I read them, as I only requested books that would improve my mental acuity in some fashion, so any book was better than none at all. Weirdly, I found myself gravitating towards a genre I had never explored before, feminism. 
 
@@ -42,6 +42,6 @@ So, if you’re a woman (or not), if you’re in cs, in tech, in any industry, (
 	- who should read it: everyone, but also women in STEM/CS, women who call themselves ‘left-brained’, women who say they are bad at math, startup founders, venture capitalists, present and future parents, anyone who writes about or works in STEM/CS
 
 3. Talking Back by bell hooks
-	- who should read it: EVERYONE, but also women who are struggling with their identity and voice, women of color, women in academia, women in industry or professional contexts,
+	- who should read it: EVERYONE, but also women who are struggling with their identity and voice, women of color, women in academia, women in industry or professional contexts
 
 If you have recommendations of books that gave you clarity about gender issues, I’d love to hear them! 

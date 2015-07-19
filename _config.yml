@@ -2,10 +2,12 @@ markdown: kramdown
 highlighter: pygments
 permalink: /:categories/:title
 timezone: America/Seattle
-baseurl: "http://amritamaz.me"
+categories: [art,tech,notes]
+# baseurl: "http://amritamaz.net/"
 
 name: Amrita Mazumdar
 author: Amrita Mazumdar
+title: 'Amrita Mazumdar'
+email: amritamaz@gmail.com
 twitter: '@amritamaz'
-description: Thoughts and musings by amrita mazumdar
-url: http://www.amritamaz.me/blog
+description: 'Amrita Mazumdar, computer science PhD student and creative person.'

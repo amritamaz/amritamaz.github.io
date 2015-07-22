@@ -4,8 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+hi! my name is amrita mazumdar. 
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+right now i live in seattle where i do research with computers, run around, play with clothes, and drink coffee. 
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+before that, i lived in new york city and went to columbia university, where i did research with computers, cameras, and old books. i spent a summer at brown university and another at ibm vermont.
+
+before that, i spent all my summers at the jersey shore where i grew up. 
+
+i'm still figuring out what goes here. i tweet a bit: [@amritamaz](http://www.twitter.com/amritamaz)

@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Technomumbles
-permalink: /blog/
+title: Stuff
+permalink: /stuff/
 ---
 
   <ul class="post-list">
     {% for post in site.posts %}
-      {% if post.categories contains 'tech' %}
+      {% if post.categories contains 'stuff' %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 

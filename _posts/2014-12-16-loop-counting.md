@@ -8,7 +8,7 @@ spoiler: the trick is to write all loops that count down rather than up whenever
 
 I've been doing a lot of low-power embedded programming this quarter, and have even broken out of vim to use TI's Code Composer Studio[^1]. Every time I compile my code, which inevitably has a `for` loop of some sort, I get an interesting complaint: 
 
-![loop-advice]({{ site.baseurl }}/blog/img/loop.png)
+![loop-advice]({{ site.baseurl }}/img/blog/loop.png)
 
 [^1]: don't hate the player hate the firmware - firmware comes with a README for CCS and none for GCC sooo CCS it is.
 

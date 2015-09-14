@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Technomumbles
-permalink: /tech/
+permalink: /blog/
 ---
 
   <ul class="post-list">

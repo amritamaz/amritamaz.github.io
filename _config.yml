@@ -2,7 +2,7 @@ markdown: kramdown
 highlighter: pygments
 permalink: /:categories/:title
 timezone: America/Seattle
-categories: [art,tech,notes,writing,visual,technical,design,sewing,lifestyle]
+categories: [blog,notes,writing]
 # baseurl: "http://amritamaz.net/"
 
 name: Amrita Mazumdar

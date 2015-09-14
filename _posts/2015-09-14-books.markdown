@@ -8,25 +8,24 @@ categories: [notes]
 
 I read lots of books! I'm trying to read 100 books a year. Here are some of my favorites.
 
+## Fiction
+
 * The World According to Garp - John Irving
 
 * The Blind Assassin - Margaret Atwood
 
-* The Philosophy of Andy Warhol - Andy Warhol
-
-* The Secret History - Donna Tartt
-
 * 1Q84 - Haruki Murakami
 
-* Where'd You Go, Bernadette - Maria Semple
-
 * Unaccustomed Earth - Jhumpa Lahiri
-
-* Understanding Media: The Extensions of Man
-
-* On Beauty - Zadie Smith
 
 * The Brief Wondrous Life of Oscar Wao - Junot Diaz
 
 * 100 Years of Solitude - Gabriel Garcia Marquez
+
+## Non-fiction
+
+* The Philosophy of Andy Warhol - Andy Warhol
+
+* Understanding Media: The Extensions of Man - Marshall McLuhan
+
 

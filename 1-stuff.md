@@ -4,6 +4,8 @@ title: Stuff
 permalink: /stuff/
 ---
 
+stuff = {'matter of an unspecified kind', 'the intermediate stage between pulp and paper', 'any material partly formed'}
+
   <ul class="post-list">
     {% for post in site.posts %}
       {% if post.categories contains 'stuff' %}

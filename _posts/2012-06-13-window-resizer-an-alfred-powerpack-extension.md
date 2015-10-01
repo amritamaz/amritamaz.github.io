@@ -2,7 +2,7 @@
 layout: post
 title: Window Resizer - An Alfred Powerpack Extension
 date: '2012-06-13T15:46:00-04:00'
-categories: [tech]
+categories: [blog]
 ---
 [Window Resizer](http://cl.ly/1V062l0g3s3O3u2O0G2m) is an [Alfred](http://www.alfredapp.com/) extension that allows you to resize your windows.
 

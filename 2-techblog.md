@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Technomumbles
+title: Blog
 permalink: /blog/
 ---
 

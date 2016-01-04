@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Monoculture and The Future of Hardware
-categories: [stuff,writing]
+categories: [stuff]
 ---
 *NB: This article originally appeared in Model View Culture on January 20, 2015. I am 
 reproducing it on my personal blog for posterity *

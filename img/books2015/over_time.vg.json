@@ -1,0 +1,109 @@
+{
+  "width": 425,
+  "height": 100,
+  "padding": {"top": 10,"left": 75,"bottom": 35,"right": 20},
+  "data": [
+    {
+      "name": "table",
+      "url": "../../../img/books2015/finished_books.json",
+      "format": {"type": "json","parse": {"Date": "date"}},
+      "transform": [{"type": "sort","by": ["Date"]}]
+    }
+  ],
+  "signals": [
+    {
+      "name": "tooltip",
+      "init": {},
+      "streams": [
+        {"type": "rect:mouseover","expr": "datum"},
+        {"type": "rect:mouseout","expr": "{}"}
+      ]
+    }
+  ],
+  "predicates": [
+    {
+      "name": "tooltip",
+      "type": "==",
+      "operands": [{"signal": "tooltip._id"},{"arg": "id"}]
+    }
+  ],
+  "scales": [
+    {
+      "name": "xscale",
+      "type": "time",
+      "range": "width",
+      "round": true,
+      "domain": {"data": "table","field": "Date"}
+    },
+    {
+      "name": "yscale",
+      "range": "height",
+      "nice": true,
+      "domain": {"data": "table","field": "Cumulative"}
+    }
+  ],
+  "axes": [
+    {
+      "type": "y",
+      "scale": "yscale",
+      "title": "Pages Read",
+      "properties": {
+        "labels": {"font": {"value": "Karla"}},
+        "title": {"font": {"value": "Karla"}}
+      },
+      "ticks": 5,
+      "format": "s"
+    },
+    {
+      "type": "x",
+      "scale": "xscale",
+      "properties": {
+        "labels": {
+          "font": {"value": "Karla"},
+          "angle": {"value": 25},
+          "fontSize": {"value": 10},
+          "align": {"value": "left"},
+          "baseline": {"value": "middle"},
+          "dx": {"value": 3}
+        }
+      },      "tickSizeEnd": 0
+
+    }
+  ],
+  "marks": [
+    {
+      "type": "rect",
+      "from": {"data": "table"},
+      "properties": {
+        "enter": {
+          "x": {"scale": "xscale","field": "Date"},
+          "width": {"value": 110},
+          "y": {"scale": "yscale","field": "Cumulative"},
+          "y2": {"scale": "yscale","value": 0}
+        },
+        "update": {"fill": {"value": "LightSeaGreen"}},
+        "hover": {"fill": {"value": "orangered"}}
+      }
+
+    },
+    {
+      "type": "text",
+      "properties": {
+        "enter": {
+          "align": {"value": "right"},
+          "fill": {"value": "#333"},
+          "font": {"value": "Karla"}
+        },
+        "update": {
+          "x": {"scale": "xscale","signal": "tooltip.Date", "offset": 20},
+          "y": {
+            "scale": "yscale",
+            "signal": "tooltip.Cumulative",
+            "offset": -9
+          },
+          "text": {"signal": "tooltip.Cumulative"}
+        }
+      }
+    }
+  ]
+}

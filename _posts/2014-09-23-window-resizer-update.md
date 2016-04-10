@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Window Resizer for Alfred - Update for Multiple Displays
-categories: [blog]
+categories: [ ]
 ---
 
 A few years ago, I wrote a window resizer script to work with Alfred. This week, I updated it for dual use with multiple displays and my native Retina display. It now works with Preview and has been tested for backwards compatibility with Snow Leopard, Lion, and Mavericks. I also now include instructions for execution with 

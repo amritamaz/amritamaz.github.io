@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Useful Cmake Flags to Turn On and Off in Your OpenCV install 
-categories: [blog]
+categories: [ ]
 ---
 
 After spending a lot of quality time with many different versions and specially-configured installations of OpenCV, I have a lot of opinions and words of wisdom to share. If you have some priorities for what you want out of OpenCV, I have some commonly used config lines I swap in and out of my Makefile for you.

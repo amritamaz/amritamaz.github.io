@@ -1,7 +1,7 @@
 ---
 layout: post
 title: IEEE Xplore iFrame, Begone! 
-categories: [blog]
+categories: [ ]
 ---
 
 I have been (unfortunately) opening up a lot of IEEE PDFs in new tabs. IEEE Xplore, for some fun reason, likes to give you PDF access to their academic library by serving up your PDF in an *iFrame* of all things. Then, when one tries to do basic PDF activities like search or zoom in, all these actions get relegated to the IEEE banner iFrame and not your actual PDF. This is stupid, so I fixed it by writing a little bookmarket in Javascript, which was kinda new for me. Here it is, feel free to use:

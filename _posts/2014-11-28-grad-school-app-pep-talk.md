@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Grad School App Pep Talk!
-categories: [nopub]
+categories: [ ]
 ---
 
 ## (or, Zen and the Art of Condensing Your Self Worth into a Two-Page Statement and CV) <br><br>

@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Stuff
-permalink: /stuff/
+title: Writing
+permalink: /writing/
 ---
 
-stuff = {'matter of an unspecified kind', 'the intermediate stage between pulp and paper', 'any material partly formed'}
-
+<!-- stuff = {'matter of an unspecified kind', 'the intermediate stage between pulp and paper', 'any material partly formed'}
+ -->
   <ul class="post-list">
     {% for post in site.posts %}
       {% if post.categories contains 'stuff' %}

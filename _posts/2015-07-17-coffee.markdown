@@ -19,16 +19,13 @@ I currently live in Seattle, a city
 + Caffe Umbria
 + Porchlight Coffee & Records
 + Analog Coffee
-+ Cafe Solstice
-+ Cafe Allegro
 + Victrola Coffee Roasters
-+ Milstead & Co.
++ Cafe Solstice
 + Fuel Coffee
++ Cafe Allegro
++ Milstead & Co.
 + Slate Coffee Roasters
 + Tougo Coffee Co.
-+ Caffe Ladro
-+ Fremont Coffee Company
-+ Zoka Coffee
 
 Jersey Shore
 =============
@@ -36,12 +33,9 @@ Jersey Shore
 I grew up on the Jersey Shore and return often. 
 
 + Cafe Volan
-+ Turning Point
++ Coffee Corral
 + Booskerdoo
 + Rook Coffee
-+ Coffee Corral
-+ Asbury Park Roastery
-+ No Joe's Cafe
 
 New York City
 =============

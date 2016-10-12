@@ -1,14 +1,21 @@
 
-
-<header class="site-header">
-
-  <div class="wrapper">
-
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.author }}</a> 
-    {% if page.title != 'Home' %} <h1 class="site-title"> /{{ page.title }}</h1> {% endif %}
-
-
-
-  </div>
-
-</header>
+<header>
+    <div class="navwrapper">
+    <a href="{{ site.baseurl }}/" class='name'>
+        {{ site.author }}
+    </a>
+    <nav role='navigation'>
+        <ul>
+	    {% for node in site.pages %}
+	      {% if node.title and node.title != '404' and node.title != 'Home' %}
+		    {% if page.url == node.url %}
+		      <li class="active"><a href="{{ node.url | prepend: site.baseurl }}" class="active">{{node.title}}</a></li>
+		    {% else %}
+		      <li><a href="{{ node.url | prepend: site.baseurl }}">{{node.title}}</a></li>
+		    {% endif %}
+	      {% endif %}
+	    {% endfor %}
+            </ul>
+        </nav>
+        </div>
+    </header>

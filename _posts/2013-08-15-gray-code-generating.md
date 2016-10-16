@@ -2,7 +2,7 @@
 layout: post
 title: gray code generating
 date: '2013-08-15T20:00:15-04:00'
-categories: [ ]
+categories: [blog]
 ---
 i had to write a text file with a 7-bit gray code for work. rather than spending 10 minutes figuring out the gray code by hand, I decided to do spend a half hour hacking something up to do it for me.
 

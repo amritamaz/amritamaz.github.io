@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Definitive Guide&trade; to Acronyms in the EPC Gen2 UHF RFID Spec 
-categories: [ ]
+categories: [blog]
 ---
 
 I'm reading the [EPC&trade; Radio-Frequency Identity Protocols Generation-2 UHF RFID

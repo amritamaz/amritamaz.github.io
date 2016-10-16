@@ -2,7 +2,7 @@
 layout: post-note
 title:  Speaking on Panels
 date:   2015-09-14
-categories: [notes]
+categories: [blog]
 
 ---
 

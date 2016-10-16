@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Modern Clueless Hacker's Guide to Compiling MSP430-GCC from Source
-categories: [ ]
+categories: [blog]
 ---
 
 If you search for the GCC toolchain for MSP430, the Sourceforge repository is the first result, and had over 500 downloads this week. The repo also hasn't been updated since March 2013 (~1.5 years since this post's writing), and is thus an extremely outdated way to program for your MSP430 device. The solution is to download its successor, the [RedHat-led toolchain with active support](http://www.ti.com/tool/msp430-gcc-opensource) . I tried downloading the prepackaged installer to install the compiler, but that decision failed miserably (if anyone could tell me why executing the .run file seemed to do absolutely nothing, I'd be thrilled). Instead, I embarked on a tediously undocumented adventure of compiling the msp430-gcc toolchain from RedHat's source code, teaching me a lot about compiling gcc, compiling gcc with targets, and working with brand new Ubuntu VMs. 

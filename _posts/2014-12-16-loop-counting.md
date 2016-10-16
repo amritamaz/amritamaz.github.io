@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Save One Instruction Per Loop Iteration With this One Crazy Trick!
-categories: [ ]
+categories: [blog]
 ---
 
 spoiler: the trick is to write all loops that count down rather than up whenever possible.

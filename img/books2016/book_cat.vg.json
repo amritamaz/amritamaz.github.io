@@ -1,0 +1,203 @@
+{
+  "width": 400,
+  "height": 225,
+  "padding": {"top": 10,"left": 80,"bottom": 30,"right": 100},
+  "data": [
+    {
+      "name": "table",
+      "values": [
+        {
+          "category": "Fiction",
+          "genre": "Contemporary",
+          "value": 26
+        },
+        {
+          "category": "Fiction",
+          "genre": "Mystery & Suspense",
+          "value": 25
+        },
+        {
+          "category": "Non-Fiction",
+          "genre": "Memoir",
+          "value": 16
+        },
+        {
+          "category": "Fiction",
+          "genre": "Diaspora",
+          "value": 13
+        },
+        {
+          "category": "Non-Fiction",
+          "genre": "Productivity",
+          "value": 9
+        },
+        {
+          "category": "Non-Fiction",
+          "genre": "Computing & Tech",
+          "value": 5
+        },
+        {
+          "category": "Fiction",
+          "genre": "Historical",
+          "value": 3
+        },
+        {
+          "category": "Non-Fiction",
+          "genre": "Design",
+          "value": 3
+        },
+        {
+          "category": "Fiction",
+          "genre": "Sci-fi & Fantasy",
+          "value": 2
+        },
+        {
+          "category": "Fiction",
+          "genre": "Stories",
+          "value": 2
+        },
+        {
+          "category": "Fiction",
+          "genre": "Anthology",
+          "value": 1
+        },
+        {"category": "Fiction","genre": "Play","value": 1},
+        {
+          "category": "Non-Fiction",
+          "genre": "Biography",
+          "value": 1
+        },
+        {
+          "category": "Non-Fiction",
+          "genre": "Feminism",
+          "value": 1
+        },
+        {
+          "category": "Non-Fiction",
+          "genre": "Sociology",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "name": "tooltip",
+      "init": {},
+      "streams": [
+        {"type": "rect:mouseover","expr": "datum"},
+        {"type": "rect:mouseout","expr": "{}"}
+      ]
+    }
+  ],
+  "predicates": [
+    {
+      "name": "tooltip",
+      "type": "==",
+      "operands": [{"signal": "tooltip._id"},{"arg": "id"}]
+    }
+  ],
+  "scales": [
+    {
+      "name": "cat",
+      "type": "ordinal",
+      "domain": {"data": "table","field": "category"},
+      "range": "height",
+      "padding": 0.025
+    },
+    {
+      "name": "val",
+      "type": "linear",
+      "domain": {"data": "table","field": "value"},
+      "range": "width",
+      "round": true,
+      "nice": true
+    }
+  ],
+  "axes": [
+    {
+      "type": "y",
+      "scale": "cat",
+      "tickSize": 0,
+      "tickPadding": 8,
+      "properties": {
+        "labels": {"font": {"value": "Karla"}},
+        "title": {"font": {"value": "Karla"}}
+      }
+    }
+  ],
+  "marks": [
+    {
+      "type": "group",
+      "from": {
+        "data": "table",
+        "transform": [{"type": "facet","groupby": ["category"]}]
+      },
+      "properties": {
+        "enter": {
+          "y": {"scale": "cat","field": "key"},
+          "height": {"scale": "cat","band": true}
+        }
+      },
+      "scales": [
+        {
+          "name": "pos",
+          "type": "ordinal",
+          "range": "height",
+          "domain": {"field": "genre"}
+        }
+      ],
+      "marks": [
+        {
+          "name": "bars",
+          "type": "rect",
+          "properties": {
+            "enter": {
+              "y": {"scale": "pos","field": "genre"},
+              "height": {"scale": "pos","band": true, "offset": -2 },
+              "x": {"scale": "val","field": "value"},
+              "x2": {"scale": "val","value": 0},
+              "fill": {"value": "lightseagreen"}
+            },
+            "update": {"fill": {"value": "lightseagreen"}},
+            "hover": {"fill": {"value": "orangered"}}
+          }
+        },
+        {
+          "type": "text",
+          "from": {"mark": "bars"},
+          "properties": {
+            "enter": {
+              "x": {"field": "x2","offset": -5},
+              "y": {"field": "y"},
+              "dy": {"field": "height","mult": 0.5},
+              "fill": {"value": "white"},
+              "align": {"value": "right"},
+              "baseline": {"value": "middle"},
+              "text": {"field": "datum.value"},
+              "font": {"value": "Karla"},
+              "fontSize": {"value": 12},
+              "fontWeight": {"value": "bold"}
+            }
+          }
+        },
+        {
+          "type": "text",
+          "from": {"mark": "bars"},
+          "properties": {
+            "enter": {
+              "dy": {"field": "height","mult": 0.5},
+              "align": {"value": "left"},
+              "baseline": {"value": "middle"},
+              "x": {"field": "x2","offset": 5},
+              "y": {"field": "y"},
+              "text": {"field": "datum.genre","signal": "tooltip"},
+              "fill": {"value": "black"},
+              "font": {"value": "Karla"}
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

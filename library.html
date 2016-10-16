@@ -1,0 +1,64 @@
+---
+layout: library
+title: library
+permalink: /library/
+---
+
+{% assign books = site.data.books %}
+
+
+<section class="lede">
+<ul >
+  {% for post in site.posts %}
+    {% if post.categories contains 'books' %}
+    <li>
+      <h2>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<h2>Favorites</h2>
+</section>
+
+<section>
+
+{% for book in books.library %}
+  <a href="{{ book.url }}" target="_blank">
+    <div class="imgcontainer">
+      <img src="{{baseurl}}/{{ book.img }}">
+    </div>
+    <b class="label">{{ book.title }}</b>
+    <em class="detail">{{ book.author }}</em>
+  </a>
+{% endfor %}
+
+
+</section>
+<!-- 
+## Fiction
+
+* The Blind Assassin - Margaret Atwood
+
+* Giovanni's Room - James Baldwin
+
+* The Brief Wondrous Life of Oscar Wao - Junot Diaz
+
+* The World According to Garp - John Irving
+
+* Unaccustomed Earth - Jhumpa Lahiri
+
+* 100 Years of Solitude - Gabriel Garcia Marquez
+
+* 1Q84 - Haruki Murakami
+
+## Non-fiction
+
+* Understanding Media: The Extensions of Man - Marshall McLuhan
+
+* The Philosophy of Andy Warhol - Andy Warhol
+
+* Women in Clothes - Sheila Heti, Heidi Julavits, Leanne Shapton
+ -->

@@ -106,7 +106,29 @@ a#res_link {
     header .navwrapper{ text-align: center; }
 }
 
+/* blog */
+
+ul.tablelist, ul.tablelist li { list-style: none; margin: 0; padding: 0; line-height: 1.4;}
+ul.tablelist li { border-bottom: 1px solid rgba(0,0,0,0.1); font-size: 90%; }
+ul.tablelist li:last-child { border-bottom: none; }
+ul.tablelist li a { border-bottom: 0; text-decoration: none; display: block; padding: 0.5rem 0 0.6rem; }
+ul.tablelist li a:hover b.label { color: crimson; }
+
 /* library */
+
+body.library section a.bookpostlink{
+    font-size:1rem;
+    color: crimson;
+}
+
+body.library section a.bookpostlink:hover{
+    font-size:1rem;
+    color: black;
+}
+
+#library_header{
+    width:100%;
+}
 
 body.library section:not(.footersection):not(.lede) {
     display: -webkit-box;

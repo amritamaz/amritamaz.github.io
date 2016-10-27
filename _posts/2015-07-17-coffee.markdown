@@ -1,5 +1,5 @@
 ---
-layout: post-note
+layout: post
 title:  Coffee
 date:   2016-04-10 16:46:49
 categories: [blog]

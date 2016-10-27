@@ -1,5 +1,5 @@
 ---
-layout: post-note
+layout: post
 title:  Speaking on Panels
 date:   2015-09-14
 categories: [blog]

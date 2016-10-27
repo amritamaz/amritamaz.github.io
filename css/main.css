@@ -114,6 +114,32 @@ ul.tablelist li:last-child { border-bottom: none; }
 ul.tablelist li a { border-bottom: 0; text-decoration: none; display: block; padding: 0.5rem 0 0.6rem; }
 ul.tablelist li a:hover b.label { color: crimson; }
 
+aside { border-bottom: 1px solid rgba(0,0,0,0.1); }
+aside h2 { margin-top: 2em; }
+
+.post-title{
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    font-size: 3rem;
+
+}
+.post-title a {
+    text-decoration: none;
+    color: #000;
+}
+
+.post-title a:hover {
+    text-decoration: none;
+    color: crimson;
+}
+
+p.post-meta {
+    line-height: 100%;
+    color: gray;
+    font-size: .85rem;
+}
+
+
 /* library */
 
 body.library section a.bookpostlink{
@@ -157,10 +183,10 @@ body.library section a {
     text-align: center;
     text-decoration: none;
     border-bottom: none;
-    color: #333;
+    color: #222;
 }
 
-b.label { display: block; font-weight: normal; color: #333; }
+b.label { display: block; font-weight: normal; color: #222; }
 em.detail { font-style: normal; font-size: 12px; color: #bbb; }
 
 body.library section a:hover { color: crimson; }

@@ -10,7 +10,7 @@ body {
     margin: 0 auto;
     padding: 0;
     font-family: 'Karla', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 145%;
 }
 
@@ -28,10 +28,26 @@ section.text, article {
     padding: 1rem;
 }
 
+pre {
+    overflow: auto;
+    width: 92%;
+    margin: 2rem 0;
+    padding: 1rem 0.8rem 1rem 1.2rem;
+    border: 1px solid crimson;
+    border-left: .5rem solid crimson;
+
+    }
+
+code {
+        font-family: 'Inconsolata';
+
+}
+
+
 /* layout */
 
 
-header { padding: 1rem; border-bottom: 1px solid rgba(0,0,0,0.1); margin-bottom: 1rem; font-size: 80%; }
+header { padding: 1rem; border-bottom: 1px solid rgba(0,0,0,0.1); margin-bottom: 1rem; font-size: 90%; }
 header h1 { font-size: 1em; font-weight: 400; color: #222; margin: 0; }
 header nav ul {  list-style: none; margin: 0 auto; padding: 0; display: inline-block; }
 header nav ul li { display: inline-block; margin-right: 1.5rem; padding-bottom: 0.5rem; }
@@ -68,7 +84,7 @@ p a:hover { border-bottom-color: crimson; }
 
 a.name{ 
     color: black; 
-    font-size: 150%; 
+    font-size: 175%; 
     font-weight: 900;
     text-transform: lowercase;
   }
@@ -83,7 +99,7 @@ p.intro {
 
 p.intro_aside {
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     margin-top: 10rem;
     font-family: Inconsolata,monospace;
@@ -121,6 +137,7 @@ aside h2 { margin-top: 2em; }
     font-family: 'Playfair Display', Georgia, serif;
     font-weight: 700;
     font-size: 3rem;
+    line-height: 100%;
 
 }
 .post-title a {
@@ -137,14 +154,23 @@ p.post-meta {
     line-height: 100%;
     color: gray;
     font-size: .85rem;
+    font-family: 'Inconsolata', monospace;
 }
 
 
 /* library */
 
+body.library{
+        text-align: center;
+}
+
 body.library section a.bookpostlink{
     font-size:1rem;
     color: crimson;
+}
+
+body.library h2{
+    font-family: 'Playfair Display', Georgia, serif;
 }
 
 body.library section a.bookpostlink:hover{
@@ -154,6 +180,7 @@ body.library section a.bookpostlink:hover{
 
 #library_header{
     width:100%;
+    padding: 1rem;
 }
 
 body.library section:not(.footersection):not(.lede) {
@@ -178,7 +205,7 @@ body.library section.lede {
 body.library section a {
     width: 50%;
     font-size: 12px;
-    line-height: 18px;
+    line-height: 16px;
     margin-top: 2rem;
     text-align: center;
     text-decoration: none;

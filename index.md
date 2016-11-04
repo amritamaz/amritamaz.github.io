@@ -6,9 +6,7 @@ subtitle: hello
 ---
 
 <p class="intro-img"> <br><br><br><br><br><br><br><br>
-<!-- <img src="http://www.frankchimero.com/img/about/fcani.gif">
-<img src="http://homes.cs.washington.edu/~amrita/assets/img/amz.jpg">
- --></p>
+</p>
 
 <p class="intro">computer architect, writer, coffee drinker, nap taker.</p>
 

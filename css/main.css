@@ -115,11 +115,11 @@ a#res_link {
   border-bottom: 1px solid;
 }
 
+    header .navwrapper{ text-align: center; }
 
 /* media queries */
 @media (min-width: 500px) {
     header { margin-bottom: 0; padding: 2rem; border-bottom: none; }
-    header .navwrapper{ text-align: center; }
 }
 
 /* blog */

@@ -1,103 +1,3169 @@
-name: Amrita Mazumdar
-
-library:
-    -
-        title: The Blind Assassin
-        author: Margaret Atwood
-        url: https://www.amazon.com/Blind-Assassin-Novel-Margaret-Atwood/dp/0385720955/
-        img: img/library/atwood.jpg
-
-    -
-        title: Giovanni's Room
-        author: James Baldwin
-        url: https://www.amazon.com/Giovannis-Room-James-Baldwin/dp/0345806565/
-        img: img/library/baldwin.jpg
-
-    - 
-        title: Stories of Your Life and Others
-        author: Ted Chiang
-        url: https://www.amazon.com/Stories-Your-Life-Others-Chiang/dp/1101972122
-        img: img/library/chiang.jpg
-
-    -
-        title: The Brief Wondrous Life of Oscar Wao
-        author: Junot Diaz
-        url: https://www.amazon.com/Brief-Wondrous-Life-Oscar-Wao/dp/1594483299/
-        img: img/library/diaz.jpg
-
-    -
-        title: Rebecca
-        author: Daphne du Maurier
-        url: https://www.amazon.com/Rebecca-Daphne-Du-Maurier/dp/0380730405
-        img: img/library/dumaurier.jpg
-
-    -
-        title: Those Who Leave and Those Who Stay
-        author: Elena Ferrante
-        url: https://www.amazon.com/Argonauts-Maggie-Nelson/dp/1555977359
-        img: img/library/ferrante.jpg
-
-    -
-        title: How Should a Person Be?
-        author: Sheila Heti
-        url: https://www.amazon.com/dp/B0071VUO7U/
-        img: img/library/heti.jpg
-
-    -
-        title: The World According to Garp
-        author: John Irving
-        url: https://www.amazon.com/World-According-Garp-John-Irving/dp/034536676X
-        img: img/library/irving.jpg
-
-    -
-        title: Unaccustomed Earth
-        author: Jhumpa Lahiri
-        url: https://www.amazon.com/Unaccustomed-Earth-Jhumpa-Lahiri-ebook/dp/B0011UGLK6/
-        img: img/library/lahiri.jpg
-
-    -         
-        title: The Complete Stories
-        author: Clarice Lispector
-        url: https://www.amazon.com/Complete-Stories-Clarice-Lispector/dp/0811219631/
-        img: img/library/lispector.jpg
-
-    -
-        title: 100 Years of Solitude
-        author: Gabriel Garcia Marquez
-        url: https://www.amazon.com/Hundred-Solitude-Harper-Perennial-Classics/dp/0060883286/
-        img: img/library/marquez.jpg
-
-    -
-        title: 'Understanding Media: The Extensions of Man'
-        author: Marshall McLuhan
-        url: https://www.amazon.com/Understanding-Media-Extensions-Marshall-McLuhan/dp/0262631598
-        img: img/library/mcluhan.jpg
-
-    -
-        title: 1Q84
-        author: Haruki Murakami
-        url: https://www.amazon.com/dp/B004LROUW2
-        img: img/library/murakami.png
-
-    -
-        title: The Argonauts
-        author: Maggie Nelson
-        url: https://www.amazon.com/Argonauts-Maggie-Nelson/dp/1555977359
-        img: img/library/nelson.jpg
-
-    -
-        title: The Diary of Anaïs Nin
-        author: Anaïs Nin
-        url: https://www.amazon.com/Diary-Anais-Nin-Complete-Volumes/dp/0156260298/
-        img: img/library/nin.jpg
-
-    - 
-        title: Mr. Penumbra's 24-Hour Bookstore
-        author: Robin Sloan
-        url: https://www.amazon.com/Mr-Penumbras-24-Hour-Bookstore-Novel/dp/1250037751
-        img: img/library/sloan.jpg
-    -
-        title: The Philosophy of Andy Warhol
-        author: Andy Warhol
-        url: https://www.amazon.com/Philosophy-Andy-Warhol-Back-Again/dp/0156717204/
-        img: img/library/warhol.jpg
+read:
+-
+    Title: Invisible
+    Author: Paul Auster
+    Date: 1/7/2016
+    Pages: 320
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 320
+    Women: FALSE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: 'Monster Loyalty'
+    Author: Jackie Huga
+    Date: 1/9/2016
+    Pages: 224
+    Difficulty: 1
+    Rating: 3
+    Cumulative: 544
+    Women: TRUE
+    PoC: FALSE
+    Fiction: FALSE
+    nonfiction: TRUE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: FALSE
+-
+    Title: Look at Me
+    Author: Jennifer Egan
+    Date: 1/10/2016
+    Pages: 544
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 1088
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Ready Player One
+    Author: Ernest Cline
+    Date: 1/14/2016
+    Pages: 372
+    Difficulty: 2
+    Rating: 3
+    Cumulative: 1460
+    Women: FALSE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: TRUE
+    mystery: FALSE
+    4star: FALSE
+-
+    Title: Three Bedrooms in Manhattan
+    Author: Georges Simenon
+    Date: 1/15/2016
+    Pages: 176
+    Difficulty: 2
+    Rating: 4
+    Cumulative: 1636
+    Women: FALSE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Men Explain Things to Me
+    Author: Rebecca Solnit
+    Date: 1/18/2016
+    Pages: 130
+    Difficulty: 3
+    Rating: 5
+    Cumulative: 1766
+    Women: TRUE
+    PoC: FALSE
+    Fiction: FALSE
+    nonfiction: TRUE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Dear Life
+    Author: Alice Munro
+    Date: 1/21/2016
+    Pages: 336
+    Difficulty: 2
+    Rating: 4
+    Cumulative: 2102
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: The Book of Unknown Americans
+    Author: Cristina Henriquez
+    Date: 1/22/2016
+    Pages: 286
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 2388
+    Women: TRUE
+    PoC: TRUE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Your Heart is a Muscle the Size of a Fist
+    Author: Sunil Yapa
+    Date: 1/28/2016
+    Pages: 320
+    Difficulty: 2
+    Rating: 3
+    Cumulative: 2708
+    Women: FALSE
+    PoC: TRUE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: FALSE
+-
+    Title: The Girl in the Road
+    Author: Monica Byrne
+    Date: 1/30/2016
+    Pages: 336
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 3044
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: TRUE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Missoula; Rape and the Justice System in a College Town
+    Author: Jon Krakauer
+    Date: 1/30/2016
+    Pages: 367
+    Difficulty: 2
+    Rating: 4
+    Cumulative: 3411
+    Women: FALSE
+    PoC: FALSE
+    Fiction: FALSE
+    nonfiction: TRUE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Dept. of Speculation
+    Author: Jenny Offill
+    Date: 1/30/2016
+    Pages: 182
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 3593
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: The Vacationers
+    Author: Emma Straub
+    Date: 2/1/2016
+    Pages: 292
+    Difficulty: 1
+    Rating: 3
+    Cumulative: 3885
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: FALSE
+-
+    Title: By Blood
+    Author: Ellen Ullman
+    Date: 2/9/2016
+    Pages: 378
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 4263
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: The Last Illusion
+    Author: Porochista Khakpour
+    Date: 2/14/2016
+    Pages: 336
+    Difficulty: 2
+    Rating: 4
+    Cumulative: 4599
+    Women: TRUE
+    PoC: TRUE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: TRUE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Summerlong
+    Author: Dean Bakopoulos
+    Date: 2/18/2016
+    Pages: 352
+    Difficulty: 1
+    Rating: 3
+    Cumulative: 4951
+    Women: FALSE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: FALSE
+-
+    Title: Luckiest Girl Alive
+    Author: Jessica Knoll
+    Date: 2/20/2016
+    Pages: 352
+    Difficulty: 2
+    Rating: 3
+    Cumulative: 5303
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: FALSE
+-
+    Title: In Other Words
+    Author: Jhumpa Lahiri
+    Date: 2/22/2016
+    Pages: 233
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 5536
+    Women: TRUE
+    PoC: TRUE
+    Fiction: FALSE
+    nonfiction: TRUE
+    Poetry: FALSE
+    Immigrant: TRUE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: "The Cuckoo's Calling"
+    Author: Robert Galbraith
+    Date: 3/1/2016
+    Pages: 455
+    Difficulty: 2
+    Rating: 4
+    Cumulative: 5991
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: TRUE
+    4star: TRUE
+-
+    Title: The Silkworm
+    Author: Robert Galbraith
+    Date: 3/3/2016
+    Pages: 455
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 6446
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: TRUE
+    4star: TRUE
+-
+    Title: Pretty Girls
+    Author: Karin Slaughter
+    Date: 3/6/2016
+    Pages: 688
+    Difficulty: 1
+    Rating: 2
+    Cumulative: 7134
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: TRUE
+    4star: FALSE
+-
+    Title: Data, A Love Story
+    Author: Amy Webb
+    Date: 3/6/2016
+    Pages: 296
+    Difficulty: 2
+    Rating: 2
+    Cumulative: 7430
+    Women: TRUE
+    PoC: FALSE
+    Fiction: FALSE
+    nonfiction: TRUE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: FALSE
+-
+    Title: Drown
+    Author: Junot Diaz
+    Date: 3/10/2016
+    Pages: 208
+    Difficulty: 2
+    Rating: 4
+    Cumulative: 7638
+    Women: FALSE
+    PoC: TRUE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: TRUE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: The Argonauts
+    Author: Maggie Nelson
+    Date: 3/12/2016
+    Pages: 143
+    Difficulty: 1
+    Rating: 5
+    Cumulative: 7781
+    Women: TRUE
+    PoC: FALSE
+    Fiction: FALSE
+    nonfiction: TRUE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: TRUE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: The Hottest Dishes of the Tartar Cuisine
+    Author: Alina Bronsky
+    Date: 3/14/2016
+    Pages: 262
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 8043
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Memoirs of a Porcupine
+    Author: Alain Mabanckou
+    Date: 3/17/2016
+    Pages: 160
+    Difficulty: 2
+    Rating: 4
+    Cumulative: 8203
+    Women: FALSE
+    PoC: TRUE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: The Redbreast
+    Author: Jo Nesbo
+    Date: 3/20/2016
+    Pages: 519
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 8722
+    Women: FALSE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: The Knockoff
+    Author: Lucy Sykes, Jo Piazza
+    Date: 3/21/2016
+    Pages: 352
+    Difficulty: 1
+    Rating: 3
+    Cumulative: 9074
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: FALSE
+-
+    Title: "Giovanni's Room"
+    Author: James Baldwin
+    Date: 3/22/2016
+    Pages: 159
+    Difficulty: 2
+    Rating: 5
+    Cumulative: 9233
+    Women: FALSE
+    PoC: TRUE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Dark Places
+    Author: Gillian Flynn
+    Date: 3/23/2016
+    Pages: 349
+    Difficulty: 1
+    Rating: 3
+    Cumulative: 9582
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: TRUE
+    4star: FALSE
+-
+    Title: Dietland
+    Author: Sarai Walker
+    Date: 3/24/2016
+    Pages: 320
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 9902
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: TRUE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: The Snowman
+    Author: Jo Nesbo
+    Date: 3/26/2016
+    Pages: 383
+    Difficulty: 1
+    Rating: 3
+    Cumulative: 10285
+    Women: FALSE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: TRUE
+    4star: FALSE
+-
+    Title: The Wind-Up Bird Chronicle
+    Author: Haruki Murakami
+    Date: 3/29/2016
+    Pages: 607
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 10892
+    Women: FALSE
+    PoC: TRUE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: "Citizen: An American Lyric"
+    Author: Claudia Rankine
+    Date: 4/2/2016
+    Pages: 169
+    Difficulty: 2
+    Rating: 5
+    Cumulative: 11061
+    Women: TRUE
+    PoC: TRUE
+    Fiction: FALSE
+    nonfiction: FALSE
+    Poetry: TRUE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: FALSE
+    Book: TRUE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Everybody Rise
+    Author: Stephanie Clifford
+    Date: 4/2/2016
+    Pages: 363
+    Difficulty: 1
+    Rating: 3
+    Cumulative: 11424
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: FALSE
+-
+    Title: Pattern Recognition
+    Author: William Gibson
+    Date: 4/3/2016
+    Pages: 367
+    Difficulty: 2
+    Rating: 4
+    Cumulative: 11791
+    Women: FALSE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: TRUE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: The Sellout
+    Author: Paul Beatty
+    Date: 4/5/2016
+    Pages: 304
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 12095
+    Women: FALSE
+    PoC: TRUE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Juliet Takes a Breath
+    Author: Gabby Rivera
+    Date: 4/5/2016
+    Pages: 193
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 12288
+    Women: TRUE
+    PoC: TRUE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: "Billy Lynn's Long Halftime Walk"
+    Author: Ben Fountain
+    Date: 4/9/2016
+    Pages: 307
+    Difficulty: 2
+    Rating: 4
+    Cumulative: 12595
+    Women: FALSE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Big Magic
+    Author: Elizabeth Gilbert
+    Date: 4/10/2016
+    Pages: 288
+    Difficulty: 1
+    Rating: 5
+    Cumulative: 12883
+    Women: TRUE
+    PoC: FALSE
+    Fiction: FALSE
+    nonfiction: TRUE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Women in Clothes
+    Author: Sheila Heti
+    Date: 4/10/2016
+    Pages: 528
+    Difficulty: 2
+    Rating: 5
+    Cumulative: 13411
+    Women: TRUE
+    PoC: TRUE
+    Fiction: FALSE
+    nonfiction: TRUE
+    Poetry: FALSE
+    Immigrant: TRUE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Career of Evil
+    Author: Robert Galbraith
+    Date: 4/11/2016
+    Pages: 492
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 13903
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: TRUE
+    4star: TRUE
+-
+    Title: Love, Loss, and What We Ate
+    Author: Padma Lakshmi
+    Date: 4/12/2016
+    Pages: 336
+    Difficulty: 1
+    Rating: 3
+    Cumulative: 14239
+    Women: TRUE
+    PoC: TRUE
+    Fiction: FALSE
+    nonfiction: TRUE
+    Poetry: FALSE
+    Immigrant: TRUE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: FALSE
+-
+    Title: Edinburgh
+    Author: Alexander Chee
+    Date: 4/21/2016
+    Pages: 224
+    Difficulty: 2
+    Rating: 4
+    Cumulative: 14463
+    Women: FALSE
+    PoC: TRUE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: TRUE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Fates and Furies
+    Author: Lauren Groff
+    Date: 4/22/2016
+    Pages: 390
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 14853
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: You Too Can Have a Body Like Mine
+    Author: Alexandra Kleeman
+    Date: 4/23/2016
+    Pages: 304
+    Difficulty: 2
+    Rating: 4
+    Cumulative: 15157
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: No One Belongs Here More Than You
+    Author: Miranda July
+    Date: 5/10/2016
+    Pages: 205
+    Difficulty: 2
+    Rating: 4
+    Cumulative: 15362
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: F is for Fugitive
+    Author: Sue Grafton
+    Date: 5/13/2016
+    Pages: 320
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 15682
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: TRUE
+    4star: TRUE
+-
+    Title: The Sense of an Ending
+    Author: Julian Barnes
+    Date: 5/16/2016
+    Pages: 150
+    Difficulty: 1
+    Rating: 3
+    Cumulative: 15832
+    Women: FALSE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: FALSE
+-
+    Title: Boy, Snow, Bird
+    Author: Helen Oyeyemi
+    Date: 5/20/2016
+    Pages: 308
+    Difficulty: 1
+    Rating: 3
+    Cumulative: 16140
+    Women: TRUE
+    PoC: TRUE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: FALSE
+-
+    Title: Generation Loss
+    Author: Elizabeth Hand
+    Date: 5/22/2016
+    Pages: 265
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 16405
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: TRUE
+    4star: TRUE
+-
+    Title: Ways to Disappear
+    Author: Idra Novey
+    Date: 5/24/2016
+    Pages: 258
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 16663
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: I Take You
+    Author: Eliza Kennedy
+    Date: 5/26/2016
+    Pages: 320
+    Difficulty: 1
+    Rating: 2
+    Cumulative: 16983
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: FALSE
+-
+    Title: A Little Life
+    Author: Hanya Yanagihara
+    Date: 6/14/2016
+    Pages: 720
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 17703
+    Women: TRUE
+    PoC: TRUE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: E is for Evidence
+    Author: Sue Grafton
+    Date: 6/14/2016
+    Pages: 320
+    Difficulty: 1
+    Rating: 3
+    Cumulative: 18023
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: TRUE
+    4star: FALSE
+-
+    Title: H is for Homicide
+    Author: Sue Grafton
+    Date: 6/18/2016
+    Pages: 305
+    Difficulty: 1
+    Rating: 3
+    Cumulative: 18328
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: TRUE
+    4star: FALSE
+-
+    Title: The First Bad Man
+    Author: Miranda July
+    Date: 6/20/2016
+    Pages: 288
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 18616
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: J is for Judgment
+    Author: Sue Grafton
+    Date: 6/23/2016
+    Pages: 360
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 18976
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: TRUE
+    4star: TRUE
+-
+    Title: Available Dark
+    Author: Elizabeth Hand
+    Date: 6/24/2016
+    Pages: 246
+    Difficulty: 1
+    Rating: 3
+    Cumulative: 19222
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: TRUE
+    4star: FALSE
+-
+    Title: Dark Debts
+    Author: Karen Hall
+    Date: 6/28/2016
+    Pages: 405
+    Difficulty: 1
+    Rating: 2
+    Cumulative: 19627
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: TRUE
+    4star: FALSE
+-
+    Title: I is for Innocent
+    Author: Sue Grafton
+    Date: 6/29/2016
+    Pages: 352
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 19979
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: TRUE
+    4star: TRUE
+-
+    Title: What is Not Yours is Not Yours
+    Author: Helen Oyeyemi
+    Date: 7/2/2016
+    Pages: 325
+    Difficulty: 2
+    Rating: 4
+    Cumulative: 20304
+    Women: TRUE
+    PoC: TRUE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: TRUE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Patternmaster
+    Author: Octavia Butler
+    Date: 7/3/2016
+    Pages: 208
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 20512
+    Women: TRUE
+    PoC: TRUE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: TRUE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: G is for Gumshoe
+    Author: Sue Grafton
+    Date: 7/5/2016
+    Pages: 261
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 20773
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: TRUE
+    4star: TRUE
+-
+    Title: Laura
+    Author: Vera Caspary
+    Date: 7/6/2016
+    Pages: 200
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 20973
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Siddhartha
+    Author: Herman Hesse
+    Date: 7/6/2016
+    Pages: 160
+    Difficulty: 1
+    Rating: 2
+    Cumulative: 21133
+    Women: FALSE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: FALSE
+-
+    Title: The Assistants
+    Author: Camille Perri
+    Date: 7/11/2016
+    Pages: 288
+    Difficulty: 1
+    Rating: 3
+    Cumulative: 21421
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: FALSE
+-
+    Title: Dear Jenny, We Are All Find
+    Author: Jenny Zhang
+    Date: 7/14/2016
+    Pages: 103
+    Difficulty: 2
+    Rating: 4
+    Cumulative: 21524
+    Women: TRUE
+    PoC: TRUE
+    Fiction: FALSE
+    nonfiction: FALSE
+    Poetry: TRUE
+    Immigrant: TRUE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Hard Light
+    Author: Elizabeth Hand
+    Date: 7/19/2016
+    Pages: 368
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 21892
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: TRUE
+    4star: TRUE
+-
+    Title: K is for Killer
+    Author: Sue Grafton
+    Date: 7/21/2016
+    Pages: 292
+    Difficulty: 1
+    Rating: 3
+    Cumulative: 22184
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: TRUE
+    4star: FALSE
+-
+    Title: L is for Lawless
+    Author: Sue Grafton
+    Date: 7/23/2016
+    Pages: 336
+    Difficulty: 1
+    Rating: 3
+    Cumulative: 22520
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: TRUE
+    4star: FALSE
+-
+    Title: "I was Told There'd Be Cake"
+    Author: Sloane Crosley
+    Date: 7/25/2016
+    Pages: 230
+    Difficulty: 1
+    Rating: 2
+    Cumulative: 22750
+    Women: TRUE
+    PoC: FALSE
+    Fiction: FALSE
+    nonfiction: TRUE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: FALSE
+-
+    Title: "Blackass: A Novel"
+    Author: A. Igoni Barrett
+    Date: 7/26/2016
+    Pages: 273
+    Difficulty: 1
+    Rating: 3
+    Cumulative: 23023
+    Women: FALSE
+    PoC: TRUE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: FALSE
+-
+    Title: M is for Malice
+    Author: Sue Grafton
+    Date: 7/28/2016
+    Pages: 300
+    Difficulty: 1
+    Rating: 3
+    Cumulative: 23323
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: TRUE
+    4star: FALSE
+-
+    Title: How to be Both
+    Author: Ali Smith
+    Date: 8/2/2016
+    Pages: 384
+    Difficulty: 2
+    Rating: 5
+    Cumulative: 23707
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: TRUE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: All Things Cease to Appear
+    Author: Elizabeth Brundage
+    Date: 8/4/2016
+    Pages: 416
+    Difficulty: 1
+    Rating: 3
+    Cumulative: 24123
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: FALSE
+-
+    Title: Apocalypse Baby
+    Author: Virginie Despentes
+    Date: 8/8/2016
+    Pages: 352
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 24475
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: TRUE
+    4star: TRUE
+-
+    Title: Uptown Thief
+    Author: Aya de Leon
+    Date: 8/9/2016
+    Pages: 352
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 24827
+    Women: TRUE
+    PoC: TRUE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: TRUE
+    4star: TRUE
+-
+    Title: The Passion According to G.H.
+    Author: Clarice Lispector
+    Date: 8/20/2016
+    Pages: 220
+    Difficulty: 2
+    Rating: 4
+    Cumulative: 25047
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Eligible
+    Author: Curtis Sittenfeld
+    Date: 8/21/2016
+    Pages: 492
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 25539
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: We Love You, Charlie Freeman
+    Author: Kaitlyn Greenidge
+    Date: 8/21/2016
+    Pages: 337
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 25876
+    Women: TRUE
+    PoC: TRUE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Maestra
+    Author: L.S. Hilton
+    Date: 8/23/2016
+    Pages: 309
+    Difficulty: 1
+    Rating: 3
+    Cumulative: 26185
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: TRUE
+    4star: FALSE
+-
+    Title: Fool Me Once
+    Author: Harlan Coben
+    Date: 8/23/2016
+    Pages: 392
+    Difficulty: 1
+    Rating: 3
+    Cumulative: 26577
+    Women: FALSE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: TRUE
+    4star: FALSE
+-
+    Title: "In The Country We Love"
+    Author: Diane Guerrero
+    Date: 8/24/2016
+    Pages: 272
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 26849
+    Women: TRUE
+    PoC: TRUE
+    Fiction: FALSE
+    nonfiction: TRUE
+    Poetry: FALSE
+    Immigrant: TRUE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: When The Emperor Was Divine
+    Author: Julie Otsuka
+    Date: 8/26/2016
+    Pages: 148
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 26997
+    Women: TRUE
+    PoC: TRUE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: TRUE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Hotel Brasil
+    Author: Frei Betto
+    Date: 8/26/2016
+    Pages: 258
+    Difficulty: 2
+    Rating: 3
+    Cumulative: 27255
+    Women: 
+    PoC: 
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: FALSE
+-
+    Title: "To All The Boys I've Loved Before"
+    Author: Jenny Han
+    Date: 9/1/2016
+    Pages: 369
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 27624
+    Women: TRUE
+    PoC: TRUE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: My Life in France
+    Author: Julia Child
+    Date: 9/3/2016
+    Pages: 336
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 27960
+    Women: TRUE
+    PoC: FALSE
+    Fiction: FALSE
+    nonfiction: TRUE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Stories of Your Life and Others
+    Author: Ted Chiang
+    Date: 9/5/2016
+    Pages: 298
+    Difficulty: 1
+    Rating: 5
+    Cumulative: 28258
+    Women: FALSE
+    PoC: TRUE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: TRUE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: TRUE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Bartleby, the Scivener
+    Author: Herman Melville
+    Date: 9/6/2016
+    Pages: 70
+    Difficulty: 2
+    Rating: 4
+    Cumulative: 28328
+    Women: FALSE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: The Bluest Eye
+    Author: Toni Morrison
+    Date: 9/6/2016
+    Pages: 208
+    Difficulty: 2
+    Rating: 4
+    Cumulative: 28536
+    Women: TRUE
+    PoC: TRUE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: N is for Noose
+    Author: Sue Grafton
+    Date: 9/14/2016
+    Pages: 368
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 28904
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: FALSE
+    Book: TRUE
+    Scifi: FALSE
+    mystery: TRUE
+    4star: TRUE
+-
+    Title: Shrill
+    Author: Lindy West
+    Date: 9/16/2016
+    Pages: 272
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 29176
+    Women: TRUE
+    PoC: FALSE
+    Fiction: FALSE
+    nonfiction: TRUE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Sweetbitter
+    Author: Stephanie Danler
+    Date: 9/17/2016
+    Pages: 368
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 29544
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: FALSE
+    Book: TRUE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: The Buddha In the Attic
+    Author: Julie Otsuka
+    Date: 9/18/2016
+    Pages: 129
+    Difficulty: 1
+    Rating: 5
+    Cumulative: 29673
+    Women: TRUE
+    PoC: TRUE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: TRUE
+    top10: TRUE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Homegoing
+    Author: Yaa Gyasi
+    Date: 9/22/2016
+    Pages: 305
+    Difficulty: 1
+    Rating: 5
+    Cumulative: 29978
+    Women: TRUE
+    PoC: TRUE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: FALSE
+    Book: TRUE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: O is for Outlaw
+    Author: Sue Grafton
+    Date: 9/23/2016
+    Pages: 354
+    Difficulty: 1
+    Rating: 3
+    Cumulative: 30332
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: TRUE
+    4star: FALSE
+-
+    Title: P is for Peril
+    Author: Sue Grafton
+    Date: 9/24/2016
+    Pages: 532
+    Difficulty: 1
+    Rating: 3
+    Cumulative: 30864
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: TRUE
+    4star: FALSE
+-
+    Title: Rich and Pretty
+    Author: Rumaan Alam
+    Date: 9/27/2016
+    Pages: 304
+    Difficulty: 1
+    Rating: 3
+    Cumulative: 31168
+    Women: FALSE
+    PoC: TRUE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: FALSE
+    Book: TRUE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: FALSE
+-
+    Title: Dragonfish
+    Author: Vu Tran
+    Date: 10/4/2016
+    Pages: 320
+    Difficulty: 2
+    Rating: 4
+    Cumulative: 31488
+    Women: FALSE
+    PoC: TRUE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: TRUE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: In a Dark, Dark, Wood
+    Author: Ruth Ware
+    Date: 10/5/2016
+    Pages: 320
+    Difficulty: 1
+    Rating: 3
+    Cumulative: 31808
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: TRUE
+    4star: FALSE
+-
+    Title: Lovecraft Country
+    Author: Matt Ruff
+    Date: 10/10/2016
+    Pages: 432
+    Difficulty: 2
+    Rating: 3
+    Cumulative: 32240
+    Women: FALSE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: TRUE
+    mystery: FALSE
+    4star: FALSE
+-
+    Title: How to Live
+    Author: Sarah Bakewell
+    Date: 10/14/2016
+    Pages: 401
+    Difficulty: 4
+    Rating: 3
+    Cumulative: 32641
+    Women: TRUE
+    PoC: FALSE
+    Fiction: FALSE
+    nonfiction: TRUE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: FALSE
+-
+    Title: Queenpin
+    Author: Megan Abbott
+    Date: 10/16/2016
+    Pages: 194
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 32835
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: TRUE
+    4star: TRUE
+-
+    Title: Q is for Quarry
+    Author: Sue Grafton
+    Date: 10/16/2016
+    Pages: 375
+    Difficulty: 1
+    Rating: 3
+    Cumulative: 33210
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: TRUE
+    4star: FALSE
+-
+    Title: Dear Mr. You
+    Author: Mary Louise-Parker
+    Date: 10/20/2016
+    Pages: 228
+    Difficulty: 2
+    Rating: 2
+    Cumulative: 33438
+    Women: TRUE
+    PoC: FALSE
+    Fiction: FALSE
+    nonfiction: TRUE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: TRUE
+    Ebook: FALSE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: FALSE
+-
+    Title: This City
+    Author: Claudia Castro-Luna
+    Date: 10/21/2016
+    Pages: 40
+    Difficulty: 1
+    Rating: 5
+    Cumulative: 33478
+    Women: TRUE
+    PoC: TRUE
+    Fiction: FALSE
+    nonfiction: FALSE
+    Poetry: TRUE
+    Immigrant: TRUE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: FALSE
+    Book: TRUE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Sag Harbor
+    Author: Colson Whitehead
+    Date: 10/23/2016
+    Pages: 354
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 33832
+    Women: FALSE
+    PoC: TRUE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Problems
+    Author: Jade Sharma
+    Date: 10/24/2016
+    Pages: 194
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 34026
+    Women: TRUE
+    PoC: TRUE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: TRUE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Primates of Park Avenue
+    Author: Wednesday Martin
+    Date: 10/25/2016
+    Pages: 248
+    Difficulty: 2
+    Rating: 2
+    Cumulative: 34274
+    Women: TRUE
+    PoC: FALSE
+    Fiction: FALSE
+    nonfiction: TRUE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: FALSE
+-
+    Title: P.S. I Still Love You
+    Author: Jenny Han
+    Date: 10/28/2016
+    Pages: 352
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 34626
+    Women: TRUE
+    PoC: TRUE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Hullaballoo In the Guava Orchard
+    Author: Kiran Desai
+    Date: 11/1/2016
+    Pages: 224
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 34850
+    Women: TRUE
+    PoC: TRUE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: FALSE
+    Book: TRUE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Overpour
+    Author: Jane Wong
+    Date: 11/6/2016
+    Pages: 82
+    Difficulty: 1
+    Rating: 5
+    Cumulative: 34932
+    Women: TRUE
+    PoC: TRUE
+    Fiction: FALSE
+    nonfiction: FALSE
+    Poetry: TRUE
+    Immigrant: TRUE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: FALSE
+    Book: TRUE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: The Wangs vs. the World
+    Author: Jade Chang
+    Date: 11/6/2016
+    Pages: 368
+    Difficulty: 1
+    Rating: 3
+    Cumulative: 35300
+    Women: TRUE
+    PoC: TRUE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: TRUE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: FALSE
+    Book: TRUE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: FALSE
+-
+    Title: Around the Way Girl
+    Author: Taraji P. Henson
+    Date: 11/7/2016
+    Pages: 256
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 35556
+    Women: TRUE
+    PoC: TRUE
+    Fiction: FALSE
+    nonfiction: TRUE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: TRUE
+    Ebook: FALSE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: You Can't Touch My Hair
+    Author: Phoebe Robinson
+    Date: 11/10/2016
+    Pages: 320
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 35876
+    Women: TRUE
+    PoC: TRUE
+    Fiction: FALSE
+    nonfiction: TRUE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: TRUE
+    Ebook: FALSE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Family Planning
+    Author: Karan Mahajan
+    Date: 11/11/2016
+    Pages: 288
+    Difficulty: 1
+    Rating: 3
+    Cumulative: 36164
+    Women: FALSE
+    PoC: TRUE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: FALSE
+    Book: TRUE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: FALSE
+-
+    Title: Die a Little
+    Author: Megan Abbott
+    Date: 11/12/2016
+    Pages: 256
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 36420
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: TRUE
+    4star: TRUE
+-
+    Title: Year of Yes
+    Author: Shonda Rhimes
+    Date: 11/13/2016
+    Pages: 336
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 36756
+    Women: TRUE
+    PoC: TRUE
+    Fiction: FALSE
+    nonfiction: TRUE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: TRUE
+    Ebook: FALSE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: The Vegetarian
+    Author: Kang Han
+    Date: 11/13/2016
+    Pages: 192
+    Difficulty: 1
+    Rating: 5
+    Cumulative: 36948
+    Women: TRUE
+    PoC: TRUE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: TRUE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Today Will Be Different
+    Author: Maria Semple
+    Date: 11/14/2016
+    Pages: 259
+    Difficulty: 1
+    Rating: 3
+    Cumulative: 37207
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: FALSE
+    Book: TRUE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: FALSE
+-
+    Title: "I'm Just a Person"
+    Author: Tig Notaro
+    Date: 11/14/2016
+    Pages: 256
+    Difficulty: 2
+    Rating: 3
+    Cumulative: 37463
+    Women: TRUE
+    PoC: FALSE
+    Fiction: FALSE
+    nonfiction: TRUE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: TRUE
+    Ebook: FALSE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: FALSE
+-
+    Title: I Know Why the Caged Bird Sings
+    Author: Maya Angelou
+    Date: 11/19/2016
+    Pages: 246
+    Difficulty: 2
+    Rating: 5
+    Cumulative: 37709
+    Women: TRUE
+    PoC: TRUE
+    Fiction: FALSE
+    nonfiction: TRUE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: TRUE
+    Ebook: FALSE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Night Sky with Exit Wounds
+    Author: Ocean Vuong
+    Date: 11/20/2016
+    Pages: 89
+    Difficulty: 1
+    Rating: 5
+    Cumulative: 37798
+    Women: FALSE
+    PoC: TRUE
+    Fiction: FALSE
+    nonfiction: FALSE
+    Poetry: TRUE
+    Immigrant: TRUE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: FALSE
+    Book: TRUE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Something Borrowed
+    Author: Emily Giffin
+    Date: 11/23/2016
+    Pages: 322
+    Difficulty: 1
+    Rating: 3
+    Cumulative: 38120
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: FALSE
+-
+    Title: Sex Object
+    Author: Jessica Valenti
+    Date: 11/24/2016
+    Pages: 205
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 38325
+    Women: TRUE
+    PoC: FALSE
+    Fiction: FALSE
+    nonfiction: TRUE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: TRUE
+    Ebook: FALSE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Infomocracy
+    Author: Malka Older
+    Date: 11/26/2016
+    Pages: 380
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 38705
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: TRUE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Freedom Is a Constant Struggle
+    Author: Angela Y. Davis
+    Date: 11/26/2016
+    Pages: 145
+    Difficulty: 3
+    Rating: 5
+    Cumulative: 38850
+    Women: TRUE
+    PoC: TRUE
+    Fiction: FALSE
+    nonfiction: TRUE
+    Poetry: FALSE
+    Immigrant: TRUE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: FALSE
+    Book: TRUE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Milk and Honey
+    Author: Rupi Kaur
+    Date: 12/1/2016
+    Pages: 208
+    Difficulty: 1
+    Rating: 3
+    Cumulative: 39058
+    Women: TRUE
+    PoC: TRUE
+    Fiction: FALSE
+    nonfiction: FALSE
+    Poetry: TRUE
+    Immigrant: TRUE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: FALSE
+-
+    Title: The Underground Railroad
+    Author: Colson Whitehead
+    Date: 12/3/2016
+    Pages: 306
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 39364
+    Women: FALSE
+    PoC: TRUE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: FALSE
+    Book: TRUE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Prosthesis
+    Author: Ian Hatcher
+    Date: 12/3/2016
+    Pages: 145
+    Difficulty: 2
+    Rating: 2
+    Cumulative: 39509
+    Women: FALSE
+    PoC: FALSE
+    Fiction: FALSE
+    nonfiction: FALSE
+    Poetry: TRUE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: FALSE
+    Book: TRUE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: FALSE
+-
+    Title: One More Thing
+    Author: B.J. Novak
+    Date: 12/4/2016
+    Pages: 288
+    Difficulty: 1
+    Rating: 3
+    Cumulative: 39797
+    Women: FALSE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: TRUE
+    Ebook: FALSE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: FALSE
+-
+    Title: Brown Girl Dreaming
+    Author: Jacqueline Woodson
+    Date: 12/5/2016
+    Pages: 337
+    Difficulty: 1
+    Rating: 5
+    Cumulative: 40134
+    Women: TRUE
+    PoC: TRUE
+    Fiction: FALSE
+    nonfiction: TRUE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: TRUE
+    genrefic: FALSE
+    audiobook: TRUE
+    Ebook: FALSE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Big Little Lies
+    Author: Liane Moriarty
+    Date: 12/9/2016
+    Pages: 462
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 40596
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: TRUE
+    4star: TRUE
+-
+    Title: (A)Live Heart
+    Author: Imani Sims
+    Date: 12/12/2016
+    Pages: 52
+    Difficulty: 2
+    Rating: 4
+    Cumulative: 40648
+    Women: TRUE
+    PoC: TRUE
+    Fiction: FALSE
+    nonfiction: FALSE
+    Poetry: TRUE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: FALSE
+    Book: TRUE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: I'm Judging You
+    Author: Luvvie Ajayi
+    Date: 12/15/2016
+    Pages: 241
+    Difficulty: 2
+    Rating: 3
+    Cumulative: 40889
+    Women: TRUE
+    PoC: TRUE
+    Fiction: FALSE
+    nonfiction: TRUE
+    Poetry: FALSE
+    Immigrant: TRUE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: TRUE
+    Ebook: FALSE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: FALSE
+-
+    Title: Submission
+    Author: Michel Houellebecq
+    Date: 12/16/2016
+    Pages: 246
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 41135
+    Women: FALSE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: TRUE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: You Will Know Me
+    Author: Megan Abbott
+    Date: 12/17/2016
+    Pages: 352
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 41487
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: TRUE
+    4star: TRUE
+-
+    Title: The Insides
+    Author: Jeremy P. Bushnell
+    Date: 12/18/2016
+    Pages: 288
+    Difficulty: 1
+    Rating: 3
+    Cumulative: 41775
+    Women: FALSE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: TRUE
+    mystery: FALSE
+    4star: FALSE
+-
+    Title: The Fire Next Time
+    Author: James Baldwin
+    Date: 12/19/2016
+    Pages: 106
+    Difficulty: 1
+    Rating: 5
+    Cumulative: 41881
+    Women: FALSE
+    PoC: TRUE
+    Fiction: FALSE
+    nonfiction: TRUE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: TRUE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: The Intuitionist
+    Author: Colson Whitehead
+    Date: 12/27/2016
+    Pages: 273
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 42154
+    Women: FALSE
+    PoC: TRUE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: The Red Car
+    Author: Marcy Dermansky
+    Date: 12/29/2016
+    Pages: 204
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 42358
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: Break in Case of Emergency
+    Author: Jessica Winter
+    Date: 12/31/2016
+    Pages: 288
+    Difficulty: 1
+    Rating: 4
+    Cumulative: 42646
+    Women: TRUE
+    PoC: FALSE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: FALSE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: FALSE
+    4star: TRUE
+-
+    Title: IQ
+    Author: Joe Ide
+    Date: 12/31/2016
+    Pages: 336
+    Difficulty: 2
+    Rating: 2
+    Cumulative: 42982
+    Women: FALSE
+    PoC: TRUE
+    Fiction: TRUE
+    nonfiction: FALSE
+    Poetry: FALSE
+    Immigrant: FALSE
+    top10: FALSE
+    genrefic: TRUE
+    audiobook: FALSE
+    Ebook: TRUE
+    Book: FALSE
+    Scifi: FALSE
+    mystery: TRUE
+    4star: FALSE

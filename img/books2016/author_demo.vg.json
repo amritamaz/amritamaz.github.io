@@ -1,128 +1,99 @@
 {
-  "width": 400,
-  "height": 100,
-  "padding": {"top": 10,"left": 55,"bottom": 30,"right": 30},
+  "width": 700,
+  "height": 1250,
   "data": [
     {
-      "name": "table",
+      "name": "cars",
+      "url": "../img/books2016/finished_books.json"
+    },
+    {
+      "name": "fields",
       "values": [
-        {
-          "gender": "Not Female",
-          "race": "Not PoC",
-          "amount": 25
-        },
-        {"gender": "Not Female","race": "PoC","amount": 12},
-        {
-          "gender": "Female",
-          "race": "Not PoC",
-          "amount": 59
-        },
-        {"gender": "Female","race": "PoC","amount": 13}
+        "Title",
+        "Author",
+        "Women",
+        "PoC",
+        "Fiction",
+        "Nonfiction",
+        "Poetry",
+        "Immigrant",
+        "toppick",
+        "genrefic",
+        "Audiobook",
+        "Ebook",
+        "Book",
+        "Scifi",
+        "mystery",
+        "4star"
       ]
-    }
-  ],
-  "signals": [
-    {
-      "name": "tooltip",
-      "init": {},
-      "streams": [
-        {"type": "rect:mouseover","expr": "datum"},
-        {"type": "rect:mouseout","expr": "{}"}
-      ]
-    }
-  ],
-  "predicates": [
-    {
-      "name": "tooltip",
-      "type": "==",
-      "operands": [{"signal": "tooltip._id"},{"arg": "id"}]
     }
   ],
   "scales": [
     {
-      "name": "xscale",
+      "name": "ord",
       "type": "ordinal",
       "range": "width",
-      "domain": {"data": "table","field": "gender"}
+      "points": true,
+      "domain": [
+        "Title",
+        "Author",
+        "Women",
+        "PoC",
+        "Fiction",
+        "Nonfiction",
+        "Poetry",
+        "Immigrant",
+        "toppick",
+        "genrefic",
+        "Audiobook",
+        "Ebook",
+        "Book",
+        "Scifi",
+        "mystery",
+        "4star"
+      ]
     },
     {
-      "name": "yscale",
+      "name": "Title",
       "type": "ordinal",
       "range": "height",
-      "domain": {"data": "table","field": "race"}
+      "zero": false,
+      "nice": true,
+      "domain": {"data": "cars","field": "Title"}
     },
     {
-      "name": "c",
-      "type": "linear",
-      "domain": {"data": "table","field": "amount"},
-      "range": ["lightseagreen","orangered"],
-      "zero": false
+      "name": "Author",
+      "type": "ordinal",
+      "range": "height",
+      "zero": false,
+      "nice": true,
+      "domain": {"data": "cars","field": "Author"}
     }
   ],
-
   "axes": [
     {
-      "type": "x",
-      "scale": "xscale",
-      "properties": {
-        "labels": {
-          "font": {"value": "Karla"},
-          "angle": {"value": 0},
-          "fontSize": {"value": 10},
-          "align": {"value": "center"},
-          "baseline": {"value": "middle"},
-          "dy": {"value": 5}
-        }
-      },
-      "tickSizeEnd": 0
+      "type": "y",
+      "scale": "Title"
     },
     {
-      "type": "y",
-      "scale": "yscale",
-      "properties": {"labels": {"font": {"value": "Karla"}}},
-      "tickSizeEnd": 0
+      "type": "x",
+      "scale": "ord"
     }
   ],
   "marks": [
     {
       "type": "rect",
-      "from": {"data": "table"},
+      "from": {"data": "cars"},
       "properties": {
         "enter": {
-          "x": {"scale": "xscale","field": "gender"},
-          "width": {"scale": "xscale","band": true,"offset": -1},
-          "y": {"scale": "yscale","field": "race"},
-          "height": {"scale": "yscale","band": true,"offset": -1},
-          "fill": {"scale": "c","field": "amount"}
-        },
-        "update": {
-          "opacity": {
-            "rule": [
-              {
-                "predicate": {"name": "tooltip","id": {"field": "_id"}},
-                "value": 0.25
-              },
-              {"value": 1}
-            ]
-          }
-        }
-      }
-    },
-    {
-      "type": "text",
-      "from": {"data": "table"},
-      "properties": {
-        "enter": {
-          "align": {"value": "center"},
-          "fill": {"value": "#000"},
-          "font": {"value": "Karla"},
-          "fontWeight": {"value": "bold"},
-          "text": {"field": "amount"},
-          "x": {"scale": "xscale","field": "gender"},
-          "dx": {"scale": "xscale","band": true,"mult": 0.5},
-          "y": {"scale": "yscale","field": "race","offset": 27.5}
+          "x": {"scale": "x", "field": "born"},
+          "y": {"scale": "y", "field": "label"},
+          "height": {"value": 2},
+          "fill": {"value": "#557"}
         }
       }
     }
   ]
+    
+  
 }

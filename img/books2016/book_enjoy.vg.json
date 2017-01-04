@@ -1,16 +1,20 @@
 {
-  "width": 200,
+  "width": 300,
   "height": 100,
-  "padding": {"top": 10,"left": 30,"bottom": 50,"right": 30},
   "data": [
     {
       "name": "table",
       "values": [
-        {"category": "The Worst","amount": 2},
-        {"category": "Awful","amount": 6},
-        {"category": "Fine","amount": 31},
-        {"category": "Good","amount": 43},
-        {"category": "Amazing","amount": 27}
+        {"year": 2016,"category": "The Worst","value": 0},
+        {"year": 2016,"category": "Awful","value": 10},
+        {"year": 2016,"category": "Fine","value": 41},
+        {"year": 2016,"category": "Good","value": 75},
+        {"year": 2016,"category": "Amazing","value": 18},
+        {"year": 2015,"category": "The Worst","value": 2},
+        {"year": 2015,"category": "Awful","value": 6},
+        {"year": 2015,"category": "Fine","value": 31},
+        {"year": 2015,"category": "Good","value": 43},
+        {"year": 2015,"category": "Amazing","value": 27}
       ]
     }
   ],
@@ -24,34 +28,35 @@
       ]
     }
   ],
-  "predicates": [
-    {
-      "name": "tooltip",
-      "type": "==",
-      "operands": [{"signal": "tooltip._id"},{"arg": "id"}]
-    }
-  ],
   "scales": [
     {
-      "name": "xscale",
+      "name": "cat",
       "type": "ordinal",
-      "range": "width",
       "domain": {"data": "table","field": "category"},
+      "range": "width",
+      "padding": 0.2,
       "properties": {"labels": {"font": {"value": "Karla"}}}
     },
     {
-      "name": "yscale",
+      "name": "val",
+      "type": "linear",
+      "domain": {"data": "table","field": "value"},
       "range": "height",
+      "round": true,
       "nice": true,
-      "domain": {"data": "table","field": "amount"},
       "properties": {"labels": {"font": {"value": "Karla"}}}
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": {"data": "table","field": "year"},
+      "range": "category10"
     }
   ],
   "axes": [
     {
       "type": "x",
-      "title": "Book Enjoyment",
-      "scale": "xscale",
+      "scale": "cat",
       "properties": {
         "labels": {
           "font": {"value": "Karla"},
@@ -61,64 +66,71 @@
           "baseline": {"value": "middle"},
           "dy": {"value": 5}
         },
-        "title": {"font": {"value": "Karla"}}
-      },
-    "tickSizeEnd": 0
+        "title": {"font": {"value": "Karla"}}},
+      "tickSize": 0,
+      "tickPadding": 8
     },
-    {
-      "type": "y",
-      "scale": "yscale",
+    {"type": "y","scale": "val",      
       "properties": {
         "labels": {"font": {"value": "Karla"}},
         "title": {"font": {"value": "Karla"}}
-      },
-    "ticks": 4,
-    "tickSizeEnd": 0
+      }
     }
   ],
   "marks": [
     {
-      "type": "rect",
-      "from": {"data": "table"},
+      "type": "group",
+      "from": {
+        "data": "table",
+        "transform": [{"type": "facet","groupby": ["category"]}]
+      },
       "properties": {
         "enter": {
-          "x": {"scale": "xscale","field": "category"},
-          "width": {"scale": "xscale","band": true,"offset": -1},
-          "y": {"scale": "yscale","field": "amount"},
-          "y2": {"scale": "yscale","value": 0}
+          "x": {"scale": "cat","field": "key"},
+          "width": {"scale": "cat","band": true}
+        }
+      },
+      "scales": [
+        {
+          "name": "pos",
+          "type": "ordinal",
+          "range": "width",
+          "domain": {"field": "year"}
+        }
+      ],
+      "marks": [
+        {
+          "name": "bars",
+          "type": "rect",
+          "properties": {
+            "enter": {
+              "x": {"scale": "pos","field": "year"},
+              "width": {"scale": "pos","band": true},
+              "y": {"scale": "val","field": "value"},
+              "y2": {"scale": "val","value": 0}
+            },
+            "update": {"fill": {"scale": "color","field": "year"}},
+            "hover": {"fill": {"value": "orangered"}}
+          }
         },
-        "update": {"fill": {"value": "LightSeaGreen"}},
-        "hover": {"fill": {"value": "orangered"}}
-      }
-    },
-    {
-      "type": "text",
-      "properties": {
-        "enter": {
-          "align": {"value": "center"},
-          "fill": {"value": "#333"},
-          "font": {"value": "Karla"}
-        },
-        "update": {
-          "x": {"scale": "xscale","signal": "tooltip.category"},
-          "dx": {"scale": "xscale","band": true,"mult": 0.5},
-          "y": {
-            "scale": "yscale",
-            "signal": "tooltip.amount",
-            "offset": -5
-          },
-          "text": {"signal": "tooltip.amount"},
-          "fillOpacity": {
-            "rule": [
-              {
-                "predicate": {"name": "tooltip","id": {"value": null}},
-                "value": 0
-              },
-              {"value": 1}
-            ]
+        {
+          "type": "text",
+          "from": {"mark": "bars"},
+          "properties": {
+            "enter": {
+              "font": {"value": "Karla"},
+              "y": {"field": "y"},
+              "x": {"scale": "pos","field": "year"},
+              "dx": {"scale": "pos","band": true, "field": "width"},
+              "fill": {"value": "black"},
+              "align": {"value": "center"},
+              "baseline": {"value": "middle"},
+              "text": {"field": "datum.value"}
+            }
           }
         }
-      }
+
+      ]
     }
   ]
 }

@@ -1,0 +1,103 @@
+name: Amrita Mazumdar
+
+library:
+    -
+        title: The Blind Assassin
+        author: Margaret Atwood
+        url: https://www.amazon.com/Blind-Assassin-Novel-Margaret-Atwood/dp/0385720955/
+        img: img/library/atwood.jpg
+
+    -
+        title: Giovanni's Room
+        author: James Baldwin
+        url: https://www.amazon.com/Giovannis-Room-James-Baldwin/dp/0345806565/
+        img: img/library/baldwin.jpg
+
+    - 
+        title: Stories of Your Life and Others
+        author: Ted Chiang
+        url: https://www.amazon.com/Stories-Your-Life-Others-Chiang/dp/1101972122
+        img: img/library/chiang.jpg
+
+    -
+        title: The Brief Wondrous Life of Oscar Wao
+        author: Junot Diaz
+        url: https://www.amazon.com/Brief-Wondrous-Life-Oscar-Wao/dp/1594483299/
+        img: img/library/diaz.jpg
+
+    -
+        title: Rebecca
+        author: Daphne du Maurier
+        url: https://www.amazon.com/Rebecca-Daphne-Du-Maurier/dp/0380730405
+        img: img/library/dumaurier.jpg
+
+    -
+        title: Those Who Leave and Those Who Stay
+        author: Elena Ferrante
+        url: https://www.amazon.com/Argonauts-Maggie-Nelson/dp/1555977359
+        img: img/library/ferrante.jpg
+
+    -
+        title: How Should a Person Be?
+        author: Sheila Heti
+        url: https://www.amazon.com/dp/B0071VUO7U/
+        img: img/library/heti.jpg
+
+    -
+        title: The World According to Garp
+        author: John Irving
+        url: https://www.amazon.com/World-According-Garp-John-Irving/dp/034536676X
+        img: img/library/irving.jpg
+
+    -
+        title: Unaccustomed Earth
+        author: Jhumpa Lahiri
+        url: https://www.amazon.com/Unaccustomed-Earth-Jhumpa-Lahiri-ebook/dp/B0011UGLK6/
+        img: img/library/lahiri.jpg
+
+    -         
+        title: The Complete Stories
+        author: Clarice Lispector
+        url: https://www.amazon.com/Complete-Stories-Clarice-Lispector/dp/0811219631/
+        img: img/library/lispector.jpg
+
+    -
+        title: 100 Years of Solitude
+        author: Gabriel Garcia Marquez
+        url: https://www.amazon.com/Hundred-Solitude-Harper-Perennial-Classics/dp/0060883286/
+        img: img/library/marquez.jpg
+
+    -
+        title: 'Understanding Media: The Extensions of Man'
+        author: Marshall McLuhan
+        url: https://www.amazon.com/Understanding-Media-Extensions-Marshall-McLuhan/dp/0262631598
+        img: img/library/mcluhan.jpg
+
+    -
+        title: 1Q84
+        author: Haruki Murakami
+        url: https://www.amazon.com/dp/B004LROUW2
+        img: img/library/murakami.png
+
+    -
+        title: The Argonauts
+        author: Maggie Nelson
+        url: https://www.amazon.com/Argonauts-Maggie-Nelson/dp/1555977359
+        img: img/library/nelson.jpg
+
+    -
+        title: The Diary of Anaïs Nin
+        author: Anaïs Nin
+        url: https://www.amazon.com/Diary-Anais-Nin-Complete-Volumes/dp/0156260298/
+        img: img/library/nin.jpg
+
+    - 
+        title: Mr. Penumbra's 24-Hour Bookstore
+        author: Robin Sloan
+        url: https://www.amazon.com/Mr-Penumbras-24-Hour-Bookstore-Novel/dp/1250037751
+        img: img/library/sloan.jpg
+    -
+        title: The Philosophy of Andy Warhol
+        author: Andy Warhol
+        url: https://www.amazon.com/Philosophy-Andy-Warhol-Back-Again/dp/0156717204/
+        img: img/library/warhol.jpg

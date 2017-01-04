@@ -1,101 +1,121 @@
 {
   "width": 400,
   "height": 100,
-  "padding": {"top": 10, "left": 30, "bottom": 50, "right": 10},
-
+  "padding": {"top": 10,"left": 30,"bottom": 50,"right": 20},
   "data": [
     {
-      "name": "table",
+      "name": "stocks",
       "values": [
-        {"category":"book", "amount":28},
-        {"category":"ebook", "amount":72},
-        {"category":"audiobook", "amount":9}
+        {"date": "Jan ","symbol": "physical","price": 0},
+        {"date": "Jan ","symbol": "electronic","price": 12},
+        {"date": "Jan ","symbol": "audio","price": 0},
+        {"date": "Feb ","symbol": "physical","price": 0},
+        {"date": "Feb ","symbol": "electronic","price": 6},
+        {"date": "Feb ","symbol": "audio","price": 0},
+        {"date": "Mar ","symbol": "physical","price": 0},
+        {"date": "Mar ","symbol": "electronic","price": 15},
+        {"date": "Mar ","symbol": "audio","price": 0},
+        {"date": "Apr ","symbol": "physical","price": 1},
+        {"date": "Apr ","symbol": "electronic","price": 12},
+        {"date": "Apr ","symbol": "audio","price": 0},
+        {"date": "May ","symbol": "physical","price": 0},
+        {"date": "May ","symbol": "electronic","price": 7},
+        {"date": "May ","symbol": "audio","price": 0},
+        {"date": "Jun ","symbol": "physical","price": 0},
+        {"date": "Jun ","symbol": "electronic","price": 8},
+        {"date": "Jun ","symbol": "audio","price": 0},
+        {"date": "Jul ","symbol": "physical","price": 0},
+        {"date": "Jul ","symbol": "electronic","price": 13},
+        {"date": "Jul ","symbol": "audio","price": 0},
+        {"date": "Aug ","symbol": "physical","price": 0},
+        {"date": "Aug ","symbol": "electronic","price": 12},
+        {"date": "Aug ","symbol": "audio","price": 0},
+        {"date": "Sep ","symbol": "physical","price": 4},
+        {"date": "Sep ","symbol": "electronic","price": 9},
+        {"date": "Sep ","symbol": "audio","price": 0},
+        {"date": "Oct ","symbol": "physical","price": 1},
+        {"date": "Oct ","symbol": "electronic","price": 10},
+        {"date": "Oct ","symbol": "audio","price": 1},
+        {"date": "Nov ","symbol": "physical","price": 7},
+        {"date": "Nov ","symbol": "electronic","price": 4},
+        {"date": "Nov ","symbol": "audio","price": 6},
+        {"date": "Dec ","symbol": "physical","price": 3},
+        {"date": "Dec ","symbol": "electronic","price": 10},
+        {"date": "Dec ","symbol": "audio","price": 4}
       ]
     }
   ],
-
-  "signals": [
-    {
-      "name": "tooltip",
-      "init": {},
-      "streams": [
-        {"type": "rect:mouseover", "expr": "datum"},
-        {"type": "rect:mouseout", "expr": "{}"}
-      ]
-    }
-  ],
-
-  "predicates": [
-    {
-      "name": "tooltip", "type": "==", 
-      "operands": [{"signal": "tooltip._id"}, {"arg": "id"}]
-    }
-  ],
-
   "scales": [
-    { "name": "xscale", "type": "ordinal", "range": "width",
-      "domain": {"data": "table", "field": "category"} },
-    { "name": "yscale", "range": "height", "nice": true,
-      "domain": {"data": "table", "field": "amount"} }
-  ],
-
-  "axes": [
-    { "type": "x", "scale": "xscale", "title":"Reading Medium",
-      "properties": {
-        "labels": {"font": {"value": "Karla"}},
-        "title": {"font": {"value": "Karla"}}
-      },
-      "tickSizeEnd": 0
-   },
-    { "type": "y", "scale": "yscale",
-      "properties": {
-        "labels": {"font": {"value": "Karla"}},
-        "title": {"font": {"value": "Karla"}}
-      },
-      "ticks":4,
-      "tickSizeEnd": 0
-    }
-  ],
-
-  "marks": [
     {
-      "type": "rect",
-      "from": {"data":"table"},
-      "properties": {
-        "enter": {
-          "x": {"scale": "xscale", "field": "category"},
-          "width": {"scale": "xscale", "band": true, "offset": -1},
-          "y": {"scale": "yscale", "field": "amount"},
-          "y2": {"scale": "yscale", "value":0}
-        },
-        "update": { "fill": {"value": "LightSeaGreen"} },
-        "hover": { "fill": {"value": "orangered"} }
-      }
+      "name": "x",
+      "type": "ordinal",
+      "range": "width",
+      "nice": true,
+      "domain": {"data": "stocks","field": "date"}
     },
     {
-      "type": "text",
-      "properties": {
-        "enter": {
-          "align": {"value": "center"},
-          "fill": {"value": "#333"},
-              "font": {"value": "Karla"}
+      "name": "y",
+      "type": "linear",
+      "range": "height",
+      "nice": true,
+      "domain": {"data": "stocks","field": "price"}
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": {"data": "stocks","field": "symbol"},
+      "range": "category10"
+    }
+  ],
+  "axes": [
+    {"type": "x","scale": "x","tickSizeEnd": 0,      "properties": {
+        "labels": {"font": {"value": "Karla"}},
+        "title": {"font": {"value": "Karla"}}
+      }
+},
+    {"type": "y","scale": "y",      "properties": {
+        "labels": {"font": {"value": "Karla"}},
+        "title": {"font": {"value": "Karla"}}
+      }
+}
+  ],
+  "marks": [
+    {
+      "type": "group",
+      "from": {
+        "data": "stocks",
+        "transform": [{"type": "facet","groupby": ["symbol"]}]
+      },
+      "marks": [
+        {
+          "type": "line",
+          "properties": {
+            "enter": {
+              "x": {"scale": "x","field": "date"},
+              "y": {"scale": "y","field": "price"},
+              "stroke": {"scale": "color","field": "symbol"},
+              "strokeWidth": {"value": 2}
+            }
+          }
         },
-        "update": {
-          "x": {"scale": "xscale", "signal": "tooltip.category"},
-          "dx": {"scale": "xscale", "band": true, "mult": 0.5},
-          "y": {"scale": "yscale", "signal": "tooltip.amount", "offset": -5},
-          "text": {"signal": "tooltip.amount"},
-          "fillOpacity": {
-            "rule": [
-              {
-                "predicate": {"name": "tooltip", "id": {"value": null}},
-                "value": 0
-              },
-              {"value": 1}
-            ]
+        {
+          "type": "text",
+          "from": {
+            "transform": [{"type": "filter","test": "datum.date == 'Dec '"}]
+          },
+          "properties": {
+            "enter": {
+              "x": {"scale": "x","field": "date","offset": 4},
+              "y": {"scale": "y","field": "price"},
+              "fill": {"scale": "color","field": "symbol"},
+              "text": {"field": "symbol"},
+              "baseline": {"value": "middle"},
+                        "font": {"value": "Karla"}
+
+            }
           }
         }
-      }
+      ]
     }
   ]
 }

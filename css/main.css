@@ -10,12 +10,12 @@ body {
     margin: 0 auto;
     padding: 0;
     font-family: 'Karla', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 145%;
 }
 
 p {
-    line-height: 125%;
+    line-height: 150%;
 }
 
 section {
@@ -233,6 +233,41 @@ body.library section img {
     left: 20%;
     width: 60%;
     margin-bottom: 0.5rem;
+}
+
+/* reading table */
+#listdiv{
+    width:100%;
+}
+#book16table tr{
+}
+#book16table td.true{
+}
+
+th.rotate {
+
+/* Safari */
+-webkit-transform: rotate(-45deg);
+
+/* Firefox */
+-moz-transform: rotate(-45deg);
+
+/* IE */
+-ms-transform: rotate(-45deg);
+
+/* Opera */
+-o-transform: rotate(-45deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
+
+td.true{
+    background-color: red;
+}
+td.false{
+    background-color: blue;
 }
 
 /* Change library column counts */

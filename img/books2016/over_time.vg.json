@@ -5,7 +5,7 @@
   "data": [
     {
       "name": "table",
-      "url": "finished_books.json",
+      "url": "../img/books2016/finished_books.json",
       "format": {"type": "json","parse": {"Date": "date"}},
       "transform": [{"type": "sort","by": ["Date"]}]
     }

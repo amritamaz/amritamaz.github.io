@@ -16,17 +16,18 @@
     {
       "name": "table",
       "values": [
-        {"month": "Jan","pages": 1028,"books": 2,"total_books":2},
-        {"month": "Mar","pages": 700,"books": 2,"total_books":4},
-        {"month": "Apr","pages": 2005,"books": 9,"total_books":13},
-        {"month": "May","pages": 1156,"books": 5,"total_books":18},
-        {"month": "Jun","pages": 2291,"books": 9,"total_books":27},
-        {"month": "Jul","pages": 3504,"books": 13,"total_books":40},
-        {"month": "Aug","pages": 6080,"books": 20,"total_books":60},
-        {"month": "Sep","pages": 5593,"books": 21,"total_books":81},
-        {"month": "Oct","pages": 1630,"books": 6,"total_books":87},
-        {"month": "Nov","pages": 2994,"books": 10,"total_books":97},
-        {"month": "Dec","pages": 4022,"books": 12,"total_books":109}
+        {"month": "Jan","pages": 1028,"books": 12,"total_books":12},
+        {"month": "Feb","pages": 1943,"books": 6,"total_books":18},        
+        {"month": "Mar","pages": 5356,"books": 15,"total_books":33},
+        {"month": "Apr","pages": 4265,"books": 13,"total_books":46},
+        {"month": "May","pages": 1826,"books": 7,"total_books":53},
+        {"month": "Jun","pages": 2996,"books": 8,"total_books":61},
+        {"month": "Jul","pages": 3344,"books": 13,"total_books":74},
+        {"month": "Aug","pages": 3932,"books": 12,"total_books":86},
+        {"month": "Sep","pages": 3913,"books": 13,"total_books":99},
+        {"month": "Oct","pages": 3458,"books": 12,"total_books":111},
+        {"month": "Nov","pages": 4224,"books": 17,"total_books":128},
+        {"month": "Dec","pages": 4132,"books": 16,"total_books":144}
       ]
     }
   ],

@@ -82,7 +82,7 @@
           "y2": {"scale": "yscale","value": 0}
         },
         "update": {"fill": {"value": "LightSeaGreen"}},
-        "hover": {"fill": {"value": "orangered"}}
+        "hover": {"fill": {"value": "crimson"}}
       }
 
     },

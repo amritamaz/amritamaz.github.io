@@ -8,9 +8,9 @@ library:
         img: img/library/atwood.jpg
 
     -
-        title: Giovanni's Room
+        title: The Fire Next Time
         author: James Baldwin
-        url: https://www.amazon.com/Giovannis-Room-James-Baldwin/dp/0345806565/
+        url: https://www.amazon.com/Fire-Next-Time-James-Baldwin/dp/067974472X/
         img: img/library/baldwin.jpg
 
     - 
@@ -48,6 +48,12 @@ library:
         author: John Irving
         url: https://www.amazon.com/World-According-Garp-John-Irving/dp/034536676X
         img: img/library/irving.jpg
+
+    -
+        title: The Vegetarian
+        author: Han Kang
+        url: https://www.amazon.com/Vegetarian-Novel-Han-Kang/dp/1101906111/
+        img: img/library/kang.jpg
 
     -
         title: Unaccustomed Earth
@@ -91,13 +97,40 @@ library:
         url: https://www.amazon.com/Diary-Anais-Nin-Complete-Volumes/dp/0156260298/
         img: img/library/nin.jpg
 
+    -
+        title: The Buddha in the Attic
+        author: Julie Otsuka
+        url: https://www.amazon.com/Buddha-Attic-Pen-Faulkner-Award/dp/0307744426/
+        img: img/library/otsuka.jpg
+
     - 
         title: Mr. Penumbra's 24-Hour Bookstore
         author: Robin Sloan
         url: https://www.amazon.com/Mr-Penumbras-24-Hour-Bookstore-Novel/dp/1250037751
         img: img/library/sloan.jpg
+
+    -
+        title: How to Be Both
+        author: Ali Smith
+        url: https://www.amazon.com/How-be-both-Ali-Smith/dp/0307275256/
+        img: img/library/smith.jpg
+
+    -
+        title: Dietland
+        author: Sarai Walker
+        url: https://www.amazon.com/Dietland-Sarai-Walker/dp/0544704835/
+        img: img/library/walker.jpg
+
     -
         title: The Philosophy of Andy Warhol
         author: Andy Warhol
         url: https://www.amazon.com/Philosophy-Andy-Warhol-Back-Again/dp/0156717204/
         img: img/library/warhol.jpg
+
+    -
+        title: Brown Girl Dreaming
+        author: Jaqueline Woodson
+        url: https://www.amazon.com/Brown-Girl-Dreaming-Jacqueline-Woodson/dp/0147515823/
+        img: img/library/woodson.png
+
+

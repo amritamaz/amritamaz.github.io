@@ -50,7 +50,7 @@
       "name": "color",
       "type": "ordinal",
       "domain": {"data": "table","field": "year"},
-      "range": "category10"
+      "range": ["#8FB220", "#20b2aa" ]
     }
   ],
   "axes": [
@@ -66,17 +66,22 @@
           "baseline": {"value": "middle"},
           "dy": {"value": 5}
         },
-        "title": {"font": {"value": "Karla"}}},
+        "title": {"font": {"value": "Karla"}}
+      },
       "tickSize": 0,
       "tickPadding": 8
     },
-    {"type": "y","scale": "val",      
+    {
+      "type": "y",
+      "scale": "val",
+      "title": "Enjoyment",
       "properties": {
         "labels": {"font": {"value": "Karla"}},
         "title": {"font": {"value": "Karla"}}
       }
     }
   ],
+   "legends": [{"fill": "color","title": "year"}],
   "marks": [
     {
       "type": "group",
@@ -109,27 +114,11 @@
               "y": {"scale": "val","field": "value"},
               "y2": {"scale": "val","value": 0}
             },
-            "update": {"fill": {"scale": "color","field": "year"}},
-            "hover": {"fill": {"value": "orangered"}}
-          }
-        },
-        {
-          "type": "text",
-          "from": {"mark": "bars"},
-          "properties": {
-            "enter": {
-              "font": {"value": "Karla"},
-              "y": {"field": "y"},
-              "x": {"scale": "pos","field": "year"},
-              "dx": {"scale": "pos","band": true, "field": "width"},
-              "fill": {"value": "black"},
-              "align": {"value": "center"},
-              "baseline": {"value": "middle"},
-              "text": {"field": "datum.value"}
-            }
+            "update": {"fill": {"scale": "color","field": "year"}}
+            
           }
         }
-
+        
       ]
     }
   ]

@@ -64,7 +64,7 @@
       "name": "color",
       "type": "ordinal",
       "domain": {"data": "stocks","field": "symbol"},
-      "range": "category10"
+      "range": ["#8FB220", "#20b2aa", "crimson"]
     }
   ],
   "axes": [

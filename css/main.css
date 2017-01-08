@@ -35,7 +35,7 @@ pre {
     padding: 1rem 0.8rem 1rem 1.2rem;
     border: 1px solid crimson;
     border-left: .5rem solid crimson;
-
+    background-color: #fff;
     }
 
 code {
@@ -236,39 +236,79 @@ body.library section img {
 }
 
 /* reading table */
-#listdiv{
-    width:100%;
+table.book16table {
+    border-collapse: collapse;
+    font-size: 11px;
+    display: block;
+       font-family: 'Inconsolata';
+    border: 1px solid crimson;
+    border-left: .5rem solid crimson;
+  border-spacing: 0;
+  background: #fff;
 }
-#book16table tr{
+
+section.book16tablesec {
+    margin-left: -75px;
 }
-#book16table td.true{
-}
 
-th.rotate {
-
-/* Safari */
--webkit-transform: rotate(-45deg);
-
-/* Firefox */
--moz-transform: rotate(-45deg);
-
-/* IE */
--ms-transform: rotate(-45deg);
-
-/* Opera */
--o-transform: rotate(-45deg);
-
-/* Internet Explorer */
-filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+.book16tablediv {
+  padding-top: 10px;
+      width: 775px;
+  display: block;
+    height: 200px;
+    overflow-y: scroll;
 
 }
 
-td.true{
-    background-color: red;
+
+table.book16table td, table.book16table th {
+  border-bottom:1px solid #eee;
+  color: #000;
 }
-td.false{
-    background-color: blue;
+
+table.book16table tbody{
+  counter-reset: rowNumber;
 }
+
+table.book16table  tr{
+    width: 100%;
+}
+
+
+table.book16table tbody tr{
+    counter-increment: rowNumber;
+}
+
+table.book16table tr td:first-child::before {
+    content: counter(rowNumber);
+    min-width: .5em;
+    margin-right: 0.5em;
+}
+
+table.book16table td {
+    position:relative;
+}
+
+table.book16table td:after{
+    content:'';
+    display:block;
+}
+table.book16table td .true {
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:gold;
+    margin: 5px;
+    width: 10px;
+    height: 10px;
+}
+
+table.book16table th{
+    text-align: left;
+}
+
 
 /* Change library column counts */
 @media (min-width: 500px) { body.library section a { width: 33.3333%; } }

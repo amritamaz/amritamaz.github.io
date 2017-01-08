@@ -103,7 +103,7 @@
             "rule": [
               {
                 "predicate": {"name": "tooltip","id": {"field": "_id"}},
-                "value": "orangered"
+                "value": "crimson"
               },
               {"value": "lightseagreen"}
             ]
@@ -136,7 +136,7 @@
           "y": {"scale": "yb", "value": 100, "offset": -1},
           "width": {"value": 10},
           "height": {"value": 2},
-          "fill": {"value": "orangered"}
+          "fill": {"value": "crimson"}
         }
       }
     },

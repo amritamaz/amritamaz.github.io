@@ -13,6 +13,12 @@ library:
         url: https://www.amazon.com/Fire-Next-Time-James-Baldwin/dp/067974472X/
         img: img/library/baldwin.jpg
 
+    -
+        title: Too Much and Not the Mood
+        author: Durga Chew-Bose
+        url: 
+        img: img/library/chew-bose.png
+
     - 
         title: Stories of Your Life and Others
         author: Ted Chiang
@@ -38,6 +44,18 @@ library:
         img: img/library/ferrante.jpg
 
     -
+        title: Difficult Women
+        author: Roxane Gay
+        url: 
+        img: img/library/gay.png
+
+    -
+        title: The Reluctant Fundamentalist
+        author: Mohsin Hamid
+        url: 
+        img: img/library/hamid.png
+
+    -
         title: How Should a Person Be?
         author: Sheila Heti
         url: https://www.amazon.com/dp/B0071VUO7U/
@@ -48,6 +66,12 @@ library:
         author: John Irving
         url: https://www.amazon.com/World-According-Garp-John-Irving/dp/034536676X
         img: img/library/irving.jpg
+
+    -
+        title: Lab Girl
+        author: Hope Jahren
+        url: 
+        img: img/library/jahren.png
 
     -
         title: The Vegetarian

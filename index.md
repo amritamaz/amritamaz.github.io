@@ -5,7 +5,7 @@ permalink: /
 subtitle: hello
 ---
 
-<p class="intro-img"> <br><br><br><br><br><br><br><br>
+<p class="intro-img"> <img src="img/head.gif" />
 </p>
 
 <p class="intro">computer architect, writer, coffee drinker, nap taker.</p>

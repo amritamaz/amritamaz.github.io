@@ -8,7 +8,7 @@ subtitle: hello
 <p class="intro-img"> <img src="img/head.gif" />
 </p>
 
-<p class="intro">computer architect, writer, coffee drinker, nap taker.</p>
+<p class="intro">computer architect, writer, coffee drinker.</p>
 
 
 

@@ -57,7 +57,7 @@ header a.active { color: #222; border-bottom: 2px solid #222; }
 header a:hover { color: crimson; }
 a.site-title { font-weight: 500; color: #222; font-size: 16px; text-transform: lowercase;}
 
-p.intro-img img { border-radius: 100%; max-width: 300px; width: 100%; margin: 0 auto 3rem; }
+p.intro-img img { border-radius: 100%; max-width: 200px; width: 75%; margin: 0 auto 3rem; }
 p.intro-img {text-align: center;}
 
 footer.site-footer {
@@ -82,9 +82,9 @@ a:hover { color: crimson; }
 p a { text-decoration: none; border-bottom: 1px solid #bbb; }
 p a:hover { border-bottom-color: crimson; }
 
-a.name{ 
-    color: black; 
-    font-size: 175%; 
+a.name{
+    color: black;
+    font-size: 175%;
     font-weight: 900;
     text-transform: lowercase;
   }
@@ -101,7 +101,7 @@ p.intro_aside {
     text-align: center;
     font-size: 16px;
     font-weight: 400;
-    margin-top: 10rem;
+    margin-top: 3rem;
     font-family: Inconsolata,monospace;
 }
 
@@ -314,4 +314,3 @@ table.book16table th{
 @media (min-width: 500px) { body.library section a { width: 33.3333%; } }
 @media (min-width: 700px) { body.library section a { width: 25%; } }
 @media (min-width: 900px) { body.library section a { width: 20%; } }
-

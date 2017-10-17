@@ -2,6 +2,9 @@
 layout: post
 title: Can you get into grad school with a low GPA?
 categories: [blog]
+tags:
+  - academia
+
 ---
 
 I saw some discussion on Twitter that many students feel discouraged from even
@@ -54,4 +57,4 @@ and theirs if the website says "Do not contact me via email for graduate school 
 and then you do so anyway!) But, if the professor has some text encouraging you to contact
 them, go ahead, and the conversation may help guide your graduate school process -- even if they don't have slots, they may be able to recommend other professors or programs that are a good fit.
 
-I always have to bite my tongue when I hear the "omg my 3.8 GPA was so low I barely made magna cum laude" olympics going on in grad student circles, especially because there are so many life situations and circumstances that may prevent perfectly excellent candidates for graduate school from feeling qualified because of a lower GPA. If you're interested in CS graduate school and feel like your GPA is too low and want advice, especially if you are an under-represented minority, feel free to [email me](mailto:amritamaz@gmail.com) or [@ me on twitter](https://twitter.com/amritamaz). 
+I always have to bite my tongue when I hear the "omg my 3.8 GPA was so low I barely made magna cum laude" olympics going on in grad student circles, especially because there are so many life situations and circumstances that may prevent perfectly excellent candidates for graduate school from feeling qualified because of a lower GPA. If you're interested in CS graduate school and feel like your GPA is too low and want advice, especially if you are an under-represented minority, feel free to [email me](mailto:amritamaz@gmail.com) or [@ me on twitter](https://twitter.com/amritamaz).

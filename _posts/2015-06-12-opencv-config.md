@@ -1,7 +1,9 @@
 ---
 layout: post
-title: Useful Cmake Flags to Turn On and Off in Your OpenCV install 
+title: Useful Cmake Flags to Turn On and Off in Your OpenCV install
 categories: [blog]
+tags:
+  - programming
 ---
 
 After spending a lot of quality time with many different versions and specially-configured installations of OpenCV, I have a lot of opinions and words of wisdom to share. If you have some priorities for what you want out of OpenCV, I have some commonly used config lines I swap in and out of my Makefile for you.
@@ -45,7 +47,7 @@ You're going to compile statically and enable `-g -pg` compile flags.
 ## 5. I want to debug my (SINGLETHREADED) code, including library calls.
 
 
-This is like 3+4, but with all the multithreading flags turned off. 
+This is like 3+4, but with all the multithreading flags turned off.
 
 	cmake -D WITH_TBB=OFF -D WITH_OPENMP=OFF -D WITH_IPP=OFF -D ENABLE_PROFILING=ON -D CMAKE_BUILD_TYPE=Debug -D BUILD_EXAMPLES=OFF -D WITH_NVCUVID=OFF -D WITH_CUDA=OFF -D BUILD_DOCS=OFF -D BUILD_PERF_TESTS=OFF -D BUILD_TESTS=OFF -D WITH_CSTRIPES=OFF -D WITH_OPENCL=OFF CMAKE_INSTALL_PREFIX=/usr/local/ ..
 

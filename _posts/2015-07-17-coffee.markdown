@@ -6,21 +6,21 @@ categories: [blog]
 
 ---
 
-I'm a big fan of coffee and coffeeshops, and make a point to explore the coffee 
+I'm a big fan of coffee and coffeeshops, and make a point to explore the coffee
 culture in the places I live.
-Here's a list of some of my favorites. 
+Here's a list of some of my favorites.
 
 Seattle, WA
 =============
 
-I currently live in Seattle, a city 
+I currently live in Seattle, a city
 [known for its coffee culture](https://en.wikipedia.org/wiki/Coffee_in_Seattle).
 
 + Caffe Umbria
-+ Porchlight Coffee & Records
-+ Analog Coffee
 + Victrola Coffee Roasters
 + Cafe Solstice
++ Porchlight Coffee & Records
++ Analog Coffee
 + Fuel Coffee
 + Cafe Allegro
 + Milstead & Co.
@@ -30,7 +30,7 @@ I currently live in Seattle, a city
 Jersey Shore
 =============
 
-I grew up on the Jersey Shore and return often. 
+I grew up on the Jersey Shore and return often.
 
 + Cafe Volan
 + Coffee Corral
@@ -40,7 +40,7 @@ I grew up on the Jersey Shore and return often.
 New York City
 =============
 
-I lived in New York from 2010 to 2014, and visit frequently. 
+I lived in New York from 2010 to 2014, and visit frequently.
 
 + Joe Coffee
 	- Morningside Heights
@@ -68,7 +68,7 @@ Burlington, Vermont
 =============
 
 I lived in Burlington in the summer of 2012, and visited the area frequently between
-2010 and 2014. 
+2010 and 2014.
 
 + Maglianero
 + Uncommon Grounds

@@ -3,6 +3,9 @@ layout: post
 title: processing + mac + chrome
 date: '2013-01-11T08:51:00-05:00'
 categories: [ ]
+tags:
+  - programming
+
 ---
 It doesn’t work. To make a long story short, I spent 7 hours looking for alternatives and determined a perfect storm to keep me from using Chrome full-time had taken place:
 

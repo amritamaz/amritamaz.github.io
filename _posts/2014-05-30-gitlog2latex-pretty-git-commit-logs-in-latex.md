@@ -3,6 +3,9 @@ layout: post
 title: 'gitlog2latex: Pretty Git Commit Logs in LaTeX'
 date: '2014-05-30T19:12:00-04:00'
 categories: [blog]
+tags:
+  - programming
+
 ---
 For a recent project, we wanted to auto-generate our Git commit logs for inclusion in our final paper. Getting the pretty git log on the command line is easy:
 
@@ -26,7 +29,7 @@ To use gitlog2latex, you want to grab it from github, move it into the directory
 	chmod a+x gitlog2latex.sh
 	mv [mydirectory]
 	cd [mydirectory]
-	./gitlog2latex.sh 
+	./gitlog2latex.sh
 
 The file will be produced as `gitlog.tex`. If you want to name it something else, change the `OUTPUT` variable at the top of the script.
 

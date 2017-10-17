@@ -2,9 +2,12 @@
 layout: post
 title: Window Resizer for Alfred - Update for Multiple Displays
 categories: [blog]
+tags:
+  - programming
+
 ---
 
-A few years ago, I wrote a window resizer script to work with Alfred. This week, I updated it for dual use with multiple displays and my native Retina display. It now works with Preview and has been tested for backwards compatibility with Snow Leopard, Lion, and Mavericks. I also now include instructions for execution with 
+A few years ago, I wrote a window resizer script to work with Alfred. This week, I updated it for dual use with multiple displays and my native Retina display. It now works with Preview and has been tested for backwards compatibility with Snow Leopard, Lion, and Mavericks. I also now include instructions for execution with
 
 ## Multiple Display Support
 
@@ -16,7 +19,7 @@ It does not dynamically detect your display size, though, so you need to do some
 		get bounds of window of desktop
 	end tell
 
-and the result should display your resolution in `{top corner, left corner, width, height}`. To determine each of your multiple displays, drag the AppleScript Editor into each window to get reports back for each display. 
+and the result should display your resolution in `{top corner, left corner, width, height}`. To determine each of your multiple displays, drag the AppleScript Editor into each window to get reports back for each display.
 
 ## Installation
 

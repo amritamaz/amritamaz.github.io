@@ -2,6 +2,9 @@
 layout: post
 title: What do I wear to an academic conference?
 categories: [blog]
+tags:
+  - academia
+
 ---
 
 "What do I wear to an academic conference?" was the subject line of an email I frantically sent in 2014 to four academic acquaintances who all happened to be women after being told by my almost-advisors to register for my first academic conference. With three years and ten academic conferences/meetings under my belt, I now have a stable collection of simple things I can pack for a 3-5 day academic event without breaking a sweat, but in the beginning I had no idea what women wore to these things, and, even after asking, I didn't know know how to translate a senior academic woman's apparel choices to what a new grad student that no one knows should be wearing. Between then and now, I relentlessly observed what other men and women were wearing[^1] and used this to calibrate my style and choices for academic events.
@@ -30,7 +33,7 @@ You may also find yourself at a conference hotel with nice fitness and swimming 
 
 I also keep my travel-toiletries in a bag prepared in advance - there is a bit of upfront cost for preparing travel-sized moisturizers, makeup, etc. and keeping it aside (this can be mitigated by helping yourself to hotel shampoos and conditioners, but I digress), but it really pays for itself in being able to grab your 2 jackets, 3 tops, exercise gear, and pre-packed toiletry bag and be ready to go in no time.
 
-As a member of an under-represented group who also cares about personal style, choosing what to wear to academic events is not just a frivolous girly shopping-topic but can have very real impacts on perception and professional progress. If you are in an under-represented group and would like any advice or feedback on what you are thinking about wearing to an academic or tech conference, feel free to [email me](mailto:amritamaz@gmail.com) or [@ me on twitter](https://twitter.com/amritamaz). 
+As a member of an under-represented group who also cares about personal style, choosing what to wear to academic events is not just a frivolous girly shopping-topic but can have very real impacts on perception and professional progress. If you are in an under-represented group and would like any advice or feedback on what you are thinking about wearing to an academic or tech conference, feel free to [email me](mailto:amritamaz@gmail.com) or [@ me on twitter](https://twitter.com/amritamaz).
 
 [^1]: idk, I do this anyway with everyone all the time, but I did take specific note for my specific task
 [^2]: I did not realize until this moment that being comfortable was such a critical requirement for my conference gear, but, well, here we are.

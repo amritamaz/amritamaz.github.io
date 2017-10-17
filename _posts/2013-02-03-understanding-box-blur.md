@@ -3,6 +3,9 @@ layout: post
 title: Understanding Box Blur
 date: '2013-02-03T13:28:00-05:00'
 categories: [blog]
+tags:
+  - programming
+
 ---
 
 ![boxblurring](http://media.tumblr.com/dc5d89b5f9066f3c16f6b08d092006c5/tumblr_inline_mhnpyxtIDn1qz4rgp.png)

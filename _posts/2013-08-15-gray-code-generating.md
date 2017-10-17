@@ -3,6 +3,9 @@ layout: post
 title: gray code generating
 date: '2013-08-15T20:00:15-04:00'
 categories: [blog]
+tags:
+  - programming
+
 ---
 i had to write a text file with a 7-bit gray code for work. rather than spending 10 minutes figuring out the gray code by hand, I decided to do spend a half hour hacking something up to do it for me.
 
@@ -30,7 +33,7 @@ this is super easy to do in paper. this is less easy to figure out in code. pyth
 
 by no means the most efficient, but quick and dirty and got the job done.
 
-	import sys 
+	import sys
 
 	greylen = int(sys.argv[1])
 	var_array = []
@@ -45,7 +48,4 @@ by no means the most efficient, but quick and dirty and got the job done.
 
 	for num in range(int(greylen)):
 	  cur_arr = var_array[len(var_array)-num-1]
-	  while len(cur_arr) 
-
-
- 
+	  while len(cur_arr)

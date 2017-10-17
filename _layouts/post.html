@@ -2,12 +2,22 @@
 layout: default
 ---
 	<article>
+			<p class="post-tags">
+	      {% for tag in page.tags %}
+	      {{ tag }} {% unless forloop.last %} &mdash; {% endunless %}
+	      {% endfor %}
+			</p>
 
 		<h1 class="post-title"><a href="{{page.url}}">{{ page.title }}</h1></a>
+		<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
 
 		<div class="post-content">
 			{{ content }}
 		</div>
-		<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
 
 	</article>
+
+	<hr>
+	<div class="post-footer">
+	<span class="post-footer-thanks">Thanks for reading!</span> If you have comments or questions, you can contact me via <a href="mailto:amritamaz@gmail.com">email</a> or by tweeting <a href="https://twitter.com/amritamaz">@amritamaz</a>.
+</div>

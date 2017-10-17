@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Inconsolata|Karla|Playfair+Display:400,700';
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Work+Sans:400,500|Eczar:400,600');
 
 * {
     box-sizing: border-box;
@@ -9,7 +9,7 @@ body {
     background-color: #fafafa;
     margin: 0 auto;
     padding: 0;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 14px;
     line-height: 145%;
 }
@@ -55,7 +55,7 @@ header nav ul li:last-child { margin-right: 0; }
 header a { border: none; color: gray; text-decoration: none; padding-bottom: 2px; }
 header a.active { color: #222; border-bottom: 2px solid #222; }
 header a:hover { color: crimson; }
-a.site-title { font-weight: 500; color: #222; font-size: 16px; text-transform: lowercase;}
+a.site-title { font-weight: 600; color: #222; font-size: 16px; text-transform: lowercase;}
 
 p.intro-img img { border-radius: 100%; max-width: 200px; width: 75%; margin: 0 auto 3rem; }
 p.intro-img {text-align: center;}
@@ -64,7 +64,7 @@ footer.site-footer {
     color: gray;
     font-weight: 400;
     padding: 2rem 1rem;
-    margin-top: 8rem;
+    margin-top: 6rem;
 
     font-size: 14px;
     background-color: #e5e5e5;
@@ -75,26 +75,31 @@ footer p {
   margin: 0 auto;
 }
 
+footer a{
+  color: gray;
+  border-bottom: 1px solid #bbb;
+}
+
 /* typography */
 
-a { color: gray; }
-a:hover { color: crimson; }
-p a { text-decoration: none; border-bottom: 1px solid #bbb; }
-p a:hover { border-bottom-color: crimson; }
+a { color: crimson; }
+a:hover { color: gray; }
+p a { text-decoration: none; border-bottom: 1px solid #DC143C; }
+p a:hover { border-bottom-color: gray; }
 
 a.name{
     color: black;
     font-size: 175%;
-    font-weight: 900;
+    font-weight: 500;
     text-transform: lowercase;
   }
 
 p.intro {
-  font-family: 'Playfair Display';
+  font-family: 'Eczar';
     text-align: center;
     font-size: 48px;
     margin-top: -2rem;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 p.intro_aside {
@@ -102,7 +107,7 @@ p.intro_aside {
     font-size: 16px;
     font-weight: 400;
     margin-top: 3rem;
-    font-family: Inconsolata,monospace;
+    font-family: 'Inconsolata', monospace;
 }
 
 
@@ -134,12 +139,16 @@ aside { border-bottom: 1px solid rgba(0,0,0,0.1); }
 aside h2 { margin-top: 2em; }
 
 .post-title{
-    font-family: 'Playfair Display', Georgia, serif;
-    font-weight: 700;
-    font-size: 3rem;
+    font-family: 'Eczar', Georgia, serif;
+    font-weight: 600;
+    font-size: 2.5rem;
     line-height: 100%;
-
+    margin: 0;
 }
+.post-tags{
+  text-transform: uppercase;
+}
+
 .post-title a {
     text-decoration: none;
     color: #000;
@@ -150,11 +159,30 @@ aside h2 { margin-top: 2em; }
     color: crimson;
 }
 
+.post-content{
+  margin-top: 30px;
+}
+
+.post-content h2{
+  font-weight: 500;
+}
+
 p.post-meta {
     line-height: 100%;
     color: gray;
     font-size: .85rem;
     font-family: 'Inconsolata', monospace;
+}
+
+.post-footer-thanks{
+  font-weight: 600;
+}
+
+.post-footer{
+  font-family: 'Eczar', Georgia, serif;
+  font-weight: 400;
+  letter-spacing: .5px;
+  font-size: 12px;
 }
 
 
@@ -170,7 +198,7 @@ body.library section a.bookpostlink{
 }
 
 body.library h2{
-    font-family: 'Playfair Display', Georgia, serif;
+    font-family: 'Eczar', Georgia, serif;
 }
 
 body.library section a.bookpostlink:hover{

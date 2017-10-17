@@ -145,8 +145,14 @@ aside h2 { margin-top: 2em; }
     line-height: 100%;
     margin: 0;
 }
+
 .post-tags{
   text-transform: uppercase;
+}
+
+.post-tags a{
+  color: gray;
+  border-bottom: none;
 }
 
 .post-title a {

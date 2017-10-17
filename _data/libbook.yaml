@@ -19,7 +19,7 @@ library:
         url: https://www.amazon.com/Too-Much-Not-Mood-Essays/dp/0374535957/
         img: img/library/chew-bose.jpg
 
-    - 
+    -
         title: Stories of Your Life and Others
         author: Ted Chiang
         url: https://www.amazon.com/Stories-Your-Life-Others-Chiang/dp/1101972122
@@ -36,12 +36,6 @@ library:
         author: Daphne du Maurier
         url: https://www.amazon.com/Rebecca-Daphne-Du-Maurier/dp/0380730405
         img: img/library/dumaurier.jpg
-
-    -
-        title: Those Who Leave and Those Who Stay
-        author: Elena Ferrante
-        url: https://www.amazon.com/Argonauts-Maggie-Nelson/dp/1555977359
-        img: img/library/ferrante.jpg
 
     -
         title: Difficult Women
@@ -85,18 +79,6 @@ library:
         url: https://www.amazon.com/Unaccustomed-Earth-Jhumpa-Lahiri-ebook/dp/B0011UGLK6/
         img: img/library/lahiri.jpg
 
-    -         
-        title: The Complete Stories
-        author: Clarice Lispector
-        url: https://www.amazon.com/Complete-Stories-Clarice-Lispector/dp/0811219631/
-        img: img/library/lispector.jpg
-
-    -
-        title: 100 Years of Solitude
-        author: Gabriel Garcia Marquez
-        url: https://www.amazon.com/Hundred-Solitude-Harper-Perennial-Classics/dp/0060883286/
-        img: img/library/marquez.jpg
-
     -
         title: 'Understanding Media: The Extensions of Man'
         author: Marshall McLuhan
@@ -116,45 +98,7 @@ library:
         img: img/library/nelson.jpg
 
     -
-        title: The Diary of Anaïs Nin
-        author: Anaïs Nin
-        url: https://www.amazon.com/Diary-Anais-Nin-Complete-Volumes/dp/0156260298/
-        img: img/library/nin.jpg
-
-    -
-        title: The Buddha in the Attic
-        author: Julie Otsuka
-        url: https://www.amazon.com/Buddha-Attic-Pen-Faulkner-Award/dp/0307744426/
-        img: img/library/otsuka.jpg
-
-    - 
-        title: Mr. Penumbra's 24-Hour Bookstore
-        author: Robin Sloan
-        url: https://www.amazon.com/Mr-Penumbras-24-Hour-Bookstore-Novel/dp/1250037751
-        img: img/library/sloan.jpg
-
-    -
-        title: How to Be Both
-        author: Ali Smith
-        url: https://www.amazon.com/How-be-both-Ali-Smith/dp/0307275256/
-        img: img/library/smith.jpg
-
-    -
-        title: Dietland
-        author: Sarai Walker
-        url: https://www.amazon.com/Dietland-Sarai-Walker/dp/0544704835/
-        img: img/library/walker.jpg
-
-    -
         title: The Philosophy of Andy Warhol
         author: Andy Warhol
         url: https://www.amazon.com/Philosophy-Andy-Warhol-Back-Again/dp/0156717204/
         img: img/library/warhol.jpg
-
-    -
-        title: Brown Girl Dreaming
-        author: Jaqueline Woodson
-        url: https://www.amazon.com/Brown-Girl-Dreaming-Jacqueline-Woodson/dp/0147515823/
-        img: img/library/woodson.png
-
-

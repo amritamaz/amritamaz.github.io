@@ -8,28 +8,11 @@ permalink: /library/
 
 
 <section class="lede">
-I read a lot, and keep some notes about what I've read and liked. 
+I read a lot, and keep some notes about what I've read and liked.
   {% for post in site.posts %}
     {% if post.categories contains 'books' %}
         <a class="bookpostlink" href="{{ post.url | prepend: site.baseurl }}">[ {{ post.year }} ]</a>
     {% endif %}
   {% endfor %}
-
-</section>
-
-<section>
-<div id="library_header">
-<h2>My Favorite Books</h2>
-</div>
-{% for book in books.library %}
-  <a href="{{ book.url }}" target="_blank">
-    <div class="imgcontainer">
-      <img src="{{baseurl}}/{{ book.img }}">
-    </div>
-    <b class="label">{{ book.title }}</b>
-    <em class="detail">{{ book.author }}</em>
-  </a>
-{% endfor %}
-
 
 </section>

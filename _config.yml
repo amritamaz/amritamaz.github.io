@@ -12,5 +12,5 @@ email: amritamaz@gmail.com
 twitter: '@amritamaz'
 description: 'Amrita Mazumdar, computer science PhD student and creative person.'
 
-gems:
+plugins:
   - jekyll-feed

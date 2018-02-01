@@ -1,0 +1,129 @@
+{  "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
+  "width": 500,
+
+  "data": {
+    "url": "../../../img/books2017/books.csv"
+  },
+  "config":{
+
+    "axis": {
+      "titleFont": "Karla",
+      "labelFont": "Karla"
+    },
+    "legend":{
+      "titleFont": "Karla",
+      "labelFont": "Karla"
+    }
+  },
+  "layer":[
+    {
+    "mark": "area",
+    "encoding": {
+      "y": {
+        "field": "Cumulative Pages",
+        "type": "quantitative",
+        "scale": {}
+      },
+      "x": {
+        "field": "Date Read",
+        "type": "temporal",
+        "timeUnit": "yearmonthdate",
+        "axis": {"format": "%b %d", "title": "Months in 2017", "labelAngle": "-30"},
+        "scale": {}
+      },
+    "color": {
+      "value": "#aaa"
+    }
+    },
+    "config": {
+      "overlay": {
+        "line": true
+      },
+      "scale": {
+        "useUnaggregatedDomain": true
+      }
+
+    }
+    },{
+      "mark": "rect",
+      "data": {
+        "values": [
+          {
+            "start": "Mar 20 2017",
+            "end": "Apr 21 2017",
+            "event": "HPG Deadline",
+            "order": "1"
+          },
+          {
+            "start": "Jun 8 2017",
+            "end": "Jun 19 2017",
+            "event": "Family Events",
+            "order": "2"
+          },
+          {
+            "start": "Jun 22 2017",
+            "end": "Jun 26 2017",
+            "event": "Turing Conference",
+            "order": "3"
+          },
+          {
+            "start": "Jun 26 2017",
+            "end": "Sep 15 2017",
+            "event": "Oculus Internship",
+            "order": "4"
+          },
+          {
+            "start": "Jul 27 2017",
+            "end": "Jul 30 2017",
+            "event": "HPG",
+            "order": "5"
+          },
+          {
+            "start": "Sep 19 2017",
+            "end": "Sep 23 2017",
+            "event": "California Trip",
+            "order": "6"
+          },
+          {
+            "start": "Nov 10 2017",
+            "end": "Nov 12 2017",
+            "event": "Shadow PC Meeting",
+            "order": "7"
+          },
+          {
+            "start": "Nov 22 2017",
+            "end": "Nov 25 2017",
+            "event": "Thanksgiving",
+            "order": "8"
+          },
+          {
+            "start": "Dec 14 2017",
+            "end": "Dec 31 2017",
+            "event": "India Travels",
+            "order": "9"
+          }
+        ],
+        "format": {
+          "parse": {"start": "date:'%b %d %Y'", "end": "date:'%b %d %Y'"}
+        }
+      },
+      "encoding": {
+        "x": {
+          "field": "start",
+          "type": "temporal",
+          "timeUnit": "yearmonthdate"
+        },
+        "x2": {
+          "field": "end",
+          "type": "temporal",
+          "timeUnit": "yearmonthdate"
+        },
+        "order": {"field": "start", "type": "temporal"},
+        "color": {"field": "event", "type": "nominal"},
+        "opacity": {"value": 0.75},
+        "tooltip": {"field": "event", "type": "nominal"}
+
+      }
+
+      }]
+    }

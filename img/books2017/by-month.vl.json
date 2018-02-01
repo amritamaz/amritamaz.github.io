@@ -1,0 +1,71 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
+  "description": "Number of books I read in 2018 by month",
+  "width": 500,
+  "config": {
+    "bar": {
+      "discreteBandSize": 20, "binSpacing": 0
+    },
+    "axis": {
+      "titleFont": "Karla",
+      "labelFont": "Karla"
+    }
+  },
+  "data": {
+    "values": [
+        {"month": "Jan","pages": 2651,"books": 11,"total_books":11},
+        {"month": "Feb","pages": 2901,"books": 13,"total_books":24},
+        {"month": "Mar","pages": 1812,"books": 6,"total_books":30},
+        {"month": "Apr","pages": 1960,"books": 6,"total_books":36},
+        {"month": "May","pages": 4174,"books": 15,"total_books":51},
+        {"month": "Jun","pages": 3015,"books": 10,"total_books":61},
+        {"month": "Jul","pages": 4865,"books": 16,"total_books":76},
+        {"month": "Aug","pages": 3016,"books": 11,"total_books":88},
+        {"month": "Sep","pages": 3824,"books": 12,"total_books":100},
+        {"month": "Oct","pages": 2567,"books": 11,"total_books":111},
+        {"month": "Nov","pages": 4142,"books": 16,"total_books":127},
+        {"month": "Dec","pages": 5450,"books": 23,"total_books":150}
+      ],
+      "format": {
+        "parse": {"month": "date:'%b'"}
+      }
+  },
+  "layer": [
+    {
+      "mark": "line",
+      "encoding": {
+        "x": {
+          "field": "month",
+          "type": "temporal",
+          "timeUnit": "month"
+        },
+        "y": {"field": "total_books", "type": "quantitative"}
+      }
+    },
+    {
+      "mark": "bar",
+      "encoding": {
+        "x": {
+          "field": "month",
+          "type": "temporal",
+          "timeUnit": "month",
+          "axis": {"title": null}
+
+        },
+        "y": {"field": "books", "type": "quantitative", "axis": {"title": "Books Read"}}
+      }
+    },
+    {
+      "mark": "rule",
+      "encoding": {
+        "y": {
+          "field": "total_books",
+          "type": "quantitative",
+          "aggregate": "max"
+        },
+        "size": {"value": 2},
+        "color": {"value": "red"}
+      }
+    }
+  ]
+}

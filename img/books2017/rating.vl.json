@@ -1,0 +1,62 @@
+{  "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
+
+    "data": {
+      "url": "../../../img/books2017/books.csv"},
+        "transform": [{
+    "lookup": "My Rating",
+    "from": {
+      "data": {"values": [
+        {
+          "My Rating": "1",
+          "ratingname": "The Worst"
+        },
+        {
+          "My Rating": "2",
+          "ratingname": "Not Good"
+
+        },
+        {
+          "My Rating": "3",
+          "ratingname": "Fine"
+
+        },
+        {
+          "My Rating": "4",
+          "ratingname": "Great"
+
+        },
+        {
+          "My Rating": "5",
+          "ratingname": "Amazing"
+        }
+      ]},
+      "key": "My Rating",
+      "fields": ["ratingname"]
+    }
+  }],
+
+      "mark": "bar",
+      "encoding": {
+        "x": {
+          "field": "ratingname",
+          "type": "ordinal",
+          "axis": {"labelAngle": 0, "title": ""},
+          "scale": {"rangeStep": 40, "paddingOuter": 1.5},
+          "sort": {"op": "mean", "field": "My Rating", "order": "ascending"}
+        },
+        "y": {
+          "aggregate": "count",
+          "field": "*",
+          "type": "quantitative",
+          "axis": {"title": "Count"}
+        }
+      },
+      "config": {
+        "axis": {
+          "titleFont": "Karla",
+          "labelFont": "Karla"
+        }
+      },
+      "description": ""
+
+  }

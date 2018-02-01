@@ -2,6 +2,13 @@
   "width": 450,
   "height": 100,
   "padding": {"top": 10,"left": 50,"bottom": 30,"right": 40},
+  "config": {
+    "axis": {
+      "titleFont": "Karla",
+      "labelFont": "Karla"
+    }
+  },
+
   "signals": [
     {
       "name": "tooltip",
@@ -17,7 +24,7 @@
       "name": "table",
       "values": [
         {"month": "Jan","pages": 1028,"books": 12,"total_books":12},
-        {"month": "Feb","pages": 1943,"books": 6,"total_books":18},        
+        {"month": "Feb","pages": 1943,"books": 6,"total_books":18},
         {"month": "Mar","pages": 5356,"books": 15,"total_books":33},
         {"month": "Apr","pages": 4265,"books": 13,"total_books":46},
         {"month": "May","pages": 1826,"books": 7,"total_books":53},

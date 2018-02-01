@@ -1,6 +1,13 @@
 {
   "width": 300,
   "height": 100,
+  "config": {
+    "axis": {
+      "titleFont": "Karla",
+      "labelFont": "Karla"
+    }
+  },
+
   "data": [
     {
       "name": "table",
@@ -115,10 +122,10 @@
               "y2": {"scale": "val","value": 0}
             },
             "update": {"fill": {"scale": "color","field": "year"}}
-            
+
           }
         }
-        
+
       ]
     }
   ]

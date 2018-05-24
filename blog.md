@@ -3,6 +3,9 @@ layout: page
 title: blog
 permalink: /blog/
 ---
+<section id="intro">
+<h2>amritamaz/blog</h2>
+</section>
 
 {% for post in site.posts  %}
 {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
@@ -35,4 +38,3 @@ permalink: /blog/
 {% endif %}
 {% endif %}
 {% endfor %}
-

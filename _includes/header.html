@@ -1,18 +1,11 @@
 
 <header>
     <div class="navwrapper">
-    <a href="{{ site.baseurl }}/" class='name'>
-        {{ site.author }}
-    </a>
     <nav role='navigation'>
         <ul>
 	    {% for node in site.pages %}
-	      {% if node.title and node.title != '404' and node.title != 'Home' %}
-		    {% if page.url == node.url %}
-		      <li class="active"><a href="{{ node.url | prepend: site.baseurl }}" class="active">{{node.title}}</a></li>
-		    {% else %}
+	      {% if node.title and node.title != '404' %}
 		      <li><a href="{{ node.url | prepend: site.baseurl }}">{{node.title}}</a></li>
-		    {% endif %}
 	      {% endif %}
 	    {% endfor %}
             </ul>

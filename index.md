@@ -27,7 +27,7 @@ My writing explores the intersections of diaspora, technology, queerness, and cu
 <h2> Recent Blog Posts </h2>
 A fun mix of technical and non-technical subject matter
 <ul>
-{% for post in site.posts limit: 3 %}
+{% for post in site.categories.blog limit: 3 %}
 <li>
 <a class="postlink" href="{{ post.url | prepend: site.baseurl }}">
 {{post.title}}
@@ -39,7 +39,7 @@ A fun mix of technical and non-technical subject matter
 </section>
 
 <section class="index-list">
-<h2> Recent Writing </h2>
+<h2> Writing and Other Projects </h2>
 <ul>
 {% for post in site.categories.writing limit: 3 %}
 <li>

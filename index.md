@@ -12,8 +12,7 @@ subtitle: hello
 </section>
 
 <section id="bio">
-<p>My academic research focuses on how we build systems to produce and store photos, videos, and VR/AR content.
-My writing explores the intersections of diaspora, technology, queerness, and culture. I am a Gemini, obviously.
+<p>My academic research focuses on how we build systems to produce and store photos, videos, and VR/AR content. My writing explores the intersections of diaspora, technology, and culture. I am a Gemini, obviously.
 </p>
 </section>
 

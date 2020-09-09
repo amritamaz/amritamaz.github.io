@@ -8,7 +8,7 @@ permalink: /about/
 <h2>About Amrita</h2>
 </section>
 
-I am a computer scientist and writer. I was a PhD student at the University of Washington, drink lots, and I keep a very detailed diary.
+I am a computer scientist and writer. I was a PhD student at the University of Washington, drink lots of coffee, and I keep a very detailed diary.
 
 Before graduate school, I lived in New York and studied at Columbia University, mostly about computers, cameras, and old books. I also worked at a chip fab and the second-oldest daily college newspaper.
 

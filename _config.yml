@@ -1,16 +1,41 @@
 markdown: kramdown
-highlighter: rouge
+highlighter: pygments
 permalink: /:categories/:title
 timezone: America/Seattle
 categories: [blog,notes,writing]
 # baseurl: "http://amritamaz.net/"
+twitter: '@amritamaz'
+email: 'amritamaz@gmail.com'
+ghrepo: https://github.com/amritamaz/home
 
 name: Amrita Mazumdar
 author: Amrita Mazumdar
 title: 'amritamaz blogs'
 email: amritamaz@gmail.com
 twitter: '@amritamaz'
-description: 'Amrita Mazumdar, computer science PhD student and creative person.'
+description: 'Amrita Mazumdar.'
 
 plugins:
   - jekyll-feed
+
+
+defaults:
+    -
+        scope:
+            path: ""
+            type: posts
+        values:
+            layout: post
+    -
+        scope:
+            path: ""
+            type: drafts
+        values:
+            layout: post
+
+navigation:
+  - title: home
+    link: /
+  - title: cv
+    link: /web-cv.html
+

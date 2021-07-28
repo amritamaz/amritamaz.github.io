@@ -1,0 +1,143 @@
+name: Amrita Mazumdar
+email: amrita@cs.washington.edu
+dept: University of Washington Department of Computer Science & Engineering
+dept_url: https://www.cs.washington.edu
+
+education:
+    -
+        school: University of Washington
+        degree: Ph.D., Computer Science and Engineering
+        dates: 2020
+        note: |
+            Committee: <a href="http://homes.cs.washington.edu/~luisceze/">Luis Ceze</a>,
+             <a href="http://homes.cs.washington.edu/~oskin/">Mark Oskin</a><br>,
+             <a href="http://homes.cs.washington.edu/~magda/">Magda Balazinska</a><br>,
+    -
+        school: University of Washington
+        degree: Masters of Science, Computer Science and Engineering
+        dates: 2017
+    -
+        school: Columbia University
+        degree: Bachelor of Science, Computer Engineering
+        dates: 2010&ndash;2014
+
+jobs:
+    -
+        title: Research Intern
+        where: Facebook Reality Lab
+        dates: 2018
+
+    -
+        title: Research Intern
+        where: Oculus Research
+        dates: 2017
+
+    -
+        title: ASIC Design Intern
+        where: IBM Microelectronics
+        dates: 2012
+
+honors:
+    -
+        title: UW CoMotion Innovation Gap Fund Winner
+        date: 2019
+    -
+        title: SoCC Best Poster Award (for poster accompanying SoCC'19 paper)
+        date: 2019
+    -
+        title: NCWIT Collegiate Award Finalist
+        date: 2018
+    -
+        title: Madrona Ventures Research Prize Runner-Up
+        date: 2017
+    -
+        title: Google Anita Borg Memorial Fellowship
+        date: 2014
+    -
+        title: CRA-W Distributed Research Experience for Undergraduates (DREU) Fellowship
+        date: 2013
+    -
+        title: University of Rochester Frederick Douglass and Susan B. Anthony Award
+        date: 2010
+
+teaching:
+    - |
+        **Teaching Assistant**, University of Washington
+
+        * <a href="http://www.cs.washington.edu/education/courses/cse351/17wi/">CSE 351</a>, Winter 2017 (Hardware-Software Interface), with Luis Ceze
+        * <a href="http://www.cs.washington.edu/education/courses/cse548/16wi/">CSE 548</a>, Winter 2016 (Graduate Computer Architecture), with Mark Oskin
+    - |
+        **Tutor**, University of Washington
+
+        + CSE 351 (The Hardware/Software Interface)
+        + CSE 341 (Programming Languages)
+    - |
+        **Teaching Assistant**, Columbia University
+
+        + <a href="">COMS 4840</a>, Spring 2014 (Embedded Systems Design), with Stephen Edwards
+        + <a href="">Columbia Science Honors Program</a>, 2013-2014 (Introduction to Java), with Paul Blaer
+        + <a href="">COMS 1007</a> , Spring 2012(Object-Oriented Programming), with Swapneel Sheth
+
+service:
+    - |
+        University of Washington, Computer Science and Engineering
+
+        * Graduate Admissions Committee, 2017–2019
+        * Prospective Student Committee Co-Chair, 2016; Member, 2015--2018
+        * TGIF Committee Co-Chair, 2016
+        * New Graduate Student Mentor, 2015--2016
+
+    - |
+        ACM SIGARCH Social Media Editor (2017–2018)
+
+    - |
+        Columbia University, Computer Science & Computer Engineering
+
+        * Vice President, Women in Computer Science, 2013--2014
+        * Mentor, 2012-2014
+
+outreach:
+    - |
+        Chair, UW CSE Women’s Research Day (2017, 2018, 2019)
+    - |
+        Committee, UW CSE Women’s Research Day (2015, 2016)
+    - |
+        Mentor, ICRA (2015), [Go, Girl Go! Forum](http://icra2015.org/conference/forums/11-conference/53-go-girl-go)
+    - |
+        Mentor, Stars Challenge (2014), [Code Secrets](http://www.starschallenge.org/stars/Computing%20Camp%20For%20Girls/)
+    - |
+        Instructor, Iridescent Learning (2012), [Technovation Challenge NYC](http://www.technovationchallenge.org/)
+
+committees:
+
+    - |
+        ASPLOS Shadow PC 2018: Program committee member
+    - |
+        [Grace Hopper SOL 2016](http://ghc.anitaborg.org/2016-speakers/clusters-and-tracks/#SOL): Program committee member
+
+external:
+
+    - |
+        IEEE Micro 2017
+
+students:
+    -
+        name: Lucas Cendes
+        kind: B.S.
+        when: 2018&ndash;2019
+        where: University of Washington
+    -
+        name: Zackery Calipes
+        kind: B.S.
+        when: 2018&ndash;2019
+        where: University of Washington
+    -
+        name: Beck Pang
+        kind: B.S.
+        when: 2015&ndash;2016
+        where: University of Washington
+    -
+        name: Yufang Sun
+        kind: B.S.
+        when: 2014
+        where: University of Washington

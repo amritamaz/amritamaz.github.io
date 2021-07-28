@@ -1,0 +1,171 @@
+- headline: |
+              Our paper on <a href="https://arxiv.org/abs/2006.02958">TASM</a>, a storage manager that enables spatial random access for video queries,  will appear at ICDE 2021.
+
+  date: April 2021
+  year: 2021
+
+- headline: |
+              I spoke at <a href="https://fastpath2020.github.io/FastPath2021/">FastPath 2021</a> our recent work on integrating learned features with video processing systems.
+
+- headline: |
+              I was featured in <a href="https://comotion.uw.edu/uw-researcher-spotlight-amrita-mazumdar/">UW CoMotion's Researcher Spotlight</a>.
+
+  date: March 2021
+  year: 2021
+  
+- headline: |
+              I spoke about Vignette at <a href="https://comotion.uw.edu/investors-connect-with-uw-innovators-and-comotion-supported-startups-at-fall-2020-dubpitch/">DubPitch</a> Fall 2020.
+
+  date: November 2020
+  year: 2020
+  
+- headline: |
+              Vignette was accepted into the Jones+Foster Accelerator program!
+  date: July 2020
+  year: 2020
+
+- headline: |
+              I began a UW CoMotion Postdoctoral Fellowship to investigate commercializing my research.
+  date: July 2020
+  year: 2020
+
+- headline: |
+              I graduated!!! Thank you to my amazing committee, Luis, Mark, and Magda, for supervising me!!!
+  date: May 2020
+  year: 2020
+
+- headline: |
+              I had a great time presenting at the first-ever <a href="https://www.youtube.com/watch?v=8V1DyzX8JMA">virtual WACI</a> session at ASPLOS.
+  date: March 2020
+  year: 2020
+
+- headline: |
+              I presented our paper on <a href="https://dl.acm.org/citation.cfm?id=3362725">Vignette</a>, perceptual compression for cloud video storage at <a href="https://acmsocc.github.io/2019/">SoCC</a>. The Vignette poster won the best poster award!
+  date: November 2019
+  year: 2019
+
+- headline: |
+              I gave talks about <a href="https://arxiv.org/abs/1902.01372">Vignette</a> at a number of fun venues:
+                <a href="https://www.soe.ucsc.edu/events/perceptual-compression-video-processing-and-storage">UCSC</a>,
+                <a href="http://bangbangcon.com/west/">!!con West</a> (<a href="https://www.youtube.com/watch?v=5doPjV1c17c">video</a>), the
+                UW Photomedia graduate seminar, <a href="https://www.gomactech.net/2019/index.html">GOMACTech</a>, and
+                <a href="http://www.amw.org/">Asilomar Microcomputer Workshop</a>.
+                Thank you to everyone for hosting me!
+  date: April 2019
+  year: 2019
+
+- headline: |
+             I completed another great internship on the Graphics team at
+             <a href="https://research.fb.com/category/augmented-reality-virtual-reality/">Facebook Reality Lab</a>.
+  date: December 2018
+  year: 2018
+
+- headline: |
+             LightDB, a database management system for VR video content, will appear at VLDB 2018. Check it out <a href="http://www.vldb.org/pvldb/vol11.html">here</a>!
+  date: June 2018
+  year: 2018
+
+- headline: |
+             Our <a href="https://arxiv.org/abs/1606.03742">paper</a> on codesigning a similarity search hardware accelerator with die-stacked memory will appear at <a href="http://www.ipdps.org/ipdps2018/index.html">IPDPS 2018</a> this month!
+  date: May 2018
+  year: 2018
+
+- headline: |
+             The hardware-friendly bilateral solver
+             <a href="https://news.cs.washington.edu/2017/11/16/allen-school-and-madrona-venture-group-celebrate-student-innovation-at-annual-research-day/">won runner-up</a>
+             for the Madrona Prize!
+  date: November 2017
+  year: 2017
+
+- headline: |
+             I presented our work on <a href="papers/hpg17.pdf">hardware-friendly bilateral solving</a> at <a href="https://www.src.org/calendar/e005108/">SRC TECHCON 2017</a>.
+  date: September 2017
+  year: 2017
+
+- headline: |
+             Our paper on <a href="https://arxiv.org/abs/1706.03864">in-camera processing pipelines</a> will appear at <a href="http://www.iiswc.org/iiswc2017/index.html">IISWC 2017</a>.
+  date: September 2017
+  year: 2017
+
+- headline: |
+             I just finished a great summer internship at Oculus Research on the Graphics team!
+  date: September 2017
+  year: 2017
+
+- headline: |
+             I had a lot of fun at the <a href="https://www.acm.org/turing-award-50">ACM Celebration of 50 Years of
+             Turing Awards</a>. Thanks to <a href="https://www.sigarch.org/">ACM SIGARCH</a> for sending me.
+  date: June 2017
+  year: 2017
+
+- headline: |
+             Our <a href="papers/hpg17.pdf">paper on real-time VR video acceleration</a> will appear at
+             <a href="http://www.highperformancegraphics.org/2017/">High-Performance Graphics 2017</a>!
+  date: June 2017
+  year: 2017
+
+- headline: |
+             The third annual Women's Research Day was a great success! The UW Daily wrote
+             <a href="http://www.dailyuw.com/news/article_d1908976-1810-11e7-acf0-5fcdd5247822.html">a nice article</a>
+             about the event.
+  date: April 2017
+  year: 2017
+
+- headline: |
+             I gave a talk and presented a poster on our work on in-camera processing pipelines
+             at the <a href="https://www.cs.washington.edu/industrial_affiliates/meetings/2016/meeting">
+             UW CSE Industrial Affiliates</a> meeting.
+  date: October 2016
+  year: 2016
+
+- headline: |
+             I presented our work on in-camera processing pipelines at the UW PLSE Retreat.
+  date: September 2016
+  year: 2016
+
+- headline: |
+             I attended ISCA 2016 in Seoul, and was a scribe for the <a href="http://arch2030.cs.washington.edu/">Arch2030</a> workshop.
+  date: June 2016
+  year: 2016
+
+- headline: |
+             I was on the program committee for the <a href="http://ghc.anitaborg.org/">
+             Grace Hopper Student Opportunity Lab</a>.
+  date: May 2016
+  year: 2016
+
+- headline: |
+             I passed my qualifying exam! I spoke about designing near-sensor face detection
+             hardware for low-power cameras.
+  date: January 2016
+  year: 2016
+
+- headline: |
+             I attended <a href="http://www.microarch.org/micro48/">MICRO 48</a> in Hawaii!
+  date: December 2015
+  year: 2015
+
+- headline: |
+             I presented a poster on our low-power face detection hardware design at the
+             <a href="https://www.cs.washington.edu/industrial_affiliates/meetings/2015/meeting">
+             UW CSE Industrial Affiliates</a>  meeting.
+  date: October 2015
+  year: 2015
+
+- headline: |
+             I attended ISCA 2015 in Portland.
+  date: June 2015
+  year: 2015
+
+
+- headline: |
+             I attended the <a href="http://ghc.anitaborg.org/">
+             2014 Grace Hopper Celebration for Women in Computing</a>. I spoke at
+             the ‘CRA-W: How to get accepted to Graduate School’ session.
+  date: October 2014
+  year: 2014
+
+- headline: |
+             I attended ISCA 2014 in Minneapolis and the Google Scholars Retreat in Mountain View.
+  date: June 2014
+  year: 2014

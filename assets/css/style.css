@@ -1,16 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;800&display=swap');
 
 
 body {
-  font-family: 'Mulish', sans-serif;
-  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
   font-weight: 400;
   background-color: #fffcf8;
   color: #2d2a26;
+	line-height: 1.5;
+  letter-spacing: -0.015em;
+	-moz-font-feature-settings: "kern";
+	-moz-font-feature-settings: "kern=1";
+	-ms-font-feature-settings: "kern";
+	-o-font-feature-settings: "kern";
+	-webkit-font-feature-settings: "kern";
+	font-feature-settings: "kern";
+	text-rendering:optimizeLegibility;
 }
 
 b,strong{
-  font-weight: 700;
+  font-weight: 600;
 }
 
 section {
@@ -40,12 +49,8 @@ h2 #h2link{
 
 a {
   color: #2222ff;
+  border-bottom: 1.5px #2222ff solid;
 }
-
-b {
-  font-weight: 700;
-}
-
 
 a:focus, a:hover {
   color: #E07900;
@@ -96,21 +101,22 @@ div#profile_pic.col-4 {
   padding-top: 20px;
 }
 
-#name h1{
+#name h1 a{
   line-height: normal;
   margin: 0;
-  font-weight: 900;
-  color: #33a5c8;
-  text-transform: capitalize;
+  font-weight: 800;
+  font-size: 36px;
+  border-bottom: none;
 }
 
 #name h2{
-  line-height: normal;
   margin: 10px 0 10px 0;
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 200;
+}
 
-  letter-spacing: 2px;
-  font-weight: 300;
+#name a{
+  font-size: 14px;
 }
 
 
@@ -174,21 +180,9 @@ footer{
   line-height: normal;
   margin-top: -5px;
   padding-bottom: 10px;
-  font-weight: 300;
+  font-weight: 200;
   letter-spacing: 1px;
   font-size: 12px;
-}
-
-#cv h2 {
-
-  letter-spacing: 2px;
-  font-size: 12px;
-
-}
-
-#cv h3{
-    font-size: 15px;
-font-weight: 600;
 }
 
 span.venue{

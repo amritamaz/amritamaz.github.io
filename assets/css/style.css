@@ -108,7 +108,7 @@ div#profile_pic.col-4 {
   line-height: normal;
   margin: 10px 0 10px 0;
   font-size: 12px;
-  text-transform: uppercase;
+
   letter-spacing: 2px;
   font-weight: 300;
 }
@@ -180,7 +180,7 @@ footer{
 }
 
 #cv h2 {
-  text-transform: uppercase;
+
   letter-spacing: 2px;
   font-size: 12px;
 

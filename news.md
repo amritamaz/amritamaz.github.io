@@ -10,16 +10,14 @@ permalink: /news
 
 {% for member in site.data.news %}
 
-{% if forloop.first %}
-<div class="textspace">
-<aside><span id="{{ member.year }}-ref">{{member.year}}</span></aside>
-<div class="news">
-<ul class="newslist">
-{% endif %}
+
 {% if member.year != prev_year %}
+{% if forloop.first==false %}
 </ul>
 </div>
 </div>
+{% endif %}
+
 <div class="textspace">
 <aside><span id="{{ next_year }}-ref">{{member.year}}</span></aside>
 <div class="news">

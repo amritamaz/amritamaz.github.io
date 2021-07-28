@@ -2,11 +2,6 @@
 layout: default
 ---
 	<article>
-			<p class="post-tags">
-	      {% for tag in page.tags %}
-	      <a href="">{{ tag }}</a> {% unless forloop.last %} &mdash; {% endunless %}
-	      {% endfor %}
-			</p>
 
 		<h1 class="post-title"><a href="{{page.url}}">{{ page.title }}</h1></a>
 		<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>

@@ -16,4 +16,4 @@ It appears that a great deal of time has passed since my last blog post (three w
     + Lost momentum on the unpublished research projects
     + Somehow kept up startup work through a global pandemic
 
-Since I mostly work by myself on non-research these days and have been reflecting on my graduate research experience for about a year now, now feels like a great time to resurrect the blog. I have some ideas for posts, but if you have questions you'd like to see me talk about, [let me know]()! I do it all for my fans.
+Since I mostly work by myself on non-research these days and have been reflecting on my graduate research experience for about a year now, now feels like a great time to resurrect the blog. I have some ideas for posts, but if you have questions you'd like to see me talk about, [let me know](mailto:amrita@cs.uw.edu)! I do it all for my fans.

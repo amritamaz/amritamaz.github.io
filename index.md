@@ -8,7 +8,7 @@ subtitle: hello
 
 I am computer systems and architecture researcher with an emphasis on visual computing applications, like AR/VR and video streaming. Since receiving my PhD in June 2020, I have been building [Vignette AI] [vignetteco], a UW spin-out company based on my visual computing research and funded by a [CoMotion Fellowship] [comotion]. 
 
-My PhD work was advised by Luis Ceze and Mark Oskin in the [Allen School of Computer Science] [cse] at the [University of Washington] [uw]. During grad school, I worked in the [computer architecture group][arch], the [UW Reality Lab][reality], and the [UW DB group][db]. I also spent time working with vision and graphics researchers at the Facebook Reality Lab and Google Research.
+My PhD work was advised by Luis Ceze and Mark Oskin in the [Allen School of Computer Science] [cse] at the [University of Washington] [uw]. During grad school, I worked in the [computer architecture group][arch], the [UW Reality Lab][reality], and the [UW DB group][db], as well as with vision and graphics teams at the Facebook Reality Lab and Google Research.
 
 My research focuses on **new systems for VR, video, and graphics** using hardware-software codesign and ML-for-systems techniques. 
 My work spans the **glass-to-glass visual computing pipeline**; I like to work on systems problems ranging from camera capture, to visual data processing and storage, to media distribution and rendering.

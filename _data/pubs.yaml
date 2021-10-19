@@ -1,18 +1,38 @@
 -
-    title: "TASM: A Tile-Based Storage Manager for Video Analytics"
-    authors: "Maureen Daum, Brandon Haynes, Dong He, Amrita Mazumdar, Magdalena Balazinska"
+    title: "VSS: A Storage System for Video Analytics"
+    authors: "Brandon Haynes, Maureen Daum, Dong He, Amrita Mazumdar, Magda Balazinska, Alvin Cheung, Luis Ceze"
     selected: False
     year: 2021
-    venue: "IEEE International Conference on Data Engineering"
-    url: "https://arxiv.org/abs/2006.02958"
-    type: arxiv
-    summary: A tile-based storage manager enabling spatial random access to encoded videos for analytics workloads.
+    venue: "SIGMOD"
+    url: "https://dl.acm.org/doi/abs/10.1145/3448016.3459242"
+    type: conference
+    summary: A video storage system for video data management that enables fine-grained access to video content, caching, and redundancy elimination for overlapping field-of-view.
     people:
         - mdaum
         - bhaynes
         - donghe
         - amrita
         - magda
+        - akcheung
+        - luisceze
+
+-
+    title: "TASM: A Tile-Based Storage Manager for Video Analytics"
+    authors: "Maureen Daum, Brandon Haynes, Dong He, Amrita Mazumdar, Magdalena Balazinska"
+    selected: False
+    year: 2021
+    venue: "IEEE International Conference on Data Engineering"
+    url: "https://arxiv.org/abs/2006.02958"
+    type: conference
+    summary: A tile-based storage manager enabling spatial random access to encoded videos for analytics workloads.
+    people:
+        - bhaynes
+        - mdaum
+        - donghe
+        - amrita
+        - magda
+        - luisceze
+        - akcheung
 
 -
     title: "VisualWorldDB: A DBMS for the Visual World"
@@ -43,6 +63,7 @@
     pdf: papers/amazumdar_socc19.pdf
     bibtex: bib/amazumdar_socc19.bibtex
     slides: slides/socc19.pdf
+    overview: slides/vignette21.pdf
     note: SoCC Best Poster Award Winner
     type: conference
     summary: A system that integrates machine learning-improved compression with cloud video storage and distribution, compatible with modern codecs and hardware accelerators.

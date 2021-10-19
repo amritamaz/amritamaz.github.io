@@ -19,7 +19,8 @@
                 {% if paper.pdf %}
                 <br />
                 <a href="{{ paper.pdf }}">paper (pdf)</a>{% endif %}{% if paper.slides %},
-                <a href="{{ paper.slides }}">slides (pdf)</a>{% endif %}{% if paper.bibtex %},
+                <a href="{{ paper.slides }}">slides (pdf)</a>{% endif %}{% if paper.overview %},
+                <a href="{{ paper.overview }}">more recent slides (pdf)</a>{% endif %}{% if paper.bibtex %},
                 <a href="{{ paper.bibtex }}">bibtex</a>{% endif %}{% if paper.code %},
                 <a href="{{ paper.code }}">code (github)</a>{% endif %}{% if paper.blog %},
                 <a href="{{ paper.blog }}">blog post</a>{% endif %}{% if paper.note %},

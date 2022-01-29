@@ -8,8 +8,8 @@
     type: conference
     summary: A video storage system for video data management that enables fine-grained access to video content, caching, and redundancy elimination for overlapping field-of-view.
     people:
-        - mdaum
         - bhaynes
+        - mdaum
         - donghe
         - amrita
         - magda
@@ -26,12 +26,11 @@
     type: conference
     summary: A tile-based storage manager enabling spatial random access to encoded videos for analytics workloads.
     people:
-        - bhaynes
         - mdaum
+        - bhaynes
         - donghe
         - amrita
         - magda
-        - luisceze
         - akcheung
 
 -

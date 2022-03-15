@@ -5,18 +5,15 @@ permalink: /
 subtitle: hello
 ---
 
+I am a researcher at the intersection of computer systems and computer graphics. I am interested in topics related to systems for video streaming, XR, and rendered graphics. I work at NVIDIA Research in the Hyperscale Graphics Systems group. 
 
-I am computer systems and architecture researcher with an emphasis on visual computing applications, like video streaming, XR, and rendered graphics. I work at NVIDIA Research in the Hyperscale Graphics Systems group. 
+*Interns*: I am always happy to mentor PhD students as research interns at NVIDIA. If you would like to work together, please send me an email with "Hyperscale Graphics intern" in the subject, and include your CV and a description of specific topics you might like to work on.
 
-I am always happy to mentor PhD students as research interns at NVIDIA. If you would like to work together, please send me an email with "Hyperscale Graphics intern" in the subject, and include your CV and a description of specific topics you might like to work on.
+My research focuses on **new systems for XR, video, and graphics**. 
+In particular, I am currently interested in systems that leverage new hardware, graphics representations, and perceptual findings to deliver better quality-performance tradeoffs for visual computing.
+I am always interested in systems that employ hardware-software codesign, ML for systems, and systems for ML techniques. 
 
-Before joining NVIDIA, I led a startup commercializing my PhD research on systems support for neural video compression. I received my PhD from the [Allen School of Computer Science] [cse] at the [University of Washington] [uw]. My PhD was advised by Luis Ceze and Mark Oskin, and I worked across the [computer architecture group][arch], the [UW Reality Lab][reality], and the [UW DB group][db], as well as with vision and graphics teams at the Facebook Reality Lab and Google Research.
-
-My research focuses on **new systems for VR, video, and graphics** using hardware-software codesign and ML-for-systems techniques. 
-My work spans the **glass-to-glass visual computing pipeline**; I like to work on systems problems ranging from camera capture, to visual data processing and storage, to media distribution and rendering.
-In my dissertation, I proposed perceptual optimizations, a new class of domain-specific optimizations for vision and graphics workloads, to improve performance for custom hardware accelerators, storage systems, and data management systems.
-
-Before graduate school, I studied [computer engineering] [cs@cu] and [English literature] [eng@cu] at [Columbia University] [cu].
+Before joining NVIDIA, I ran a startup commercializing my PhD research on systems support for neural video compression. I received my PhD from the [Allen School of Computer Science] [cse] at the [University of Washington] [uw], where I was advised by Luis Ceze and Mark Oskin. My dissertation proposed perceptual optimizations for visual computing hardware accelerators, storage systems, and data management systems. During my PhD, I worked across the [computer architecture group][arch], the [UW Reality Lab][reality], and the [UW DB group][db], as well as with vision and graphics teams at the Facebook Reality Lab and Google Research. Before graduate school, I studied [computer engineering] [cs@cu] and [English literature] [eng@cu] at [Columbia University] [cu].
 
 [comotion]: https://comotion.uw.edu/
 [cse]: http://cs.washington.edu/

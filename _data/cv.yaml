@@ -98,6 +98,8 @@ service:
 
 outreach:
     - |
+        Women in Computer Architecture (WICARCH), Director (2022)
+    - |
         Chair, UW CSE Women’s Research Day (2017, 2018, 2019)
     - |
         Committee, UW CSE Women’s Research Day (2015, 2016)
@@ -109,14 +111,16 @@ outreach:
         Instructor, Iridescent Learning (2012), [Technovation Challenge NYC](http://www.technovationchallenge.org/)
 
 committees:
-
+    - |
+        IISWC 2022, Program committee member
     - |
         ASPLOS Shadow PC 2018: Program committee member
     - |
         [Grace Hopper SOL 2016](http://ghc.anitaborg.org/2016-speakers/clusters-and-tracks/#SOL): Program committee member
 
 external:
-
+    - |
+        MICRO 2022
     - |
         IEEE Micro 2017
 

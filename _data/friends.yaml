@@ -1,3 +1,34 @@
+mstengel:
+    display_name: "Michael Stengel"
+    webpage: "https://research.nvidia.com/person/michael-stengel"
+knagano:
+    display_name: "Koki Nagano"
+    webpage: "https://luminohope.org/"
+cliu:
+    display_name: "Chao Liu"
+    webpage: "https://research.nvidia.com/person/chao-liu"
+mchan:
+    display_name: "Matthew Chan"
+    webpage: "https://matthew-a-chan.github.io/"
+atrevithick:
+    display_name: "Alex Trevithick"
+    webpage: "https://alextrevithick.github.io/"
+sdmello:
+    display_name: "Shalini De Mello"
+    webpage: "https://research.nvidia.com/person/shalini-de-mello"
+jkim:
+    display_name: "Jonghyun Kim"
+    webpage: "http://eluardkim.dothome.co.kr/"
+dluebke:
+    display_name: "David Luebke"
+    webpage: "https://luebke.us/"
+swang:
+    display_name: "Shengze Wang"
+    webpage: "https://mcmvmc.github.io/"
+mjaiswal:
+    display_name: "Mayoore Jaiswal"
+    webpage: "https://www.linkedin.com/in/mayoorejaiswal/"
+
 donghe:
     display_name: "Dong He"
     webpage: "https://alexdhe.wordpress.com/"

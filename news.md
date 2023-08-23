@@ -6,7 +6,7 @@ permalink: /news
 
 <h2>News Updates</h2>
 
-{% assign prev_year = 2020 %}
+{% assign prev_year = 2022 %}
 
 {% for member in site.data.news %}
 

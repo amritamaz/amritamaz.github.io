@@ -1,4 +1,25 @@
 -
+    title: "AI-Mediated 3D Video Conferencing"
+    authors: "Michael Stengel, Koki Nagano, Chao Liu, Matthew Chan, Alex Trevithick, Shalini De Mello, Jonghyun Kim, David Luebke, Amrita Mazumdar, Shengze Wang, Mayoore Jaiswal"
+    selected: True
+    year: 2023
+    venue: "SIGGRAPH Emerging Technologies"
+    url: "https://research.nvidia.com/labs/nxp/3dvc-siggraph-etech/"
+    type: demo
+    summary: We present an AI-mediated 3D video conferencing system that can reconstruct and autostereoscopically display a life-sized talking head using consumer-grade compute resources and minimal capture equipment.
+    people:
+        - mstengel
+        - knagano
+        - cliu
+        - mchan
+        - atrevithick
+        - sdmello
+        - jkim
+        - dluebke
+        - amrita
+        - swang
+        - mjaiswal
+-
     title: "VSS: A Storage System for Video Analytics"
     authors: "Brandon Haynes, Maureen Daum, Dong He, Amrita Mazumdar, Magda Balazinska, Alvin Cheung, Luis Ceze"
     selected: False

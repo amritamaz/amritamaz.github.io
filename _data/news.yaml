@@ -1,4 +1,29 @@
 - headline: |
+              We presented <a href="https://research.nvidia.com/labs/nxp/3dvc-siggraph-etech/">AI-Mediated 3D Videoconferencing</a>, a SIGGRAPH Emerging Technologies Demo. Thanks to 
+              everyone who came to check it out!
+
+  date: August 2023
+  year: 2023
+
+- headline: |
+              Served on Program Committees for PACT, IISWC, SIGCOMM EMS, and ISCA ASSYST, and I externally reviewed for SIGGRAPH Asia.
+
+  date: July 2023
+  year: 2023
+
+- headline: |
+              I served on Program Committees for IISWC and YArch, and I externally reviewed for MICRO.
+
+  date: October 2022
+  year: 2022
+  
+- headline: |
+              I gave an invited talk at the first <a href="https://wova.stanford.edu/">Workshop on Video Analytics</a>, about Video Scrambling, an early vision of generative AI for compressed video storage.
+
+  date: May 2022
+  year: 2022
+  
+- headline: |
               Our paper on <a href="https://arxiv.org/abs/2006.02958">TASM</a>, a storage manager that enables spatial random access for video queries,  will appear at ICDE 2021.
 
   date: April 2021

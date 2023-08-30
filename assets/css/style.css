@@ -3,19 +3,16 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  font-size: 14px;
-  font-weight: 400;
   background-color: #fffcf8;
   color: #2d2a26;
-	line-height: 1.5;
-  letter-spacing: -0.015em;
-	-moz-font-feature-settings: "kern";
-	-moz-font-feature-settings: "kern=1";
-	-ms-font-feature-settings: "kern";
-	-o-font-feature-settings: "kern";
-	-webkit-font-feature-settings: "kern";
-	font-feature-settings: "kern";
-	text-rendering:optimizeLegibility;
+  font-size: 14.5px;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: .035em;
+  min-height: 98.5vh;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
 }
 
 b,strong{

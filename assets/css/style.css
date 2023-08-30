@@ -148,14 +148,13 @@ footer{
 }
 
 .newslist li{
-  margin: 10px 0;
+  margin: 5px 0;
 }
 
 .news_date{
   text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 12px;
-  margin-bottom: 5px;
+  letter-spacing: .05em;
+  font-size: 10px;
 }
 
 .news_text{

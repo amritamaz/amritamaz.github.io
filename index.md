@@ -9,10 +9,6 @@ I am a researcher at the intersection of computer systems and computer graphics.
 
 Before joining NVIDIA, I ran a startup commercializing my PhD research on neural video compression systems. I received my PhD from the [Allen School of Computer Science] [cse] at the [University of Washington] [uw], where I was advised by Luis Ceze and Mark Oskin. My dissertation proposed perceptual optimizations for visual computing hardware accelerators, storage systems, and data management systems.  I received my bachelors degree at [Columbia University] [cu].
 
-
-*Interns*: I am always happy to mentor PhD students as research interns at NVIDIA. If you would like to work together, please send me an email with "Hyperscale Graphics intern" in the subject, and include your CV and a description of specific topics you might like to work on.
-
-
 [cse]: http://cs.washington.edu/
 [uw]: http://washington.edu
 [cu]: http://www.columbia.edu
@@ -24,7 +20,7 @@ Before joining NVIDIA, I ran a startup commercializing my PhD research on neural
 
 <section id="news">
 <h2>Recent News <a id="h2link" href="{{site.baseurl}}/news.html">(see all &rarr;)</a></h2>
-{% for member in site.data.news limit: 5 %}
+{% for member in site.data.news limit: 4 %}
 <div id="news-item">
 <span class="news_text">{{ member.headline }}</span><br />
 <span class="news_date">{{ member.date }}</span>

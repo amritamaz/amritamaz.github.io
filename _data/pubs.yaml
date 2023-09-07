@@ -1,4 +1,25 @@
 -
+    title: "Online Overexposed Pixels Hallucination in Videos with Adaptive Reference Frame Selection"
+    authors: "Yazhou Xing, Amrita Mazumdar, Anjul Patney, Chao Liu, Hongxu Yin, Qifeng Chen, Jan Kautz, Iuri Frosio"
+    selected: False
+    year: 2023
+    venue: "arXiV"
+    url: "https://arxiv.org/abs/2308.15462"
+    type: arxiv
+    summary: We present an AI-mediated 3D video conferencing system that can reconstruct and autostereoscopically display a life-sized talking head using consumer-grade compute resources and minimal capture equipment.
+    We present a learning-based system to hallucinate HDR content in overexposed video sequences, without resorting to complex acquisition mechanisms like alternating exposures or costly processing typical of HDR imaging. 
+    people:
+        - yxing
+        - amrita
+        - apatney
+        - cliu
+        - hyin
+        - qchen
+        - sdmello
+        - jkautz
+        - ifrosio
+
+-
     title: "AI-Mediated 3D Video Conferencing"
     authors: "Michael Stengel, Koki Nagano, Chao Liu, Matthew Chan, Alex Trevithick, Shalini De Mello, Jonghyun Kim, David Luebke, Amrita Mazumdar, Shengze Wang, Mayoore Jaiswal"
     selected: True

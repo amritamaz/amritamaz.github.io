@@ -1,4 +1,27 @@
 -
+    title: "GRACE: Loss-Resilient Real-Time Video through Neural Codecs"
+    authors: "Yihua Cheng, Ziyi Zhang, Hanchen Li, Anton Arapin, Yue Zhang, Qizheng Zhang, Yuhan Liu, Xu Zhang, Francis Y. Yan, Amrita Mazumdar, Nick Feamster, Junchen Jiang."
+    selected: True
+    year: 2024
+    venue: "NSDI"
+    url: "https://arxiv.org/abs/2305.12333"
+    type: conference
+    summary: We present a loss-resilient real-time video system called GRACE, which preserves the user's quality of experience (QoE) across a wide range of packet losses through an autoencoder-based neural video codec. 
+    people:
+        - ycheng
+        - zzhang
+        - hli
+        - aarapin
+        - yzhang
+        - qzhang
+        - yliu
+        - xzhang
+        - fyan
+        - amrita
+        - nfeamster
+        - jjiang
+
+-
     title: "Online Overexposed Pixels Hallucination in Videos with Adaptive Reference Frame Selection"
     authors: "Yazhou Xing, Amrita Mazumdar, Anjul Patney, Chao Liu, Hongxu Yin, Qifeng Chen, Jan Kautz, Iuri Frosio"
     selected: False
@@ -6,8 +29,7 @@
     venue: "arXiV"
     url: "https://arxiv.org/abs/2308.15462"
     type: arxiv
-    summary: We present an AI-mediated 3D video conferencing system that can reconstruct and autostereoscopically display a life-sized talking head using consumer-grade compute resources and minimal capture equipment.
-    We present a learning-based system to hallucinate HDR content in overexposed video sequences, without resorting to complex acquisition mechanisms like alternating exposures or costly processing typical of HDR imaging. 
+    summary:     We present a learning-based system to hallucinate HDR content in overexposed video sequences, without resorting to complex acquisition mechanisms like alternating exposures or costly processing typical of HDR imaging. 
     people:
         - yxing
         - amrita

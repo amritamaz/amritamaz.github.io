@@ -5,10 +5,11 @@ permalink: /
 subtitle: hello
 ---
 
-I am a researcher at the intersection of computer systems and computer graphics. I currently work at NVIDIA Research in the Hyperscale Graphics Systems group.  My focus is designing systems for practical and resilient neural video and graphics. My research efforts span systems and networking, neural video and graphics representations, and visual perception. 
+I am a researcher at the intersection of computer systems and computer graphics. I currently work at NVIDIA Research in the [AMRI research group] [amri].  My focus is designing systems for practical and resilient neural video and graphics. My research efforts span systems and networking, neural video and graphics representations, and visual perception. 
 
 Before joining NVIDIA, I ran a startup commercializing my PhD research on neural video compression systems. I received my PhD from the [Allen School of Computer Science] [cse] at the [University of Washington] [uw], where I was advised by Luis Ceze and Mark Oskin. My dissertation proposed perceptual optimizations for visual computing hardware accelerators, storage systems, and data management systems.  I received my bachelors degree at [Columbia University] [cu].
 
+[amri]: https://research.nvidia.com/labs/amri/
 [cse]: http://cs.washington.edu/
 [uw]: http://washington.edu
 [cu]: http://www.columbia.edu

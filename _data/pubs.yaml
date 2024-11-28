@@ -1,4 +1,20 @@
 -
+    title: "QUEEN: QUantized Efficient ENcoding for Streaming Free-viewpoint Videos"
+    authors: "Sharath Girish, Tianye Li*, Amrita Mazumdar*, Abhinav Shrivastava, David Luebke, Shalini De Mello"
+    selected: True
+    year: 2024
+    venue: "NeurIPS"
+    url: "https://research.nvidia.com/labs/amri/queen/"
+    type: conference
+    summary: QUEEN is a fast, compressed reconstruction method for FVV.
+    people:
+        - sgirish
+        - tianyel
+        - amrita
+        - ashrivastava
+        - dluebke
+        - sdmello
+-
     title: "GRACE: Loss-Resilient Real-Time Video through Neural Codecs"
     authors: "Yihua Cheng, Ziyi Zhang, Hanchen Li, Anton Arapin, Yue Zhang, Qizheng Zhang, Yuhan Liu, Xu Zhang, Francis Y. Yan, Amrita Mazumdar, Nick Feamster, Junchen Jiang."
     selected: True

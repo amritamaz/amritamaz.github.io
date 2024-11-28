@@ -1,4 +1,10 @@
 - headline: |
+              I will be attending NeurIPS in Vancouver to present our paper <a href="https://research.nvidia.com/labs/amri/queen/">QUEEN</a>. 
+
+  date: December 2024
+  year: 2024
+
+- headline: |
               We presented <a href="https://research.nvidia.com/labs/nxp/3dvc-siggraph-etech/">AI-Mediated 3D Videoconferencing</a>, a SIGGRAPH Emerging Technologies Demo. Thanks to 
               everyone who came to check it out!
 

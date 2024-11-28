@@ -5,7 +5,7 @@ permalink: /
 subtitle: hello
 ---
 
-I am a researcher at the intersection of computer systems and computer graphics. I currently work at NVIDIA Research in the [AMRI research group] [amri].  My focus is practical and resilient neural video and graphics. My research efforts span 3D and 4D representations, visual perception, and systems and networking. 
+I am a researcher at the intersection of computer graphics, vision, and networked systems. I currently work at NVIDIA Research in the [AMRI research group] [amri].  My focus is practical and resilient neural video and graphics. My research efforts span 3D and 4D representations, visual perception, and systems and networking. 
 
 Before joining NVIDIA, I ran a startup commercializing neural video compression. I received my PhD from the [Allen School of Computer Science] [cse] at the [University of Washington] [uw]. My dissertation proposed perceptual optimizations for visual computing hardware accelerators, storage systems, and data management systems.  I received my bachelors degree at [Columbia University] [cu].
 

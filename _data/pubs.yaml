@@ -4,9 +4,9 @@
     selected: True
     year: 2024
     venue: "NeurIPS"
-    url: "https://research.nvidia.com/labs/amri/queen/"
+    url: "https://research.nvidia.com/labs/amri/projects/queen/"
     type: conference
-    summary: QUEEN is a fast, compressed reconstruction method for FVV.
+    summary: We present an efficient representation for streamable free-viewpoint videos with dynamic Gaussians. Our method QUEEN is able to capture dynamic scenes at high visual quality and reduce the model size to just 0.7 MB per frame while training in under 5 seconds and rendering at ∼350 FPS.
     people:
         - sgirish
         - tianyel

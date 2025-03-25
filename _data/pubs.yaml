@@ -1,4 +1,19 @@
 -
+    title: "Democratizing Immersive Experiences with NVIDIA AI"
+    authors: "Amrita Mazumdar*, Tianye Li*, Michael Stengel, Jonghyun Kim, Shalini De Mello, Wil Braithwaite, Cheng Sun, Seonwook Park"
+    selected: True
+    year: 2025
+    venue: "NVIDIA GTC"
+    url: "https://research.nvidia.com/labs/amri/projects/gtc2025-immersive-experiences/"
+    type: conference
+    summary: The AMRI team at NVIDIA Research presents novel immersive 3D experiences at GTC 2025 that allows users to move around in a streaming video, in 3D, in real-time. This allows for a highly immersive video viewing experience, especially when paired with 3D displays such as the Looking Glass Go or virtual/mixed reality headsets.
+    people:
+        - amrita
+        - tianyel
+        - mstengel
+        - jkim
+        - sdmello
+-
     title: "QUEEN: QUantized Efficient ENcoding for Streaming Free-viewpoint Videos"
     authors: "Sharath Girish, Tianye Li*, Amrita Mazumdar*, Abhinav Shrivastava, David Luebke, Shalini De Mello"
     selected: True

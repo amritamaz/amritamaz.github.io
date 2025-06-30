@@ -1,8 +1,26 @@
 - headline: |
+              Our CVPR 2025 tutorial, <a href="https://nvlabs.github.io/cvpr2025-volumetric-video-tutorial/">Volumetric Video in the Real World</a>, was a great success! Thanks to all the speakers and attendees. The recording is available <a href="https://www.youtube.com/watch?v=AumlqB08V7c">on Youtube</a>. 
+
+  date: June 2025
+  year: 2025
+
+- headline: |
+              I was recognized as <a href="https://cvpr.thecvf.com/Conferences/2025/ProgramCommittee#all-outstanding-reviewer">an Outstanding Reviewer at CVPR 2025</a>. Thanks! 
+
+  date: June 2025
+  year: 2025
+
+- headline: |
+              Our <a href="https://research.nvidia.com/labs/amri/projects/gtc2025-immersive-experiences/">QUEEN demo</a> appeared at GTC Paris 2025!
+
+  date: June 2025
+  year: 2025
+
+- headline: |
               We presented our volumetric video demos, <a href="https://research.nvidia.com/labs/amri/projects/gtc2025-immersive-experiences/">Democratizing Immersive Experiences with NVIDIA AI</a>, at NVIDIA GTC25. Thanks to everyone who came to enjoy the demo! 
 
-  date: December 2024
-  year: 2024
+  date: March 2025
+  year: 2025
 
 - headline: |
               I will be attending NeurIPS in Vancouver to present our paper <a href="https://research.nvidia.com/labs/amri/projects/queen/">QUEEN</a>. 
@@ -13,7 +31,7 @@
 - headline: |
               Yihua presented <a href="https://www.usenix.org/conference/nsdi24/presentation/cheng">GRACE</a> at NSDI 2024! 
 
-  date: December 2024
+  date: April 2024
   year: 2024
 
 - headline: |

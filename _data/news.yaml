@@ -1,4 +1,23 @@
 - headline: |
+              Our SIGGRAPH Asia Emerging Technologies demo on interactive 4D reconstruction and playback was accepted! See you all in Hong Kong!
+              
+  date: December 2025
+  year: 2025
+
+- headline: |
+              We had a great turnout at the <a href="https://conferences.sigcomm.org/sigcomm/2025/workshop/ems/">SIGCOMM Emerging Media Systems workshop</a>! Thanks to all the speakers and attendees for participating, and my fellow organizers for helping to put it together! 
+
+  date: September 2025
+  year: 2025
+
+- headline: |
+              Our <a href="https://research.nvidia.com/labs/amri/projects/gtc2025-immersive-experiences/">QUEEN demo</a> was shown at SIGGRAPH 2025!
+
+  date: August 2025
+  year: 2025
+
+
+- headline: |
               Our CVPR 2025 tutorial, <a href="https://nvlabs.github.io/cvpr2025-volumetric-video-tutorial/">Volumetric Video in the Real World</a>, was a great success! Thanks to all the speakers and attendees. The recording is available <a href="https://www.youtube.com/watch?v=AumlqB08V7c">on Youtube</a>. 
 
   date: June 2025

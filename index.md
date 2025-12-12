@@ -7,8 +7,6 @@ subtitle: hello
 
 I'm interested in how we encode interactions between humans and machines in the physical world. 
 My research aims to develop efficient representations of the 4D world and how humans interact in it, towards new interfaces between humans, agents, and the physical world. 
-Humans learn to interact with each other in the world through repeated modeling and interaction. 
-By bridging streamable world modelling and compressed representation learning, my work seeks to make embodied multimodal intelligence practical. 
 
 I am a researcher at the intersection of computer vision, graphics, and networked systems. I currently work at NVIDIA Research in the [AMRI research group] [amri].  I previously ran a startup commercializing neural video compression. I received my PhD from the [Allen School of Computer Science] [cse] at the [University of Washington] [uw]. My dissertation proposed perceptual optimizations for visual computing hardware accelerators, storage systems, and data management systems.  I received my bachelors degree from [Columbia University] [cu].
 

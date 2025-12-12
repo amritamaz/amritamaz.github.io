@@ -1,4 +1,21 @@
 -
+    title: "Play4D: Accelerated and Interactive Free-viewpoint Video Streaming for Virtual Reality and Light Field Displays"
+    authors: "Jonghyun Kim, Michael Stengel, Amrita Mazumdar, Tianye Li, Cheng Sun, David Luebke, Shalini De Mello"
+    selected: True
+    year: 2025
+    venue: "SIGGRAPH Asia Emerging Technologies"
+    url: "https://research.nvidia.com/labs/amri/projects/play4d/"
+    type: conference
+    summary: We present Play4D, an accelerated and interactive free-viewpoint video (FVV) streaming pipeline. Play4D unlocks efficient dynamic 4D neural scene reconstruction for Physical AI testing in Isaac Sim, along with their compressed streaming and free viewpoint immersive viewing on VR and light field displays. 
+    people:
+        - jkim
+        - mstengel
+        - amrita
+        - tianyel
+        - csun
+        - dluebke
+        - sdmello
+-
     title: "Democratizing Immersive Experiences with NVIDIA AI"
     authors: "Amrita Mazumdar*, Tianye Li*, Michael Stengel, Jonghyun Kim, Shalini De Mello, Wil Braithwaite, Cheng Sun, Seonwook Park"
     selected: True

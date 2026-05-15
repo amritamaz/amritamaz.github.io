@@ -1,4 +1,17 @@
 -
+    title: "TSMC: Time-Varying Scene Mesh Compression"
+    authors: "Guodong Chen, Libor Váša, Amrita Mazumdar, Mallesham Dasari"
+    selected: True
+    year: 2026
+    venue: "ACM SIGGRAPH (Conference on Computer Graphics)"
+    url: "https://frozzzen3.github.io/TSMC/"
+    type: conference
+    people:
+        - gchen
+        - lvasa
+        - amrita
+        - mdasari
+-
     title: "Play4D: Accelerated and Interactive Free-viewpoint Video Streaming for Virtual Reality and Light Field Displays"
     authors: "Jonghyun Kim, Michael Stengel, Amrita Mazumdar, Tianye Li, Cheng Sun, David Luebke, Shalini De Mello"
     selected: True

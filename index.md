@@ -5,12 +5,12 @@ permalink: /
 subtitle: hello
 ---
 
-I'm interested in how we encode interactions between humans and machines in the physical world. 
-My research aims to develop efficient representations of the 4D world and how humans interact in it, towards new interfaces between humans, agents, and the physical world. 
+I'm interested in how we encode and model real-time interactions between people and agents in the physical world. 
+My research develops efficient 3D and 4D representations, streaming systems, and multimodal models for human-agent interaction, with a focus on how vision, speech, motion, and physical context can support natural interfaces between humans, machines, and the world around them. 
 
 I am a researcher at the intersection of computer vision, graphics, and networked systems. I currently work at NVIDIA Research in the [AMRI research group] [amri].  I previously ran a startup commercializing neural video compression. I received my PhD from the [Allen School of Computer Science] [cse] at the [University of Washington] [uw]. My dissertation proposed perceptual optimizations for visual computing hardware accelerators, storage systems, and data management systems.  I received my bachelors degree from [Columbia University] [cu].
 
-**Interns**: I am always looking for motivated interns. If you are a PhD student interested in computer vision/graphics/generative AI for compressed 3D and 4D representations, particularly for use in interaction or multimodal learning systems, please [send me an email] [email].
+**Interns**: I am always looking for motivated interns. If you are a PhD student interested in streaming and compression for full-duplex multimodal (vision, audio, 3D, 4D) interaction systems, please [send me an email] [email].
 
 [amri]: https://research.nvidia.com/labs/amri/
 [cse]: http://cs.washington.edu/

@@ -87,6 +87,10 @@ mstengel:
 knagano:
     display_name: "Koki Nagano"
     webpage: "https://luminohope.org/"
+hliu:
+    display_name: "Hongyu Liu"
+spark:
+    display_name: "Seonwook Park"
 cliu:
     display_name: "Chao Liu"
     webpage: "https://research.nvidia.com/person/chao-liu"
@@ -108,6 +112,20 @@ dluebke:
 swang:
     display_name: "Shengze Wang"
     webpage: "https://mcmvmc.github.io/"
+cjacobsen:
+    display_name: "Christian Jacobsen"
+rroy:
+    display_name: "Rajarshi Roy"
+nsrihari:
+    display_name: "Nikhil Srihari"
+yzhou:
+    display_name: "Yuhao Zhou"
+jwang:
+    display_name: "Julia Wang"
+kccheung:
+    display_name: "Ka Chun Cheung"
+ssee:
+    display_name: "Simon See"
 mjaiswal:
     display_name: "Mayoore Jaiswal"
     webpage: "https://www.linkedin.com/in/mayoorejaiswal/"

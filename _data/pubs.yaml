@@ -1,4 +1,49 @@
 -
+    title: "DyaPlex: Full-Duplex Speech-Motion Model for Dyadic Interaction"
+    authors: "Koki Nagano, Hongyu Liu, Seonwook Park, Tianye Li, Amrita Mazumdar, Christian Jacobsen, Shengze Wang, Michael Stengel, Rajarshi Roy, Ka Chun Cheung, Simon See, Shalini De Mello"
+    selected: True
+    year: 2026
+    venue: "arXiv preprint"
+    arxiv: True
+    url: "https://research.nvidia.com/labs/amri/projects/DyaPlex/"
+    pdf: "https://arxiv.org/pdf/2606.03874"
+    type: arxiv
+    summary: We present a streaming full-duplex speech-and-motion model for dyadic interaction, enabling an agent to perceive and generate speech and physical motion in a synchronized streaming interaction.
+    people:
+        - knagano
+        - hliu
+        - spark
+        - tianyel
+        - amrita
+        - cjacobsen
+        - swang
+        - mstengel
+        - rroy
+        - kccheung
+        - ssee
+        - sdmello
+-
+    title: "VideoFDB: Evaluating Full-Duplex Vision-Speech Capabilities in Conversational Agents"
+    authors: "Amrita Mazumdar, Seonwook Park, Rajarshi Roy, Nikhil Srihari, Shengze Wang, Yuhao Zhou, Julia Wang, Koki Nagano, Shalini De Mello"
+    selected: True
+    year: 2026
+    venue: "arXiv preprint"
+    arxiv: True
+    url: "https://research.nvidia.com/labs/amri/projects/video-fdb/"
+    pdf: "https://arxiv.org/pdf/2605.30256"
+    type: arxiv
+    summary: We present VideoFDB, a benchmark for full-duplex audio-visual-to-audio-visual conversational agents, evaluating how agents perceive and generate nonverbal conversational dynamics in natural dyadic video calls.
+    people:
+        - amrita
+        - spark
+        - rroy
+        - nsrihari
+        - swang
+        - yzhou
+        - jwang
+        - knagano
+        - sdmello
+-
     title: "TSMC: Time-Varying Scene Mesh Compression"
     authors: "Guodong Chen, Libor Váša, Amrita Mazumdar, Mallesham Dasari"
     selected: True

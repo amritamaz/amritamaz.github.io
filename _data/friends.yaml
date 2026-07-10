@@ -1,3 +1,23 @@
+lzhu:
+    display_name: "Liyuan Zhu"
+    webpage: "https://www.zhuliyuan.net/"
+
+shengyuh:
+    display_name: "Shengyu Huang"
+    webpage: "https://shengyuh.github.io/"
+
+zgojcic:
+    display_name: "Zan Gojcic"
+    webpage: "https://zgojcic.github.io/"
+
+gwetzstein:
+    display_name: "Gordon Wetzstein"
+    webpage: "https://web.stanford.edu/~gordonwz/"
+
+iarmeni:
+    display_name: "Iro Armeni"
+    webpage: "https://ir0.github.io/"
+
 gchen:
     display_name: "Guodong Chen"
     webpage: "https://frozzzen3.github.io/"

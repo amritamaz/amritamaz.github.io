@@ -1,4 +1,25 @@
 -
+    title: "World from Motion: Generative Dynamic Gaussian Reconstruction from Monocular Video"
+    authors: "Liyuan Zhu, Shengyu Huang, Amrita Mazumdar, Tianye Li, Zan Gojcic, Gordon Wetzstein, Iro Armeni, Shalini De Mello, Alex Trevithick"
+    selected: True
+    year: 2026
+    venue: "arXiv preprint"
+    arxiv: True
+    url: "https://research.nvidia.com/labs/amri/projects/world-from-motion/"
+    pdf: "https://arxiv.org/pdf/2607.01202"
+    type: arxiv
+    summary: We present World from Motion, a generative 4D reconstruction method that uses video diffusion as a controllable prior to improve dynamic 3D Gaussian reconstructions from monocular video.
+    people:
+        - lzhu
+        - shengyuh
+        - amrita
+        - tianyel
+        - zgojcic
+        - gwetzstein
+        - iarmeni
+        - sdmello
+        - atrevithick
+-
     title: "DyaPlex: Full-Duplex Speech-Motion Model for Dyadic Interaction"
     authors: "Koki Nagano, Hongyu Liu, Seonwook Park, Tianye Li, Amrita Mazumdar, Christian Jacobsen, Shengze Wang, Michael Stengel, Rajarshi Roy, Ka Chun Cheung, Simon See, Shalini De Mello"
     selected: True

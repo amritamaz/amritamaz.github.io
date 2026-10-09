@@ -3,6 +3,7 @@ highlighter: pygments
 permalink: /:categories/:title
 timezone: America/Seattle
 categories: [blog,notes,writing]
+url: "https://amritamaz.net"
 # baseurl: "http://amritamaz.net/"
 twitter: '@amritamaz'
 email: 'amritamaz@gmail.com'
@@ -17,6 +18,10 @@ description: 'Amrita Mazumdar.'
 
 plugins:
   - jekyll-feed
+
+include:
+  - .well-known
+  - _headers
 
 
 defaults:
@@ -38,4 +43,3 @@ navigation:
     link: /
   - title: cv
     link: /web-cv.html
-

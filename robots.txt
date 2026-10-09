@@ -1,0 +1,75 @@
+User-agent: GPTBot
+Disallow: /
+Content-Signal: ai-train=no, search=no, ai-input=no
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /_data/
+Disallow: /_includes/
+Disallow: /_layouts/
+Disallow: /_posts/
+Disallow: /_site/
+Disallow: /vendor/
+Disallow: /.bundle/
+Disallow: /.git/
+Disallow: /.jekyll-cache/
+Content-Signal: ai-train=no, search=yes, ai-input=no
+
+User-agent: Claude-Web
+Allow: /
+Disallow: /_data/
+Disallow: /_includes/
+Disallow: /_layouts/
+Disallow: /_posts/
+Disallow: /_site/
+Disallow: /vendor/
+Disallow: /.bundle/
+Disallow: /.git/
+Disallow: /.jekyll-cache/
+Content-Signal: ai-train=no, search=yes, ai-input=no
+
+User-agent: Google-Extended
+Disallow: /
+Content-Signal: ai-train=no, search=no, ai-input=no
+
+User-agent: Amazonbot
+Disallow: /
+Content-Signal: ai-train=no, search=no, ai-input=no
+
+User-agent: anthropic-ai
+Disallow: /
+Content-Signal: ai-train=no, search=no, ai-input=no
+
+User-agent: Bytespider
+Disallow: /
+Content-Signal: ai-train=no, search=no, ai-input=no
+
+User-agent: CCBot
+Disallow: /
+Content-Signal: ai-train=no, search=no, ai-input=no
+
+User-agent: Applebot-Extended
+Disallow: /
+Content-Signal: ai-train=no, search=no, ai-input=no
+
+User-agent: *
+Allow: /
+Allow: /blog/
+Allow: /news
+Allow: /pubs
+Allow: /assets/
+Allow: /papers/
+Allow: /slides/
+Disallow: /_data/
+Disallow: /_includes/
+Disallow: /_layouts/
+Disallow: /_posts/
+Disallow: /_site/
+Disallow: /vendor/
+Disallow: /.bundle/
+Disallow: /.git/
+Disallow: /.jekyll-cache/
+Disallow: /.sass-cache/
+Content-Signal: ai-train=no, search=yes, ai-input=no
+
+Sitemap: https://amritamaz.net/sitemap.xml

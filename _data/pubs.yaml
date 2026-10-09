@@ -1,13 +1,33 @@
 -
+    title: "Grounded-Exo2Ego: Structured Semantic Grounding for Robust Exocentric-to-Egocentric Video Generation"
+    authors: "Shengze Wang, Michael Stengel, Tianye Li, Seonwook Park, Amrita Mazumdar, Koki Nagano, Alex Trevithick, Shalini De Mello"
+    selected: True
+    year: 2026
+    venue: "NeurIPS"
+    pre: True
+    url: "https://research.nvidia.com/labs/amri/projects/grounded-exo2ego/"
+    pdf: "https://arxiv.org/pdf/2608.20534v1"
+    type: conference
+    summary: We present a video generation method that combines geometric anchoring and object-level semantic grounding to synthesize egocentric views from a single exocentric video.
+    people:
+        - swang
+        - mstengel
+        - tianyel
+        - spark
+        - amrita
+        - knagano
+        - atrevithick
+        - sdmello
+-
     title: "World from Motion: Generative Dynamic Gaussian Reconstruction from Monocular Video"
     authors: "Liyuan Zhu, Shengyu Huang, Amrita Mazumdar, Tianye Li, Zan Gojcic, Gordon Wetzstein, Iro Armeni, Shalini De Mello, Alex Trevithick"
     selected: True
     year: 2026
-    venue: "arXiv preprint"
-    arxiv: True
+    venue: "NeurIPS"
+    pre: True
     url: "https://research.nvidia.com/labs/amri/projects/world-from-motion/"
     pdf: "https://arxiv.org/pdf/2607.01202"
-    type: arxiv
+    type: conference
     summary: We present World from Motion, a generative 4D reconstruction method that uses video diffusion as a controllable prior to improve dynamic 3D Gaussian reconstructions from monocular video.
     people:
         - lzhu
@@ -24,11 +44,11 @@
     authors: "Koki Nagano, Hongyu Liu, Seonwook Park, Tianye Li, Amrita Mazumdar, Christian Jacobsen, Shengze Wang, Michael Stengel, Rajarshi Roy, Ka Chun Cheung, Simon See, Shalini De Mello"
     selected: True
     year: 2026
-    venue: "arXiv preprint"
-    arxiv: True
+    venue: "NeurIPS"
+    pre: True
     url: "https://research.nvidia.com/labs/amri/projects/DyaPlex/"
     pdf: "https://arxiv.org/pdf/2606.03874"
-    type: arxiv
+    type: conference
     summary: We present a streaming full-duplex speech-and-motion model for dyadic interaction, enabling an agent to perceive and generate speech and physical motion in a synchronized streaming interaction.
     people:
         - knagano

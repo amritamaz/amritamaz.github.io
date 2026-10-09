@@ -13,6 +13,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
     <link href="{{ site.baseurl }}/assets/css/style.css" rel="stylesheet">
+    <link rel="sitemap" type="application/xml" href="{{ "/sitemap.xml" | absolute_url }}">
+    <link rel="api-catalog" type="application/linkset+json" href="{{ "/.well-known/api-catalog" | absolute_url }}">
+    <link rel="describedby" type="application/json" href="{{ "/.well-known/agent-skills/index.json" | absolute_url }}">
+    <link rel="service-desc" type="application/json" href="{{ "/.well-known/mcp/server-card.json" | absolute_url }}">
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
@@ -31,5 +35,6 @@
       {% include footer.html %}
     </div> <!-- end container -->
 
+    <script src="{{ "/assets/js/webmcp.js" | prepend: site.baseurl }}" defer></script>
   </body>
 </html>

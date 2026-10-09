@@ -3,3 +3,30 @@ layout: null
 permalink: .htaccess
 ---
 ErrorDocument 404 {{ site.base }}/404.html
+
+<IfModule mod_mime.c>
+  AddType text/plain .txt
+  AddType application/xml .xml
+  AddType application/json .json
+  AddType text/markdown .md
+</IfModule>
+
+<Files "api-catalog">
+  ForceType application/linkset+json
+</Files>
+
+<Files "oauth-protected-resource">
+  ForceType application/json
+</Files>
+
+<Files "oauth-authorization-server">
+  ForceType application/json
+</Files>
+
+<IfModule mod_headers.c>
+  <Files "index.html">
+    Header add Link "</.well-known/api-catalog>; rel=\"api-catalog\""
+    Header add Link "</.well-known/agent-skills/index.json>; rel=\"describedby\"; type=\"application/json\""
+    Header add Link "</.well-known/mcp/server-card.json>; rel=\"service-desc\"; type=\"application/json\""
+  </Files>
+</IfModule>

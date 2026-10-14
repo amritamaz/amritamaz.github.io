@@ -8,7 +8,7 @@ subtitle: hello
 I'm interested in how we encode and model real-time interactions between people and agents in the physical world. 
 My research spans efficient 3D and 4D representations, streaming systems, and multimodal models, with a focus on vision, speech, motion, and physical context as foundations for natural interfaces between humans, machines, and the world around them.
 
-I am a researcher at the intersection of computer vision, graphics, and networked systems. I work at NVIDIA Research in the [AMRI research group] [amri].  I previously ran a startup commercializing neural video compression. I received my PhD from the [Allen School of Computer Science] [cse] at the [University of Washington] [uw]. I received my bachelors degree from [Columbia University] [cu].
+I am a researcher at the intersection of computer vision, graphics, and networked systems. I work at NVIDIA Research in the [AMRI research group] [amri].  Prior to that, I briefly ran a startup commercializing neural video compression research. I received my PhD from the [Allen School of Computer Science] [cse] at the [University of Washington] [uw] and my bachelors degree from [Columbia University] [cu].
 
 **Interns**: I am always looking for motivated interns. If you are a PhD student interested in streaming and compression for full-duplex multimodal (vision, audio, 3D, 4D) interaction systems, please [send me an email] [email].
 

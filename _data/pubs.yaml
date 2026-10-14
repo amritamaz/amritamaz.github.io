@@ -98,6 +98,26 @@
         - amrita
         - mdasari
 -
+    title: "Real-Time Neural Filtering for Perceptual Enhancement of Digital Experiences"
+    authors: "Anjul Patney, Shaveen Kumar, Ariel Bernal, Amrita Mazumdar, Eric Xu, Kumaresan Gnanasekaran, Andrew Russell, Don Brittain"
+    selected: False
+    year: 2026
+    venue: "SID Display Week"
+    url: "https://anjulpatney.com/docs/papers/2026_Patney_RNF.pdf"
+    pdf: "https://anjulpatney.com/docs/papers/2026_Patney_RNF.pdf"
+    note: Invited paper
+    type: conference
+    summary: We present real-time neural filtering methods for SDR-to-HDR conversion and dynamic vibrance enhancement that improve the perceptual quality and visibility of games and videos.
+    people:
+        - apatney
+        - skumar
+        - abernal
+        - amrita
+        - exu
+        - kgnanasekaran
+        - arussell
+        - dbrittain
+-
     title: "Play4D: Accelerated and Interactive Free-viewpoint Video Streaming for Virtual Reality and Light Field Displays"
     authors: "Jonghyun Kim, Michael Stengel, Amrita Mazumdar, Tianye Li, Cheng Sun, David Luebke, Shalini De Mello"
     selected: True
@@ -168,6 +188,24 @@
         - nfeamster
         - jjiang
 
+-
+    title: "Optimizing Real-Time Video Experience with Data Scalable Codec"
+    authors: "Hanchen Li, Yihua Cheng, Ziyi Zhang, Qizheng Zhang, Anton Arapin, Nick Feamster, Amrita Mazumdar"
+    selected: False
+    year: 2023
+    venue: "SIGCOMM Workshop on Emerging Multimedia Systems (EMS)"
+    url: "https://doi.org/10.1145/3609395.3611108"
+    pdf: "https://alex-q-z.github.io/files/autoencoder-ems23.pdf"
+    type: conference
+    summary: We propose a data scalable neural codec that preserves real-time video playback under packet loss by allowing decoded quality to improve with each received packet.
+    people:
+        - hli
+        - ycheng
+        - zzhang
+        - qzhang
+        - aarapin
+        - nfeamster
+        - amrita
 -
     title: "Online Overexposed Pixels Hallucination in Videos with Adaptive Reference Frame Selection"
     authors: "Yazhou Xing, Amrita Mazumdar, Anjul Patney, Chao Liu, Hongxu Yin, Qifeng Chen, Jan Kautz, Iuri Frosio"

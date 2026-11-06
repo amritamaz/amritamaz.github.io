@@ -7,8 +7,11 @@ subtitle: hello
 
 I'm interested in how we encode and model real-time interactions between people and agents in the physical world. 
 My research spans efficient 3D and 4D representations, streaming systems, and multimodal models, with a focus on vision, speech, motion, and physical context as foundations for natural interfaces between humans, machines, and the world around them.
+My work has appeared across top AI, vision, and graphics venues (NeurIPS, SIGGRAPH, CVPR) as well as at networking and systems conferences (NSDI, SoCC, SIGMOD, VLDB).
 
-I am a researcher at the intersection of computer vision, graphics, and networked systems. I work at NVIDIA Research in the [AMRI research group] [amri].  Prior to that, I briefly ran a startup commercializing neural video compression research. I received my PhD from the [Allen School of Computer Science] [cse] at the [University of Washington] [uw] and my bachelors degree from [Columbia University] [cu].
+Recent work includes [VideoFDB](https://research.nvidia.com/labs/amri/projects/video-fdb/), a benchmark for full-duplex audiovisual conversational agents; [DyaPlex](https://research.nvidia.com/labs/amri/projects/DyaPlex/) (NeurIPS 2026), a streaming model for simultaneous speech and motion interaction; and [QUEEN](https://research.nvidia.com/labs/amri/projects/queen/) (NeurIPS 2024), which compresses dynamic 3D scenes for streaming and renders at approximately 350 FPS. QUEEN has powered immersive video demonstrations at NVIDIA GTC and SIGGRAPH.
+
+I work at NVIDIA Research in the [AMRI research group] [amri]. Previously, I founded Vignette AI to commercialize my research in neural video compression. I received my PhD from the [Allen School of Computer Science] [cse] at the [University of Washington] [uw] and my bachelors degree from [Columbia University] [cu].
 
 **Interns**: I am always looking for motivated interns. If you are a PhD student interested in streaming and compression for full-duplex multimodal (vision, audio, 3D, 4D) interaction systems, please [send me an email] [email].
 
